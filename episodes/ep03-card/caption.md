@@ -16,3 +16,4 @@ Temassız kartında pil yok. Peki nasıl ödüyor? Okuyucunun alanı çipi çal�
 
 Reel: `out/reel.mp4` (build with `node engine/make.mjs ep03-card`), cover frame at 1.9 s.
 Voice: ElevenLabs "Liam" (eleven_multilingual_v2). Music bed + whooshes: synthesised (engine/soundbed.py).
+Posted 2026-10-10: https://www.instagram.com/reel/DeSA308Dyw7/
