@@ -35,3 +35,19 @@ export const hex = (x, y, s, { size = 40, anchor = 'middle', lit = 0, cls = 't m
   return `<text class="${cls}" x="${x}" y="${y}" font-size="${size}" font-weight="600" text-anchor="${anchor}" opacity="${opacity.toFixed(3)}"><tspan class="fa">${a}</tspan><tspan>${b}</tspan></text>`
 }
 export const garble = (n, t) => { const r = rng(1 + Math.floor(t * 14)); const cs = '#%&@*!?$0x9Z'; return Array.from({ length: n }, () => cs[Math.floor(r() * cs.length)]).join('') }
+/** A key lying on its side, bow on the left. */
+export const keyIcon = (x, y, s = 1, cls = 'ln ac') =>
+  `<g transform="translate(${x} ${y}) scale(${s})">` + path('M-60 0 a26 26 0 1 0 52 0 a26 26 0 1 0 -52 0', 1, cls) + path('M-8 0 H60 M40 0 V22 M56 0 V16', 1, cls) + '</g>'
+/** A phone centred on (x, y), 220 x 420. */
+export const phone = (x, y, { p = 1, cls = 'ln' } = {}) =>
+  `<rect class="fp" x="${x - 110}" y="${y - 210}" width="220" height="420" rx="34" opacity="${clamp(p * 3).toFixed(2)}"/>` +
+  rect(x - 110, y - 210, 220, 420, { r: 34, p, cls }) + line(x - 30, y - 186, x + 30, y - 186, p, 'ln dim')
+/** A chat bubble; `mine` puts the tail on the right. */
+export function bubble(x, y, s, { mine = true, size = 24, p = 1, cls = 't' } = {}) {
+  const w = s.length * size * 0.56 + 44, h = size + 30
+  const left = x - w / 2
+  const tail = mine ? `M${left + w - 18} ${y + h / 2} L${left + w + 8} ${y + h / 2 + 12} L${left + w - 4} ${y + h / 2 - 8}` : `M${left + 18} ${y + h / 2} L${left - 8} ${y + h / 2 + 12} L${left + 4} ${y + h / 2 - 8}`
+  return `<g opacity="${clamp(p * 2).toFixed(3)}"><rect class="${mine ? 'fs' : 'fp'}" x="${left}" y="${y - h / 2}" width="${w}" height="${h}" rx="${h / 2}"/>` +
+    `<path class="${mine ? 'fs' : 'fp'}" d="${tail} Z"/>` + rect(left, y - h / 2, w, h, { r: h / 2, cls: 'ln thin' }) +
+    text(x, y + size * 0.36, s, { size, cls, weight: 600 }) + '</g>'
+}

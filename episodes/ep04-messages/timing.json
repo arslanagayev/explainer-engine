@@ -1,0 +1,1077 @@
+{
+ "offset": 0.4,
+ "total": 66.64,
+ "lines": [
+  {
+   "text": "How can nobody read your WhatsApp messages? Not even WhatsApp?",
+   "start": 0.4,
+   "end": 3.871,
+   "words": [
+    {
+     "text": "How",
+     "start": 0.4,
+     "end": 0.586
+    },
+    {
+     "text": "can",
+     "start": 0.644,
+     "end": 0.748
+    },
+    {
+     "text": "nobody",
+     "start": 0.795,
+     "end": 1.05
+    },
+    {
+     "text": "read",
+     "start": 1.12,
+     "end": 1.259
+    },
+    {
+     "text": "your",
+     "start": 1.306,
+     "end": 1.41
+    },
+    {
+     "text": "WhatsApp",
+     "start": 1.457,
+     "end": 1.84
+    },
+    {
+     "text": "messages?",
+     "start": 1.886,
+     "end": 2.583
+    },
+    {
+     "text": "Not",
+     "start": 2.792,
+     "end": 2.954
+    },
+    {
+     "text": "even",
+     "start": 3.001,
+     "end": 3.163
+    },
+    {
+     "text": "WhatsApp?",
+     "start": 3.221,
+     "end": 3.871
+    }
+   ]
+  },
+  {
+   "text": "Here's the twist: every message goes through their servers.",
+   "start": 4.568,
+   "end": 7.598,
+   "words": [
+    {
+     "text": "Here's",
+     "start": 4.568,
+     "end": 4.835
+    },
+    {
+     "text": "the",
+     "start": 4.881,
+     "end": 4.951
+    },
+    {
+     "text": "twist:",
+     "start": 4.986,
+     "end": 5.508
+    },
+    {
+     "text": "every",
+     "start": 5.717,
+     "end": 5.95
+    },
+    {
+     "text": "message",
+     "start": 6.008,
+     "end": 6.344
+    },
+    {
+     "text": "goes",
+     "start": 6.379,
+     "end": 6.553
+    },
+    {
+     "text": "through",
+     "start": 6.588,
+     "end": 6.774
+    },
+    {
+     "text": "their",
+     "start": 6.797,
+     "end": 6.948
+    },
+    {
+     "text": "servers.",
+     "start": 7.006,
+     "end": 7.598
+    }
+   ]
+  },
+  {
+   "text": "But what arrives there is scrambled, and they don't have the key.",
+   "start": 8.039,
+   "end": 11.488,
+   "words": [
+    {
+     "text": "But",
+     "start": 8.039,
+     "end": 8.202
+    },
+    {
+     "text": "what",
+     "start": 8.225,
+     "end": 8.353
+    },
+    {
+     "text": "arrives",
+     "start": 8.388,
+     "end": 8.759
+    },
+    {
+     "text": "there",
+     "start": 8.806,
+     "end": 9.154
+    },
+    {
+     "text": "is",
+     "start": 9.2,
+     "end": 9.363
+    },
+    {
+     "text": "scrambled,",
+     "start": 9.421,
+     "end": 10.071
+    },
+    {
+     "text": "and",
+     "start": 10.396,
+     "end": 10.512
+    },
+    {
+     "text": "they",
+     "start": 10.547,
+     "end": 10.64
+    },
+    {
+     "text": "don't",
+     "start": 10.663,
+     "end": 10.803
+    },
+    {
+     "text": "have",
+     "start": 10.837,
+     "end": 10.965
+    },
+    {
+     "text": "the",
+     "start": 10.988,
+     "end": 11.058
+    },
+    {
+     "text": "key.",
+     "start": 11.093,
+     "end": 11.488
+    }
+   ]
+  },
+  {
+   "text": "Your phone makes two keys. A public one it shares, and a private one that never leaves it.",
+   "start": 11.998,
+   "end": 17.431,
+   "words": [
+    {
+     "text": "Your",
+     "start": 11.998,
+     "end": 12.161
+    },
+    {
+     "text": "phone",
+     "start": 12.196,
+     "end": 12.428
+    },
+    {
+     "text": "makes",
+     "start": 12.463,
+     "end": 12.672
+    },
+    {
+     "text": "two",
+     "start": 12.741,
+     "end": 12.916
+    },
+    {
+     "text": "keys.",
+     "start": 12.985,
+     "end": 13.461
+    },
+    {
+     "text": "A",
+     "start": 14.065,
+     "end": 14.146
+    },
+    {
+     "text": "public",
+     "start": 14.227,
+     "end": 14.518
+    },
+    {
+     "text": "one",
+     "start": 14.587,
+     "end": 14.703
+    },
+    {
+     "text": "it",
+     "start": 14.738,
+     "end": 14.796
+    },
+    {
+     "text": "shares,",
+     "start": 14.854,
+     "end": 15.365
+    },
+    {
+     "text": "and",
+     "start": 15.609,
+     "end": 15.76
+    },
+    {
+     "text": "a",
+     "start": 15.806,
+     "end": 15.841
+    },
+    {
+     "text": "private",
+     "start": 15.887,
+     "end": 16.224
+    },
+    {
+     "text": "one",
+     "start": 16.259,
+     "end": 16.375
+    },
+    {
+     "text": "that",
+     "start": 16.398,
+     "end": 16.514
+    },
+    {
+     "text": "never",
+     "start": 16.584,
+     "end": 16.793
+    },
+    {
+     "text": "leaves",
+     "start": 16.851,
+     "end": 17.095
+    },
+    {
+     "text": "it.",
+     "start": 17.153,
+     "end": 17.431
+    }
+   ]
+  },
+  {
+   "text": "Think of the public key as an open padlock. Anyone can snap it shut.",
+   "start": 18.732,
+   "end": 22.691,
+   "words": [
+    {
+     "text": "Think",
+     "start": 18.732,
+     "end": 18.952
+    },
+    {
+     "text": "of",
+     "start": 18.999,
+     "end": 19.045
+    },
+    {
+     "text": "the",
+     "start": 19.08,
+     "end": 19.15
+    },
+    {
+     "text": "public",
+     "start": 19.184,
+     "end": 19.498
+    },
+    {
+     "text": "key",
+     "start": 19.544,
+     "end": 19.695
+    },
+    {
+     "text": "as",
+     "start": 19.742,
+     "end": 19.823
+    },
+    {
+     "text": "an",
+     "start": 19.858,
+     "end": 19.916
+    },
+    {
+     "text": "open",
+     "start": 19.986,
+     "end": 20.253
+    },
+    {
+     "text": "padlock.",
+     "start": 20.322,
+     "end": 21.03
+    },
+    {
+     "text": "Anyone",
+     "start": 21.356,
+     "end": 21.715
+    },
+    {
+     "text": "can",
+     "start": 21.75,
+     "end": 21.866
+    },
+    {
+     "text": "snap",
+     "start": 21.901,
+     "end": 22.133
+    },
+    {
+     "text": "it",
+     "start": 22.18,
+     "end": 22.238
+    },
+    {
+     "text": "shut.",
+     "start": 22.273,
+     "end": 22.691
+    }
+   ]
+  },
+  {
+   "text": "But only the private key can open it again.",
+   "start": 23.387,
+   "end": 25.5,
+   "words": [
+    {
+     "text": "But",
+     "start": 23.387,
+     "end": 23.538
+    },
+    {
+     "text": "only",
+     "start": 23.573,
+     "end": 23.736
+    },
+    {
+     "text": "the",
+     "start": 23.782,
+     "end": 23.852
+    },
+    {
+     "text": "private",
+     "start": 23.886,
+     "end": 24.235
+    },
+    {
+     "text": "key",
+     "start": 24.27,
+     "end": 24.432
+    },
+    {
+     "text": "can",
+     "start": 24.49,
+     "end": 24.595
+    },
+    {
+     "text": "open",
+     "start": 24.653,
+     "end": 24.839
+    },
+    {
+     "text": "it",
+     "start": 24.885,
+     "end": 24.943
+    },
+    {
+     "text": "again.",
+     "start": 24.978,
+     "end": 25.5
+    }
+   ]
+  },
+  {
+   "text": "So when you message a friend, your phone locks it with your friend's padlock.",
+   "start": 25.883,
+   "end": 29.447,
+   "words": [
+    {
+     "text": "So",
+     "start": 25.883,
+     "end": 26.011
+    },
+    {
+     "text": "when",
+     "start": 26.058,
+     "end": 26.162
+    },
+    {
+     "text": "you",
+     "start": 26.197,
+     "end": 26.267
+    },
+    {
+     "text": "message",
+     "start": 26.348,
+     "end": 26.661
+    },
+    {
+     "text": "a",
+     "start": 26.684,
+     "end": 26.719
+    },
+    {
+     "text": "friend,",
+     "start": 26.766,
+     "end": 27.184
+    },
+    {
+     "text": "your",
+     "start": 27.358,
+     "end": 27.52
+    },
+    {
+     "text": "phone",
+     "start": 27.555,
+     "end": 27.822
+    },
+    {
+     "text": "locks",
+     "start": 27.857,
+     "end": 28.113
+    },
+    {
+     "text": "it",
+     "start": 28.147,
+     "end": 28.217
+    },
+    {
+     "text": "with",
+     "start": 28.24,
+     "end": 28.345
+    },
+    {
+     "text": "your",
+     "start": 28.38,
+     "end": 28.484
+    },
+    {
+     "text": "friend's",
+     "start": 28.519,
+     "end": 28.786
+    },
+    {
+     "text": "padlock.",
+     "start": 28.821,
+     "end": 29.447
+    }
+   ]
+  },
+  {
+   "text": "The server only sees a locked box. It just passes it on.",
+   "start": 30.144,
+   "end": 33.627,
+   "words": [
+    {
+     "text": "The",
+     "start": 30.144,
+     "end": 30.283
+    },
+    {
+     "text": "server",
+     "start": 30.341,
+     "end": 30.667
+    },
+    {
+     "text": "only",
+     "start": 30.725,
+     "end": 30.887
+    },
+    {
+     "text": "sees",
+     "start": 30.945,
+     "end": 31.143
+    },
+    {
+     "text": "a",
+     "start": 31.189,
+     "end": 31.212
+    },
+    {
+     "text": "locked",
+     "start": 31.27,
+     "end": 31.514
+    },
+    {
+     "text": "box.",
+     "start": 31.56,
+     "end": 32.141
+    },
+    {
+     "text": "It",
+     "start": 32.466,
+     "end": 32.594
+    },
+    {
+     "text": "just",
+     "start": 32.629,
+     "end": 32.768
+    },
+    {
+     "text": "passes",
+     "start": 32.803,
+     "end": 33.151
+    },
+    {
+     "text": "it",
+     "start": 33.197,
+     "end": 33.256
+    },
+    {
+     "text": "on.",
+     "start": 33.302,
+     "end": 33.627
+    }
+   ]
+  },
+  {
+   "text": "Your friend's phone opens it with the key it never shared.",
+   "start": 34.324,
+   "end": 36.843,
+   "words": [
+    {
+     "text": "Your",
+     "start": 34.324,
+     "end": 34.498
+    },
+    {
+     "text": "friend's",
+     "start": 34.533,
+     "end": 34.788
+    },
+    {
+     "text": "phone",
+     "start": 34.834,
+     "end": 35.09
+    },
+    {
+     "text": "opens",
+     "start": 35.125,
+     "end": 35.415
+    },
+    {
+     "text": "it",
+     "start": 35.473,
+     "end": 35.543
+    },
+    {
+     "text": "with",
+     "start": 35.578,
+     "end": 35.694
+    },
+    {
+     "text": "the",
+     "start": 35.717,
+     "end": 35.787
+    },
+    {
+     "text": "key",
+     "start": 35.833,
+     "end": 36.007
+    },
+    {
+     "text": "it",
+     "start": 36.054,
+     "end": 36.112
+    },
+    {
+     "text": "never",
+     "start": 36.158,
+     "end": 36.332
+    },
+    {
+     "text": "shared.",
+     "start": 36.39,
+     "end": 36.843
+    }
+   ]
+  },
+  {
+   "text": "But what if a key is stolen one day?",
+   "start": 37.54,
+   "end": 39.351,
+   "words": [
+    {
+     "text": "But",
+     "start": 37.54,
+     "end": 37.714
+    },
+    {
+     "text": "what",
+     "start": 37.749,
+     "end": 37.888
+    },
+    {
+     "text": "if",
+     "start": 37.923,
+     "end": 37.992
+    },
+    {
+     "text": "a",
+     "start": 38.039,
+     "end": 38.062
+    },
+    {
+     "text": "key",
+     "start": 38.12,
+     "end": 38.271
+    },
+    {
+     "text": "is",
+     "start": 38.317,
+     "end": 38.387
+    },
+    {
+     "text": "stolen",
+     "start": 38.434,
+     "end": 38.77
+    },
+    {
+     "text": "one",
+     "start": 38.828,
+     "end": 38.956
+    },
+    {
+     "text": "day?",
+     "start": 38.991,
+     "end": 39.351
+    }
+   ]
+  },
+  {
+   "text": "So the keys keep changing.",
+   "start": 39.676,
+   "end": 41.034,
+   "words": [
+    {
+     "text": "So",
+     "start": 39.676,
+     "end": 39.815
+    },
+    {
+     "text": "the",
+     "start": 39.862,
+     "end": 39.931
+    },
+    {
+     "text": "keys",
+     "start": 39.978,
+     "end": 40.222
+    },
+    {
+     "text": "keep",
+     "start": 40.28,
+     "end": 40.43
+    },
+    {
+     "text": "changing.",
+     "start": 40.489,
+     "end": 41.034
+    }
+   ]
+  },
+  {
+   "text": "Every message gets a fresh key, and old ones are thrown away.",
+   "start": 41.731,
+   "end": 44.691,
+   "words": [
+    {
+     "text": "Every",
+     "start": 41.731,
+     "end": 41.986
+    },
+    {
+     "text": "message",
+     "start": 42.044,
+     "end": 42.393
+    },
+    {
+     "text": "gets",
+     "start": 42.427,
+     "end": 42.602
+    },
+    {
+     "text": "a",
+     "start": 42.636,
+     "end": 42.66
+    },
+    {
+     "text": "fresh",
+     "start": 42.706,
+     "end": 42.961
+    },
+    {
+     "text": "key,",
+     "start": 43.031,
+     "end": 43.263
+    },
+    {
+     "text": "and",
+     "start": 43.298,
+     "end": 43.391
+    },
+    {
+     "text": "old",
+     "start": 43.472,
+     "end": 43.635
+    },
+    {
+     "text": "ones",
+     "start": 43.693,
+     "end": 43.855
+    },
+    {
+     "text": "are",
+     "start": 43.879,
+     "end": 43.983
+    },
+    {
+     "text": "thrown",
+     "start": 44.006,
+     "end": 44.215
+    },
+    {
+     "text": "away.",
+     "start": 44.25,
+     "end": 44.691
+    }
+   ]
+  },
+  {
+   "text": "Stealing today's key doesn't unlock yesterday's chats.",
+   "start": 44.97,
+   "end": 47.652,
+   "words": [
+    {
+     "text": "Stealing",
+     "start": 44.97,
+     "end": 45.33
+    },
+    {
+     "text": "today's",
+     "start": 45.365,
+     "end": 45.655
+    },
+    {
+     "text": "key",
+     "start": 45.725,
+     "end": 45.91
+    },
+    {
+     "text": "doesn't",
+     "start": 45.968,
+     "end": 46.189
+    },
+    {
+     "text": "unlock",
+     "start": 46.235,
+     "end": 46.526
+    },
+    {
+     "text": "yesterday's",
+     "start": 46.584,
+     "end": 46.978
+    },
+    {
+     "text": "chats.",
+     "start": 47.025,
+     "end": 47.652
+    }
+   ]
+  },
+  {
+   "text": "Want proof nobody swapped the padlock in between?",
+   "start": 48.465,
+   "end": 51.065,
+   "words": [
+    {
+     "text": "Want",
+     "start": 48.465,
+     "end": 48.72
+    },
+    {
+     "text": "proof",
+     "start": 48.766,
+     "end": 49.033
+    },
+    {
+     "text": "nobody",
+     "start": 49.126,
+     "end": 49.451
+    },
+    {
+     "text": "swapped",
+     "start": 49.509,
+     "end": 49.788
+    },
+    {
+     "text": "the",
+     "start": 49.811,
+     "end": 49.881
+    },
+    {
+     "text": "padlock",
+     "start": 49.916,
+     "end": 50.334
+    },
+    {
+     "text": "in",
+     "start": 50.392,
+     "end": 50.45
+    },
+    {
+     "text": "between?",
+     "start": 50.508,
+     "end": 51.065
+    }
+   ]
+  },
+  {
+   "text": "Compare the security code with your friend. A match means nobody's in the middle.",
+   "start": 51.309,
+   "end": 55.14,
+   "words": [
+    {
+     "text": "Compare",
+     "start": 51.309,
+     "end": 51.646
+    },
+    {
+     "text": "the",
+     "start": 51.681,
+     "end": 51.75
+    },
+    {
+     "text": "security",
+     "start": 51.797,
+     "end": 52.168
+    },
+    {
+     "text": "code",
+     "start": 52.215,
+     "end": 52.389
+    },
+    {
+     "text": "with",
+     "start": 52.412,
+     "end": 52.505
+    },
+    {
+     "text": "your",
+     "start": 52.54,
+     "end": 52.633
+    },
+    {
+     "text": "friend.",
+     "start": 52.679,
+     "end": 53.12
+    },
+    {
+     "text": "A",
+     "start": 53.445,
+     "end": 53.527
+    },
+    {
+     "text": "match",
+     "start": 53.596,
+     "end": 53.805
+    },
+    {
+     "text": "means",
+     "start": 53.852,
+     "end": 54.061
+    },
+    {
+     "text": "nobody's",
+     "start": 54.142,
+     "end": 54.537
+    },
+    {
+     "text": "in",
+     "start": 54.571,
+     "end": 54.629
+    },
+    {
+     "text": "the",
+     "start": 54.653,
+     "end": 54.722
+    },
+    {
+     "text": "middle.",
+     "start": 54.746,
+     "end": 55.14
+    }
+   ]
+  },
+  {
+   "text": "One honest catch: the server still sees who you talk to, and when.",
+   "start": 56.255,
+   "end": 60.306,
+   "words": [
+    {
+     "text": "One",
+     "start": 56.255,
+     "end": 56.521
+    },
+    {
+     "text": "honest",
+     "start": 56.568,
+     "end": 56.87
+    },
+    {
+     "text": "catch:",
+     "start": 56.916,
+     "end": 57.369
+    },
+    {
+     "text": "the",
+     "start": 57.694,
+     "end": 57.799
+    },
+    {
+     "text": "server",
+     "start": 57.857,
+     "end": 58.147
+    },
+    {
+     "text": "still",
+     "start": 58.216,
+     "end": 58.414
+    },
+    {
+     "text": "sees",
+     "start": 58.472,
+     "end": 58.681
+    },
+    {
+     "text": "who",
+     "start": 58.704,
+     "end": 58.785
+    },
+    {
+     "text": "you",
+     "start": 58.843,
+     "end": 58.913
+    },
+    {
+     "text": "talk",
+     "start": 58.96,
+     "end": 59.157
+    },
+    {
+     "text": "to,",
+     "start": 59.215,
+     "end": 59.575
+    },
+    {
+     "text": "and",
+     "start": 59.691,
+     "end": 59.888
+    },
+    {
+     "text": "when.",
+     "start": 59.958,
+     "end": 60.306
+    }
+   ]
+  },
+  {
+   "text": "But what you say stays between your two phones.",
+   "start": 60.817,
+   "end": 63.139,
+   "words": [
+    {
+     "text": "But",
+     "start": 60.817,
+     "end": 60.98
+    },
+    {
+     "text": "what",
+     "start": 61.015,
+     "end": 61.142
+    },
+    {
+     "text": "you",
+     "start": 61.189,
+     "end": 61.27
+    },
+    {
+     "text": "say",
+     "start": 61.351,
+     "end": 61.549
+    },
+    {
+     "text": "stays",
+     "start": 61.607,
+     "end": 61.874
+    },
+    {
+     "text": "between",
+     "start": 61.932,
+     "end": 62.257
+    },
+    {
+     "text": "your",
+     "start": 62.303,
+     "end": 62.408
+    },
+    {
+     "text": "two",
+     "start": 62.443,
+     "end": 62.593
+    },
+    {
+     "text": "phones.",
+     "start": 62.652,
+     "end": 63.139
+    }
+   ]
+  },
+  {
+   "text": "Now you know.",
+   "start": 63.522,
+   "end": 64.439,
+   "words": [
+    {
+     "text": "Now",
+     "start": 63.522,
+     "end": 63.673
+    },
+    {
+     "text": "you",
+     "start": 63.743,
+     "end": 63.824
+    },
+    {
+     "text": "know.",
+     "start": 63.871,
+     "end": 64.439
+    }
+   ]
+  }
+ ]
+}

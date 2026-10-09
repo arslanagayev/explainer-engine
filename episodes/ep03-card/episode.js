@@ -1,6 +1,6 @@
 // Episode 03: what happens when you tap your card? One scene per voice-over line (see script.md).
 import { arrow, backOut, check, clamp, cross, easeInOut, easeOut, fade, lerp, line, path, pop, rect, seg, text } from '../../engine/lib.js'
-import { pill } from '../../engine/props.js'
+import { keyIcon, pill } from '../../engine/props.js'
 
 const PAN = '4242 4242 4242 4242'
 const CODE = '8A3C 51F0 9D2E 4B77'
@@ -35,8 +35,6 @@ const rings = (x, y, t, k = 1, n = 4) => Array.from({ length: n }, (_, i) => {
 const bank = (x, y, p = 1, s = 1) =>
   `<g transform="translate(${x} ${y}) scale(${s})">` + path('M-110 -50 L0 -110 L110 -50 Z', p) + path('M-120 90 H120', p) + path('M-105 70 H105', p) +
   [-75, -25, 25, 75].map((c) => line(c, -35, c, 60, p)).join('') + '</g>'
-const keyIcon = (x, y, s = 1, cls = 'ln ac') =>
-  `<g transform="translate(${x} ${y}) scale(${s})">` + path('M-60 0 a26 26 0 1 0 52 0 a26 26 0 1 0 -52 0', 1, cls) + path('M-8 0 H60 M40 0 V22 M56 0 V16', 1, cls) + '</g>'
 const node = (x, y, label, p = 1, lit = false) =>
   `<rect class="fp" x="${x - 130}" y="${y - 44}" width="260" height="88" rx="20" opacity="${clamp(p * 3).toFixed(2)}"/>` +
   rect(x - 130, y - 44, 260, 88, { r: 20, p, cls: lit ? 'ln ac' : 'ln' }) + text(x, y + 10, label, { size: 26, cls: lit ? 't m ac' : 't m', weight: 700, opacity: clamp(p * 2 - 1) })
