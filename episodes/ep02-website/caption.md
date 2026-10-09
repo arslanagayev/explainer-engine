@@ -16,3 +16,4 @@ Bir siteyi açtığında 1 saniyede neler oluyor? DNS, el sıkışma, şifreleme
 
 Reel: `out/reel.mp4` (build with `node engine/make.mjs ep02-website`), cover frame at 2.6 s.
 Voice: ElevenLabs "Liam" (eleven_multilingual_v2). Music bed + whooshes: synthesised (engine/soundbed.py).
+Posted 2026-10-10: https://www.instagram.com/reel/DeR7AltkwWq/
