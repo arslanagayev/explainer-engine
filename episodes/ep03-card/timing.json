@@ -1,0 +1,1032 @@
+{
+ "offset": 0.4,
+ "total": 70.63,
+ "lines": [
+  {
+   "text": "What happens when you tap your card?",
+   "start": 0.4,
+   "end": 2.223,
+   "words": [
+    {
+     "text": "What",
+     "start": 0.4,
+     "end": 0.621
+    },
+    {
+     "text": "happens",
+     "start": 0.679,
+     "end": 1.027
+    },
+    {
+     "text": "when",
+     "start": 1.062,
+     "end": 1.178
+    },
+    {
+     "text": "you",
+     "start": 1.213,
+     "end": 1.294
+    },
+    {
+     "text": "tap",
+     "start": 1.352,
+     "end": 1.561
+    },
+    {
+     "text": "your",
+     "start": 1.607,
+     "end": 1.712
+    },
+    {
+     "text": "card?",
+     "start": 1.77,
+     "end": 2.223
+    }
+   ]
+  },
+  {
+   "text": "Here's the twist: your card has no battery.",
+   "start": 2.919,
+   "end": 5.892,
+   "words": [
+    {
+     "text": "Here's",
+     "start": 2.919,
+     "end": 3.186
+    },
+    {
+     "text": "the",
+     "start": 3.221,
+     "end": 3.291
+    },
+    {
+     "text": "twist:",
+     "start": 3.326,
+     "end": 3.906
+    },
+    {
+     "text": "your",
+     "start": 4.417,
+     "end": 4.545
+    },
+    {
+     "text": "card",
+     "start": 4.591,
+     "end": 4.789
+    },
+    {
+     "text": "has",
+     "start": 4.835,
+     "end": 4.974
+    },
+    {
+     "text": "no",
+     "start": 5.09,
+     "end": 5.253
+    },
+    {
+     "text": "battery.",
+     "start": 5.334,
+     "end": 5.892
+    }
+   ]
+  },
+  {
+   "text": "The reader is a tiny radio station. It fills the air above it with a magnetic field.",
+   "start": 6.495,
+   "end": 11.592,
+   "words": [
+    {
+     "text": "The",
+     "start": 6.495,
+     "end": 6.611
+    },
+    {
+     "text": "reader",
+     "start": 6.681,
+     "end": 6.902
+    },
+    {
+     "text": "is",
+     "start": 6.971,
+     "end": 7.053
+    },
+    {
+     "text": "a",
+     "start": 7.099,
+     "end": 7.134
+    },
+    {
+     "text": "tiny",
+     "start": 7.203,
+     "end": 7.563
+    },
+    {
+     "text": "radio",
+     "start": 7.633,
+     "end": 7.923
+    },
+    {
+     "text": "station.",
+     "start": 7.981,
+     "end": 8.527
+    },
+    {
+     "text": "It",
+     "start": 9.131,
+     "end": 9.27
+    },
+    {
+     "text": "fills",
+     "start": 9.316,
+     "end": 9.56
+    },
+    {
+     "text": "the",
+     "start": 9.607,
+     "end": 9.676
+    },
+    {
+     "text": "air",
+     "start": 9.723,
+     "end": 9.862
+    },
+    {
+     "text": "above",
+     "start": 9.909,
+     "end": 10.141
+    },
+    {
+     "text": "it",
+     "start": 10.176,
+     "end": 10.245
+    },
+    {
+     "text": "with",
+     "start": 10.268,
+     "end": 10.385
+    },
+    {
+     "text": "a",
+     "start": 10.419,
+     "end": 10.454
+    },
+    {
+     "text": "magnetic",
+     "start": 10.524,
+     "end": 11.023
+    },
+    {
+     "text": "field.",
+     "start": 11.081,
+     "end": 11.592
+    }
+   ]
+  },
+  {
+   "text": "Inside your card, a thin coil of wire runs around the edge. That's an antenna.",
+   "start": 12.405,
+   "end": 17.455,
+   "words": [
+    {
+     "text": "Inside",
+     "start": 12.405,
+     "end": 12.904
+    },
+    {
+     "text": "your",
+     "start": 12.939,
+     "end": 13.043
+    },
+    {
+     "text": "card,",
+     "start": 13.09,
+     "end": 13.519
+    },
+    {
+     "text": "a",
+     "start": 13.763,
+     "end": 13.844
+    },
+    {
+     "text": "thin",
+     "start": 13.96,
+     "end": 14.181
+    },
+    {
+     "text": "coil",
+     "start": 14.274,
+     "end": 14.541
+    },
+    {
+     "text": "of",
+     "start": 14.587,
+     "end": 14.645
+    },
+    {
+     "text": "wire",
+     "start": 14.727,
+     "end": 15.052
+    },
+    {
+     "text": "runs",
+     "start": 15.098,
+     "end": 15.33
+    },
+    {
+     "text": "around",
+     "start": 15.377,
+     "end": 15.597
+    },
+    {
+     "text": "the",
+     "start": 15.632,
+     "end": 15.702
+    },
+    {
+     "text": "edge.",
+     "start": 15.772,
+     "end": 16.143
+    },
+    {
+     "text": "That's",
+     "start": 16.468,
+     "end": 16.747
+    },
+    {
+     "text": "an",
+     "start": 16.77,
+     "end": 16.816
+    },
+    {
+     "text": "antenna.",
+     "start": 16.863,
+     "end": 17.455
+    }
+   ]
+  },
+  {
+   "text": "Bring it close, and the field powers the chip. Just enough, just for a moment.",
+   "start": 18.059,
+   "end": 22.842,
+   "words": [
+    {
+     "text": "Bring",
+     "start": 18.059,
+     "end": 18.291
+    },
+    {
+     "text": "it",
+     "start": 18.349,
+     "end": 18.419
+    },
+    {
+     "text": "close,",
+     "start": 18.477,
+     "end": 18.895
+    },
+    {
+     "text": "and",
+     "start": 18.918,
+     "end": 19.034
+    },
+    {
+     "text": "the",
+     "start": 19.08,
+     "end": 19.15
+    },
+    {
+     "text": "field",
+     "start": 19.208,
+     "end": 19.452
+    },
+    {
+     "text": "powers",
+     "start": 19.51,
+     "end": 19.835
+    },
+    {
+     "text": "the",
+     "start": 19.881,
+     "end": 19.951
+    },
+    {
+     "text": "chip.",
+     "start": 19.986,
+     "end": 20.404
+    },
+    {
+     "text": "Just",
+     "start": 21.008,
+     "end": 21.298
+    },
+    {
+     "text": "enough,",
+     "start": 21.367,
+     "end": 21.762
+    },
+    {
+     "text": "just",
+     "start": 21.878,
+     "end": 22.087
+    },
+    {
+     "text": "for",
+     "start": 22.134,
+     "end": 22.238
+    },
+    {
+     "text": "a",
+     "start": 22.285,
+     "end": 22.308
+    },
+    {
+     "text": "moment.",
+     "start": 22.354,
+     "end": 22.842
+    }
+   ]
+  },
+  {
+   "text": "That's why you have to get within a few centimetres.",
+   "start": 23.283,
+   "end": 25.628,
+   "words": [
+    {
+     "text": "That's",
+     "start": 23.283,
+     "end": 23.562
+    },
+    {
+     "text": "why",
+     "start": 23.597,
+     "end": 23.724
+    },
+    {
+     "text": "you",
+     "start": 23.771,
+     "end": 23.852
+    },
+    {
+     "text": "have",
+     "start": 23.933,
+     "end": 24.073
+    },
+    {
+     "text": "to",
+     "start": 24.096,
+     "end": 24.142
+    },
+    {
+     "text": "get",
+     "start": 24.189,
+     "end": 24.293
+    },
+    {
+     "text": "within",
+     "start": 24.328,
+     "end": 24.525
+    },
+    {
+     "text": "a",
+     "start": 24.56,
+     "end": 24.583
+    },
+    {
+     "text": "few",
+     "start": 24.642,
+     "end": 24.781
+    },
+    {
+     "text": "centimetres.",
+     "start": 24.839,
+     "end": 25.628
+    }
+   ]
+  },
+  {
+   "text": "Now the chip wakes up and talks back, over radio.",
+   "start": 26.58,
+   "end": 29.645,
+   "words": [
+    {
+     "text": "Now",
+     "start": 26.58,
+     "end": 26.743
+    },
+    {
+     "text": "the",
+     "start": 26.801,
+     "end": 26.871
+    },
+    {
+     "text": "chip",
+     "start": 26.917,
+     "end": 27.103
+    },
+    {
+     "text": "wakes",
+     "start": 27.161,
+     "end": 27.405
+    },
+    {
+     "text": "up",
+     "start": 27.474,
+     "end": 27.59
+    },
+    {
+     "text": "and",
+     "start": 27.637,
+     "end": 27.707
+    },
+    {
+     "text": "talks",
+     "start": 27.753,
+     "end": 28.008
+    },
+    {
+     "text": "back,",
+     "start": 28.066,
+     "end": 28.542
+    },
+    {
+     "text": "over",
+     "start": 28.751,
+     "end": 28.995
+    },
+    {
+     "text": "radio.",
+     "start": 29.053,
+     "end": 29.645
+    }
+   ]
+  },
+  {
+   "text": "But if it only sent your card number, anyone could copy it.",
+   "start": 30.458,
+   "end": 33.314,
+   "words": [
+    {
+     "text": "But",
+     "start": 30.458,
+     "end": 30.632
+    },
+    {
+     "text": "if",
+     "start": 30.667,
+     "end": 30.748
+    },
+    {
+     "text": "it",
+     "start": 30.806,
+     "end": 30.876
+    },
+    {
+     "text": "only",
+     "start": 30.922,
+     "end": 31.12
+    },
+    {
+     "text": "sent",
+     "start": 31.19,
+     "end": 31.364
+    },
+    {
+     "text": "your",
+     "start": 31.399,
+     "end": 31.503
+    },
+    {
+     "text": "card",
+     "start": 31.549,
+     "end": 31.781
+    },
+    {
+     "text": "number,",
+     "start": 31.828,
+     "end": 32.13
+    },
+    {
+     "text": "anyone",
+     "start": 32.153,
+     "end": 32.478
+    },
+    {
+     "text": "could",
+     "start": 32.513,
+     "end": 32.641
+    },
+    {
+     "text": "copy",
+     "start": 32.687,
+     "end": 33.024
+    },
+    {
+     "text": "it.",
+     "start": 33.082,
+     "end": 33.314
+    }
+   ]
+  },
+  {
+   "text": "So the chip holds a secret key that never leaves it.",
+   "start": 33.697,
+   "end": 36.46,
+   "words": [
+    {
+     "text": "So",
+     "start": 33.697,
+     "end": 33.836
+    },
+    {
+     "text": "the",
+     "start": 33.894,
+     "end": 33.964
+    },
+    {
+     "text": "chip",
+     "start": 34.022,
+     "end": 34.231
+    },
+    {
+     "text": "holds",
+     "start": 34.289,
+     "end": 34.521
+    },
+    {
+     "text": "a",
+     "start": 34.568,
+     "end": 34.603
+    },
+    {
+     "text": "secret",
+     "start": 34.719,
+     "end": 35.09
+    },
+    {
+     "text": "key",
+     "start": 35.148,
+     "end": 35.323
+    },
+    {
+     "text": "that",
+     "start": 35.369,
+     "end": 35.508
+    },
+    {
+     "text": "never",
+     "start": 35.624,
+     "end": 35.857
+    },
+    {
+     "text": "leaves",
+     "start": 35.926,
+     "end": 36.158
+    },
+    {
+     "text": "it.",
+     "start": 36.216,
+     "end": 36.46
+    }
+   ]
+  },
+  {
+   "text": "It signs this exact payment: the amount, the shop, a random number from the reader.",
+   "start": 37.157,
+   "end": 43.159,
+   "words": [
+    {
+     "text": "It",
+     "start": 37.157,
+     "end": 37.296
+    },
+    {
+     "text": "signs",
+     "start": 37.354,
+     "end": 37.703
+    },
+    {
+     "text": "this",
+     "start": 37.761,
+     "end": 37.923
+    },
+    {
+     "text": "exact",
+     "start": 37.993,
+     "end": 38.399
+    },
+    {
+     "text": "payment:",
+     "start": 38.469,
+     "end": 39.003
+    },
+    {
+     "text": "the",
+     "start": 39.444,
+     "end": 39.56
+    },
+    {
+     "text": "amount,",
+     "start": 39.607,
+     "end": 40.141
+    },
+    {
+     "text": "the",
+     "start": 40.419,
+     "end": 40.535
+    },
+    {
+     "text": "shop,",
+     "start": 40.605,
+     "end": 41.151
+    },
+    {
+     "text": "a",
+     "start": 41.429,
+     "end": 41.522
+    },
+    {
+     "text": "random",
+     "start": 41.65,
+     "end": 42.021
+    },
+    {
+     "text": "number",
+     "start": 42.08,
+     "end": 42.335
+    },
+    {
+     "text": "from",
+     "start": 42.393,
+     "end": 42.532
+    },
+    {
+     "text": "the",
+     "start": 42.579,
+     "end": 42.648
+    },
+    {
+     "text": "reader.",
+     "start": 42.706,
+     "end": 43.159
+    }
+   ]
+  },
+  {
+   "text": "The result is a one-time code. Useless for any other payment.",
+   "start": 43.856,
+   "end": 48.233,
+   "words": [
+    {
+     "text": "The",
+     "start": 43.856,
+     "end": 43.984
+    },
+    {
+     "text": "result",
+     "start": 44.042,
+     "end": 44.402
+    },
+    {
+     "text": "is",
+     "start": 44.46,
+     "end": 44.564
+    },
+    {
+     "text": "a",
+     "start": 44.61,
+     "end": 44.645
+    },
+    {
+     "text": "one-time",
+     "start": 44.761,
+     "end": 45.342
+    },
+    {
+     "text": "code.",
+     "start": 45.4,
+     "end": 45.899
+    },
+    {
+     "text": "Useless",
+     "start": 46.596,
+     "end": 47.037
+    },
+    {
+     "text": "for",
+     "start": 47.083,
+     "end": 47.2
+    },
+    {
+     "text": "any",
+     "start": 47.292,
+     "end": 47.49
+    },
+    {
+     "text": "other",
+     "start": 47.536,
+     "end": 47.687
+    },
+    {
+     "text": "payment.",
+     "start": 47.734,
+     "end": 48.233
+    }
+   ]
+  },
+  {
+   "text": "The terminal sends it through the card network to your bank.",
+   "start": 48.929,
+   "end": 51.727,
+   "words": [
+    {
+     "text": "The",
+     "start": 48.929,
+     "end": 49.046
+    },
+    {
+     "text": "terminal",
+     "start": 49.092,
+     "end": 49.464
+    },
+    {
+     "text": "sends",
+     "start": 49.545,
+     "end": 49.835
+    },
+    {
+     "text": "it",
+     "start": 49.882,
+     "end": 49.963
+    },
+    {
+     "text": "through",
+     "start": 50.009,
+     "end": 50.207
+    },
+    {
+     "text": "the",
+     "start": 50.23,
+     "end": 50.299
+    },
+    {
+     "text": "card",
+     "start": 50.334,
+     "end": 50.566
+    },
+    {
+     "text": "network",
+     "start": 50.613,
+     "end": 50.926
+    },
+    {
+     "text": "to",
+     "start": 50.973,
+     "end": 51.043
+    },
+    {
+     "text": "your",
+     "start": 51.101,
+     "end": 51.217
+    },
+    {
+     "text": "bank.",
+     "start": 51.275,
+     "end": 51.727
+    }
+   ]
+  },
+  {
+   "text": "Your bank checks the code with its copy of the key, and your balance.",
+   "start": 52.424,
+   "end": 55.71,
+   "words": [
+    {
+     "text": "Your",
+     "start": 52.424,
+     "end": 52.587
+    },
+    {
+     "text": "bank",
+     "start": 52.621,
+     "end": 52.796
+    },
+    {
+     "text": "checks",
+     "start": 52.842,
+     "end": 53.086
+    },
+    {
+     "text": "the",
+     "start": 53.121,
+     "end": 53.19
+    },
+    {
+     "text": "code",
+     "start": 53.237,
+     "end": 53.481
+    },
+    {
+     "text": "with",
+     "start": 53.504,
+     "end": 53.608
+    },
+    {
+     "text": "its",
+     "start": 53.643,
+     "end": 53.748
+    },
+    {
+     "text": "copy",
+     "start": 53.794,
+     "end": 54.073
+    },
+    {
+     "text": "of",
+     "start": 54.119,
+     "end": 54.166
+    },
+    {
+     "text": "the",
+     "start": 54.2,
+     "end": 54.27
+    },
+    {
+     "text": "key,",
+     "start": 54.317,
+     "end": 54.7
+    },
+    {
+     "text": "and",
+     "start": 54.816,
+     "end": 54.943
+    },
+    {
+     "text": "your",
+     "start": 55.002,
+     "end": 55.106
+    },
+    {
+     "text": "balance.",
+     "start": 55.164,
+     "end": 55.71
+    }
+   ]
+  },
+  {
+   "text": "Then it answers: approved.",
+   "start": 56.522,
+   "end": 58.752,
+   "words": [
+    {
+     "text": "Then",
+     "start": 56.522,
+     "end": 56.697
+    },
+    {
+     "text": "it",
+     "start": 56.743,
+     "end": 56.813
+    },
+    {
+     "text": "answers:",
+     "start": 56.859,
+     "end": 57.486
+    },
+    {
+     "text": "approved.",
+     "start": 58.09,
+     "end": 58.752
+    }
+   ]
+  },
+  {
+   "text": "The answer travels all the way back.",
+   "start": 59.564,
+   "end": 61.642,
+   "words": [
+    {
+     "text": "The",
+     "start": 59.564,
+     "end": 59.704
+    },
+    {
+     "text": "answer",
+     "start": 59.785,
+     "end": 60.087
+    },
+    {
+     "text": "travels",
+     "start": 60.145,
+     "end": 60.528
+    },
+    {
+     "text": "all",
+     "start": 60.621,
+     "end": 60.853
+    },
+    {
+     "text": "the",
+     "start": 60.911,
+     "end": 60.981
+    },
+    {
+     "text": "way",
+     "start": 61.027,
+     "end": 61.155
+    },
+    {
+     "text": "back.",
+     "start": 61.213,
+     "end": 61.642
+    }
+   ]
+  },
+  {
+   "text": "Beep. Green tick.",
+   "start": 62.339,
+   "end": 64.08,
+   "words": [
+    {
+     "text": "Beep.",
+     "start": 62.339,
+     "end": 62.815
+    },
+    {
+     "text": "Green",
+     "start": 63.326,
+     "end": 63.628
+    },
+    {
+     "text": "tick.",
+     "start": 63.674,
+     "end": 64.08
+    }
+   ]
+  },
+  {
+   "text": "All of that, in about a second.",
+   "start": 64.777,
+   "end": 66.449,
+   "words": [
+    {
+     "text": "All",
+     "start": 64.777,
+     "end": 64.986
+    },
+    {
+     "text": "of",
+     "start": 65.033,
+     "end": 65.091
+    },
+    {
+     "text": "that,",
+     "start": 65.137,
+     "end": 65.404
+    },
+    {
+     "text": "in",
+     "start": 65.427,
+     "end": 65.532
+    },
+    {
+     "text": "about",
+     "start": 65.578,
+     "end": 65.776
+    },
+    {
+     "text": "a",
+     "start": 65.81,
+     "end": 65.834
+    },
+    {
+     "text": "second.",
+     "start": 65.903,
+     "end": 66.449
+    }
+   ]
+  },
+  {
+   "text": "Now you know.",
+   "start": 67.401,
+   "end": 68.434,
+   "words": [
+    {
+     "text": "Now",
+     "start": 67.401,
+     "end": 67.575
+    },
+    {
+     "text": "you",
+     "start": 67.656,
+     "end": 67.738
+    },
+    {
+     "text": "know.",
+     "start": 67.796,
+     "end": 68.434
+    }
+   ]
+  }
+ ]
+}
