@@ -14,18 +14,20 @@
 
 </div>
 
-I use this engine for **How it actually works**, a series of one-minute videos that explain everyday tech: where your password goes, what happens when you open a website, how a contactless card works, how end-to-end encryption hides your messages.
+I use this engine for **How it actually works**, a series of one-minute videos that explain everyday tech: where your password goes, what happens when you open a website, how a contactless card pays without a battery, and how end-to-end encryption hides your messages.
 
 Every frame is drawn by code. Each sentence of the voice-over gets its own scene, and the animation inside a scene is timed to the individual words: the salt types itself out as the narrator says "salt", the counter races to a billion on "billions".
 
 ## Episodes
+
+Season 1 is complete: four episodes, about a minute each.
 
 | # | Topic | Video |
 | - | ----- | ----- |
 | 01 | Where does your password go? Salting, hashing and why "forgot password" sends a link | [Reel](https://www.instagram.com/reel/DeR35Fpkgh7/) |
 | 02 | What happens when you open a website? DNS, the handshake, a secret key that never travels, and how the page gets built | [Reel](https://www.instagram.com/reel/DeR7AltkwWq/) |
 | 03 | What happens when you tap your card? A battery-free chip powered by the reader, and a one-time code your bank checks | [Reel](https://www.instagram.com/reel/DeSA308Dyw7/) |
-| 04 | How can nobody read your WhatsApp messages? | coming soon |
+| 04 | How can nobody read your messages? Public and private keys as a padlock, per-message keys, security codes, and the metadata catch | [Reel](https://www.instagram.com/reel/DeSIxW5CsqK/) |
 
 ![Twelve scenes from episode 1: a login form, a database that refuses plain-text passwords, a one-way function, an encrypted tunnel, a salt, a fingerprint, a database table, two users with different salts, failed guesses, a slow hash, the login check and the end card](docs/scenes.jpg)
 
@@ -106,6 +108,7 @@ episodes/
   ep01-password/    script.md, episode.js, voice.mp3, words.json, timing.json, caption.md
   ep02-website/     same layout; every episode has its own colours and fonts
   ep03-card/
+  ep04-messages/
 tests/              Node tests for the helpers and every episode, Python tests for timing
 docs/               Preview GIF and scene sheet
 ```
@@ -117,6 +120,7 @@ Each episode uses one two-colour combination from [@design.deb](https://www.inst
 - Episode 1: Tiffany `#21F1A8` + Dark Gray `#171717`, [Sora](https://fonts.google.com/specimen/Sora) and [Red Hat Mono](https://fonts.google.com/specimen/Red+Hat+Mono).
 - Episode 2: True Pink `#FD1843` + Chill White `#FFF9FA`, [Bricolage Grotesque](https://fonts.google.com/specimen/Bricolage+Grotesque) and [Azeret Mono](https://fonts.google.com/specimen/Azeret+Mono).
 - Episode 3: Turmeric `#FFBE0B` + Malt `#2A2312`, [Syne](https://fonts.google.com/specimen/Syne) and [Spline Sans Mono](https://fonts.google.com/specimen/Spline+Sans+Mono).
+- Episode 4: Skin Tone `#FFC6A8` + Bridal `#741A2F`, [Fraunces](https://fonts.google.com/specimen/Fraunces) and [Sometype Mono](https://fonts.google.com/specimen/Sometype+Mono). The visuals use generic phones and padlocks, no messenger branding.
  The format (a question, a myth busted, the mechanism step by step with "but what if…?" twists, and a callback ending) was inspired by short-form explainer videos.
 
 ## Credits

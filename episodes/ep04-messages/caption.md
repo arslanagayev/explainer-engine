@@ -17,3 +17,4 @@ Mesajlarını neden kimse okuyamıyor? Uçtan uca şifreleme: açık kilit, gizl
 Reel: `out/reel.mp4` (build with `node engine/make.mjs ep04-messages`), cover frame at 3.6 s.
 Voice: ElevenLabs "Liam" (eleven_multilingual_v2). Music bed + whooshes: synthesised (engine/soundbed.py).
 No messenger branding in the visuals: generic phones, bubbles and padlocks.
+Posted 2026-10-10: https://www.instagram.com/reel/DeSIxW5CsqK/
