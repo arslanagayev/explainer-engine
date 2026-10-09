@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1080">
+  <title>loading</title>
+  <!--
+    Renders one 1080x1920 frame of an explainer episode for any time t:
+      player.html?ep=ep01-password            (window.seek(t) draws the frame at t seconds)
+      player.html?ep=ep01-password&play       (plays in real time with the voice-over, for previewing)
+    The episode folder holds episode.js (theme + scenes), timing.json and voice.mp3.
+  -->
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: var(--bg, #000); }
+    body { opacity: 0; }
+    body.ready { opacity: 1; }
+    #frame { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); color: var(--ink); font-family: var(--display); }
+    .bg { position: absolute; inset: 0; background: var(--backdrop); }
+    .grid { position: absolute; inset: 0; background-image: radial-gradient(var(--grid) 1.6px, transparent 1.8px); background-size: 40px 40px; mask-image: radial-gradient(75% 55% at 50% 48%, #000 30%, transparent 100%); }
+
+    .top { position: absolute; left: 70px; right: 70px; top: 140px; display: flex; justify-content: space-between; align-items: center; font: 700 24px/1 var(--mono); letter-spacing: 3px; text-transform: uppercase; }
+    .series { display: flex; align-items: center; gap: 14px; }
+    .series b { width: 14px; height: 14px; background: var(--accent); border-radius: 3px; box-shadow: 0 0 18px var(--accent); }
+    .handle { color: var(--muted); letter-spacing: 1px; text-transform: none; }
+    .chapters { position: absolute; left: 70px; right: 70px; top: 196px; display: flex; gap: 10px; }
+    .chapters i { flex: 1; height: 6px; border-radius: 3px; background: var(--faint); overflow: hidden; }
+    .chapters i span { display: block; height: 100%; background: var(--accent); }
+    .chapter { position: absolute; left: 70px; top: 228px; font: 700 24px/1 var(--mono); letter-spacing: 3px; color: var(--accent); text-transform: uppercase; }
+
+    .headlines { position: absolute; left: 60px; right: 60px; top: 280px; height: 240px; }
+    .headline { position: absolute; inset: 0; display: grid; align-content: center; text-align: center; font: 800 88px/1.02 var(--display); letter-spacing: -2px; text-transform: uppercase; text-wrap: balance; }
+    .headline em { font-style: normal; color: var(--accent); }
+
+    #stage { position: absolute; left: 40px; top: 540px; width: 1000px; height: 800px; overflow: visible; }
+    #stage .ln { fill: none; stroke: var(--ink); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    #stage .ln.ac { stroke: var(--accent); }
+    #stage .ln.dim { stroke: var(--line); }
+    #stage .ln.thin { stroke-width: 3; }
+    #stage .ln.thick { stroke-width: 9; }
+    #stage .ln.dash { stroke-dasharray: 10 14; }
+    #stage .t { fill: var(--ink); font-family: var(--display); }
+    #stage .t.ac { fill: var(--accent); }
+    #stage .t.mu { fill: var(--muted); }
+    #stage .t.dk { fill: var(--bg); }
+    #stage .m { font-family: var(--mono); }
+    #stage .fa { fill: var(--accent); }
+    #stage .fi { fill: var(--ink); }
+    #stage .fb { fill: var(--bg); }
+    #stage .fp { fill: var(--panel); }
+    #stage .glow { filter: drop-shadow(0 0 14px var(--accent)); }
+
+    .captions { position: absolute; left: 110px; right: 150px; top: 1380px; height: 170px; display: grid; align-content: center; justify-items: center; text-align: center; font: 700 52px/1.22 var(--display); letter-spacing: -0.5px; }
+    .captions .w { color: var(--muted); opacity: 0.5; }
+    .captions .w.said { color: var(--ink); opacity: 1; }
+    .captions .w.now { color: var(--accent); opacity: 1; }
+  </style>
+</head>
+<body>
+  <div id="frame">
+    <div class="bg"></div>
+    <div class="grid"></div>
+    <div class="top"><div class="series"><b></b><span id="series"></span></div><div class="handle">@arslanagayev.dev</div></div>
+    <div class="chapters" id="chapters"></div>
+    <div class="chapter" id="chapter"></div>
+    <div class="headlines"><div class="headline" id="h0"></div><div class="headline" id="h1"></div></div>
+    <svg id="stage" viewBox="0 0 1000 800"></svg>
+    <div class="captions" id="captions"></div>
+  </div>
+  <script type="module">
+    import { clamp, easeOut, esc } from './lib.js'
+    const params = new URLSearchParams(location.search)
+    const ep = params.get('ep')
+    const base = `../episodes/${ep}/`
+    const { default: episode } = await import(`${base}episode.js`)
+    const timing = await (await fetch(`${base}timing.json`)).json()
+
+    // Theme and fonts come from the episode, so every episode can have its own look.
+    for (const [k, v] of Object.entries(episode.theme)) document.documentElement.style.setProperty(`--${k}`, v)
+    const fonts = document.createElement('link')
+    fonts.rel = 'stylesheet'
+    fonts.href = episode.fontsUrl
+    document.head.append(fonts)
+    await new Promise((r) => { fonts.onload = fonts.onerror = r })
+
+    const LEAD = 0.22   // a scene starts this long before its first word
+    const TRANS = 0.42  // cross-fade between scenes
+    const lines = timing.lines
+    const sceneStart = (i) => (i === 0 ? 0 : lines[i].start - LEAD)
+    const sceneEnd = (i) => (i + 1 < lines.length ? sceneStart(i + 1) : timing.total)
+    if (episode.scenes.length !== lines.length) throw new Error(`episode has ${episode.scenes.length} scenes for ${lines.length} lines`)
+
+    document.getElementById('series').textContent = episode.series
+    const chapterOf = (i) => episode.chapters.findIndex((c) => i >= c.from && i <= c.to)
+    document.getElementById('chapters').innerHTML = episode.chapters.map(() => '<i><span></span></i>').join('')
+    const bars = [...document.querySelectorAll('#chapters span')]
+    const stage = document.getElementById('stage')
+    const heads = [document.getElementById('h0'), document.getElementById('h1')]
+    const captions = document.getElementById('captions')
+    const accent = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>')
+
+    function drawScene(i, t) {
+      const start = sceneStart(i)
+      const words = lines[i].words.map((w) => w.start - start)
+      return episode.scenes[i].draw({ t: t - start, d: sceneEnd(i) - start, w: words, end: lines[i].end - start })
+    }
+
+    // Caption chunks: at most ~36 characters (two rows) per screen, split at word boundaries.
+    const chunks = lines.map((l) => {
+      const out = [[]]
+      let len = 0
+      for (const w of l.words) {
+        if (len + w.text.length > 36 && out.at(-1).length) { out.push([]); len = 0 }
+        out.at(-1).push(w)
+        len += w.text.length + 1
+      }
+      return out
+    })
+
+    let lastCaption = ''
+    window.seek = (t) => {
+      let i = 0
+      while (i + 1 < lines.length && t >= sceneStart(i + 1)) i++
+      const k = i > 0 ? easeOut(clamp((t - sceneStart(i)) / TRANS)) : 1
+
+      // Stage: the previous scene fades out underneath while the new one rises in.
+      let svg = ''
+      if (k < 1) svg += `<g opacity="${(1 - k).toFixed(3)}" transform="translate(0 ${(-30 * k).toFixed(1)})">${drawScene(i - 1, t)}</g>`
+      svg += `<g opacity="${k.toFixed(3)}" transform="translate(0 ${(40 * (1 - k)).toFixed(1)})">${drawScene(i, t)}</g>`
+      stage.innerHTML = svg
+
+      // Headline: same cross-fade, the old one lifting away.
+      const newH = episode.scenes[i].headline
+      const oldH = i > 0 ? episode.scenes[i - 1].headline : ''
+      const same = newH === oldH
+      heads[0].innerHTML = same ? '' : `<div>${accent(oldH)}</div>`
+      heads[0].style.opacity = same ? 0 : (1 - k).toFixed(3)
+      heads[0].style.transform = `translateY(${(-40 * k).toFixed(1)}px)`
+      heads[1].innerHTML = `<div>${accent(newH)}</div>`
+      heads[1].style.opacity = same ? 1 : k.toFixed(3)
+      heads[1].style.transform = `translateY(${same ? 0 : (50 * (1 - k)).toFixed(1)}px)`
+
+      // Chapter bar and label.
+      const c = chapterOf(i)
+      document.getElementById('chapter').textContent = `${String(c + 1).padStart(2, '0')} · ${episode.chapters[c].title}`
+      bars.forEach((bar, j) => {
+        const ch = episode.chapters[j]
+        const a = sceneStart(ch.from), b = sceneEnd(ch.to)
+        bar.style.width = `${(clamp((t - a) / (b - a)) * 100).toFixed(2)}%`
+      })
+
+      // Karaoke captions: the chunk holding the current word; said words bright, the current one accented.
+      const chunk = chunks[i].find((ch) => t < ch.at(-1).end + 0.05) ?? chunks[i].at(-1)
+      const html = chunk.map((w) => `<span class="w ${t >= w.end ? 'said' : t >= w.start ? 'now' : ''}">${esc(w.text)}</span>`).join(' ')
+      if (html !== lastCaption) { captions.innerHTML = `<div>${html}</div>`; lastCaption = html }
+      captions.style.opacity = t > lines.at(-1).end + 0.6 ? 0 : 1
+    }
+    window.duration = timing.total
+
+    await document.fonts.ready
+    await Promise.all([...document.fonts].map((f) => f.load().catch(() => null)))
+    window.seek(Number(params.get('t') ?? 0))
+    document.body.classList.add('ready')
+    document.title = 'ready'
+
+    if (params.has('play')) {
+      const audio = new Audio(`${base}voice.mp3`)
+      document.body.addEventListener('click', () => {
+        const t0 = performance.now()
+        setTimeout(() => audio.play(), timing.offset * 1000)
+        const tick = () => { const t = (performance.now() - t0) / 1000; window.seek(t); if (t < timing.total) requestAnimationFrame(tick) }
+        tick()
+      }, { once: true })
+    }
+  </script>
+</body>
+</html>

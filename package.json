@@ -1,0 +1,13 @@
+{
+  "name": "explainer-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Code-driven explainer videos: script + voice-over in, word-synced 9:16 animated Reel out.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "make": "node engine/make.mjs",
+    "test": "node --test \"tests/*.test.mjs\" && python3 -m unittest discover -s tests"
+  }
+}

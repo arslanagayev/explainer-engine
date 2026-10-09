@@ -1,0 +1,957 @@
+{
+ "offset": 0.4,
+ "total": 67.38,
+ "lines": [
+  {
+   "text": "What happens when you type your password into a website?",
+   "start": 0.4,
+   "end": 3.221,
+   "words": [
+    {
+     "text": "What",
+     "start": 0.4,
+     "end": 0.621
+    },
+    {
+     "text": "happens",
+     "start": 0.679,
+     "end": 1.05
+    },
+    {
+     "text": "when",
+     "start": 1.085,
+     "end": 1.201
+    },
+    {
+     "text": "you",
+     "start": 1.236,
+     "end": 1.306
+    },
+    {
+     "text": "type",
+     "start": 1.364,
+     "end": 1.631
+    },
+    {
+     "text": "your",
+     "start": 1.654,
+     "end": 1.77
+    },
+    {
+     "text": "password",
+     "start": 1.816,
+     "end": 2.269
+    },
+    {
+     "text": "into",
+     "start": 2.316,
+     "end": 2.443
+    },
+    {
+     "text": "a",
+     "start": 2.513,
+     "end": 2.536
+    },
+    {
+     "text": "website?",
+     "start": 2.583,
+     "end": 3.221
+    }
+   ]
+  },
+  {
+   "text": "Here's the twist: the website never stores your password.",
+   "start": 4.034,
+   "end": 7.32,
+   "words": [
+    {
+     "text": "Here's",
+     "start": 4.034,
+     "end": 4.278
+    },
+    {
+     "text": "the",
+     "start": 4.313,
+     "end": 4.382
+    },
+    {
+     "text": "twist:",
+     "start": 4.417,
+     "end": 4.94
+    },
+    {
+     "text": "the",
+     "start": 5.265,
+     "end": 5.357
+    },
+    {
+     "text": "website",
+     "start": 5.404,
+     "end": 5.845
+    },
+    {
+     "text": "never",
+     "start": 5.926,
+     "end": 6.193
+    },
+    {
+     "text": "stores",
+     "start": 6.263,
+     "end": 6.577
+    },
+    {
+     "text": "your",
+     "start": 6.611,
+     "end": 6.716
+    },
+    {
+     "text": "password.",
+     "start": 6.751,
+     "end": 7.32
+    }
+   ]
+  },
+  {
+   "text": "The answer is a function that only works one way.",
+   "start": 8.016,
+   "end": 10.768,
+   "words": [
+    {
+     "text": "The",
+     "start": 8.016,
+     "end": 8.167
+    },
+    {
+     "text": "answer",
+     "start": 8.237,
+     "end": 8.562
+    },
+    {
+     "text": "is",
+     "start": 8.631,
+     "end": 8.713
+    },
+    {
+     "text": "a",
+     "start": 8.759,
+     "end": 8.794
+    },
+    {
+     "text": "function",
+     "start": 8.875,
+     "end": 9.235
+    },
+    {
+     "text": "that",
+     "start": 9.282,
+     "end": 9.409
+    },
+    {
+     "text": "only",
+     "start": 9.479,
+     "end": 9.758
+    },
+    {
+     "text": "works",
+     "start": 9.804,
+     "end": 10.059
+    },
+    {
+     "text": "one",
+     "start": 10.129,
+     "end": 10.315
+    },
+    {
+     "text": "way.",
+     "start": 10.35,
+     "end": 10.768
+    }
+   ]
+  },
+  {
+   "text": "Your password travels to the server through an encrypted tunnel.",
+   "start": 11.209,
+   "end": 14.042,
+   "words": [
+    {
+     "text": "Your",
+     "start": 11.209,
+     "end": 11.371
+    },
+    {
+     "text": "password",
+     "start": 11.429,
+     "end": 11.847
+    },
+    {
+     "text": "travels",
+     "start": 11.882,
+     "end": 12.219
+    },
+    {
+     "text": "to",
+     "start": 12.254,
+     "end": 12.312
+    },
+    {
+     "text": "the",
+     "start": 12.358,
+     "end": 12.428
+    },
+    {
+     "text": "server",
+     "start": 12.474,
+     "end": 12.753
+    },
+    {
+     "text": "through",
+     "start": 12.788,
+     "end": 12.974
+    },
+    {
+     "text": "an",
+     "start": 12.997,
+     "end": 13.043
+    },
+    {
+     "text": "encrypted",
+     "start": 13.066,
+     "end": 13.519
+    },
+    {
+     "text": "tunnel.",
+     "start": 13.554,
+     "end": 14.042
+    }
+   ]
+  },
+  {
+   "text": "But the server never saves it.",
+   "start": 14.425,
+   "end": 16.097,
+   "words": [
+    {
+     "text": "But",
+     "start": 14.425,
+     "end": 14.576
+    },
+    {
+     "text": "the",
+     "start": 14.611,
+     "end": 14.68
+    },
+    {
+     "text": "server",
+     "start": 14.738,
+     "end": 15.063
+    },
+    {
+     "text": "never",
+     "start": 15.156,
+     "end": 15.412
+    },
+    {
+     "text": "saves",
+     "start": 15.481,
+     "end": 15.783
+    },
+    {
+     "text": "it.",
+     "start": 15.841,
+     "end": 16.097
+    }
+   ]
+  },
+  {
+   "text": "First, it adds a few random characters. That's called a salt.",
+   "start": 16.793,
+   "end": 20.392,
+   "words": [
+    {
+     "text": "First,",
+     "start": 16.793,
+     "end": 17.153
+    },
+    {
+     "text": "it",
+     "start": 17.188,
+     "end": 17.281
+    },
+    {
+     "text": "adds",
+     "start": 17.327,
+     "end": 17.536
+    },
+    {
+     "text": "a",
+     "start": 17.583,
+     "end": 17.606
+    },
+    {
+     "text": "few",
+     "start": 17.676,
+     "end": 17.838
+    },
+    {
+     "text": "random",
+     "start": 17.919,
+     "end": 18.198
+    },
+    {
+     "text": "characters.",
+     "start": 18.256,
+     "end": 18.953
+    },
+    {
+     "text": "That's",
+     "start": 19.196,
+     "end": 19.417
+    },
+    {
+     "text": "called",
+     "start": 19.464,
+     "end": 19.696
+    },
+    {
+     "text": "a",
+     "start": 19.742,
+     "end": 19.777
+    },
+    {
+     "text": "salt.",
+     "start": 19.87,
+     "end": 20.392
+    }
+   ]
+  },
+  {
+   "text": "Then it runs both through a hash function.",
+   "start": 21.089,
+   "end": 23.132,
+   "words": [
+    {
+     "text": "Then",
+     "start": 21.089,
+     "end": 21.263
+    },
+    {
+     "text": "it",
+     "start": 21.31,
+     "end": 21.368
+    },
+    {
+     "text": "runs",
+     "start": 21.402,
+     "end": 21.6
+    },
+    {
+     "text": "both",
+     "start": 21.658,
+     "end": 21.878
+    },
+    {
+     "text": "through",
+     "start": 21.925,
+     "end": 22.145
+    },
+    {
+     "text": "a",
+     "start": 22.169,
+     "end": 22.192
+    },
+    {
+     "text": "hash",
+     "start": 22.25,
+     "end": 22.529
+    },
+    {
+     "text": "function.",
+     "start": 22.575,
+     "end": 23.132
+    }
+   ]
+  },
+  {
+   "text": "Out comes a scrambled string of fixed length. A fingerprint.",
+   "start": 23.829,
+   "end": 27.196,
+   "words": [
+    {
+     "text": "Out",
+     "start": 23.829,
+     "end": 24.038
+    },
+    {
+     "text": "comes",
+     "start": 24.096,
+     "end": 24.305
+    },
+    {
+     "text": "a",
+     "start": 24.351,
+     "end": 24.386
+    },
+    {
+     "text": "scrambled",
+     "start": 24.456,
+     "end": 24.897
+    },
+    {
+     "text": "string",
+     "start": 24.932,
+     "end": 25.164
+    },
+    {
+     "text": "of",
+     "start": 25.21,
+     "end": 25.257
+    },
+    {
+     "text": "fixed",
+     "start": 25.315,
+     "end": 25.547
+    },
+    {
+     "text": "length.",
+     "start": 25.605,
+     "end": 26.093
+    },
+    {
+     "text": "A",
+     "start": 26.371,
+     "end": 26.453
+    },
+    {
+     "text": "fingerprint.",
+     "start": 26.522,
+     "end": 27.196
+    }
+   ]
+  },
+  {
+   "text": "The database keeps only that fingerprint, and the salt.",
+   "start": 27.892,
+   "end": 31.329,
+   "words": [
+    {
+     "text": "The",
+     "start": 27.892,
+     "end": 28.02
+    },
+    {
+     "text": "database",
+     "start": 28.067,
+     "end": 28.508
+    },
+    {
+     "text": "keeps",
+     "start": 28.543,
+     "end": 28.798
+    },
+    {
+     "text": "only",
+     "start": 28.868,
+     "end": 29.135
+    },
+    {
+     "text": "that",
+     "start": 29.204,
+     "end": 29.379
+    },
+    {
+     "text": "fingerprint,",
+     "start": 29.448,
+     "end": 30.157
+    },
+    {
+     "text": "and",
+     "start": 30.54,
+     "end": 30.714
+    },
+    {
+     "text": "the",
+     "start": 30.76,
+     "end": 30.83
+    },
+    {
+     "text": "salt.",
+     "start": 30.876,
+     "end": 31.329
+    }
+   ]
+  },
+  {
+   "text": "But what if two people pick the same password?",
+   "start": 32.142,
+   "end": 34.383,
+   "words": [
+    {
+     "text": "But",
+     "start": 32.142,
+     "end": 32.304
+    },
+    {
+     "text": "what",
+     "start": 32.351,
+     "end": 32.479
+    },
+    {
+     "text": "if",
+     "start": 32.525,
+     "end": 32.583
+    },
+    {
+     "text": "two",
+     "start": 32.629,
+     "end": 32.769
+    },
+    {
+     "text": "people",
+     "start": 32.838,
+     "end": 33.105
+    },
+    {
+     "text": "pick",
+     "start": 33.14,
+     "end": 33.303
+    },
+    {
+     "text": "the",
+     "start": 33.361,
+     "end": 33.431
+    },
+    {
+     "text": "same",
+     "start": 33.477,
+     "end": 33.686
+    },
+    {
+     "text": "password?",
+     "start": 33.721,
+     "end": 34.383
+    }
+   ]
+  },
+  {
+   "text": "Different salts. Completely different fingerprints.",
+   "start": 35.079,
+   "end": 38.051,
+   "words": [
+    {
+     "text": "Different",
+     "start": 35.079,
+     "end": 35.404
+    },
+    {
+     "text": "salts.",
+     "start": 35.451,
+     "end": 35.985
+    },
+    {
+     "text": "Completely",
+     "start": 36.368,
+     "end": 36.948
+    },
+    {
+     "text": "different",
+     "start": 36.995,
+     "end": 37.262
+    },
+    {
+     "text": "fingerprints.",
+     "start": 37.297,
+     "end": 38.051
+    }
+   ]
+  },
+  {
+   "text": "And what if someone steals the database?",
+   "start": 38.864,
+   "end": 40.873,
+   "words": [
+    {
+     "text": "And",
+     "start": 38.864,
+     "end": 39.015
+    },
+    {
+     "text": "what",
+     "start": 39.061,
+     "end": 39.177
+    },
+    {
+     "text": "if",
+     "start": 39.212,
+     "end": 39.27
+    },
+    {
+     "text": "someone",
+     "start": 39.317,
+     "end": 39.607
+    },
+    {
+     "text": "steals",
+     "start": 39.653,
+     "end": 40.002
+    },
+    {
+     "text": "the",
+     "start": 40.06,
+     "end": 40.129
+    },
+    {
+     "text": "database?",
+     "start": 40.176,
+     "end": 40.873
+    }
+   ]
+  },
+  {
+   "text": "A hash can't be reversed. The only way in is guessing.",
+   "start": 41.685,
+   "end": 45.25,
+   "words": [
+    {
+     "text": "A",
+     "start": 41.685,
+     "end": 41.766
+    },
+    {
+     "text": "hash",
+     "start": 41.859,
+     "end": 42.115
+    },
+    {
+     "text": "can't",
+     "start": 42.173,
+     "end": 42.382
+    },
+    {
+     "text": "be",
+     "start": 42.428,
+     "end": 42.51
+    },
+    {
+     "text": "reversed.",
+     "start": 42.568,
+     "end": 43.183
+    },
+    {
+     "text": "The",
+     "start": 43.787,
+     "end": 43.914
+    },
+    {
+     "text": "only",
+     "start": 43.972,
+     "end": 44.147
+    },
+    {
+     "text": "way",
+     "start": 44.205,
+     "end": 44.355
+    },
+    {
+     "text": "in",
+     "start": 44.425,
+     "end": 44.506
+    },
+    {
+     "text": "is",
+     "start": 44.564,
+     "end": 44.646
+    },
+    {
+     "text": "guessing.",
+     "start": 44.704,
+     "end": 45.25
+    }
+   ]
+  },
+  {
+   "text": "So these functions are slow on purpose. One guess takes a blink. Billions take years.",
+   "start": 46.063,
+   "end": 51.879,
+   "words": [
+    {
+     "text": "So",
+     "start": 46.063,
+     "end": 46.214
+    },
+    {
+     "text": "these",
+     "start": 46.272,
+     "end": 46.434
+    },
+    {
+     "text": "functions",
+     "start": 46.469,
+     "end": 46.864
+    },
+    {
+     "text": "are",
+     "start": 46.922,
+     "end": 47.061
+    },
+    {
+     "text": "slow",
+     "start": 47.119,
+     "end": 47.502
+    },
+    {
+     "text": "on",
+     "start": 47.63,
+     "end": 47.769
+    },
+    {
+     "text": "purpose.",
+     "start": 47.839,
+     "end": 48.408
+    },
+    {
+     "text": "One",
+     "start": 49.012,
+     "end": 49.232
+    },
+    {
+     "text": "guess",
+     "start": 49.267,
+     "end": 49.453
+    },
+    {
+     "text": "takes",
+     "start": 49.499,
+     "end": 49.697
+    },
+    {
+     "text": "a",
+     "start": 49.731,
+     "end": 49.766
+    },
+    {
+     "text": "blink.",
+     "start": 49.789,
+     "end": 50.219
+    },
+    {
+     "text": "Billions",
+     "start": 50.73,
+     "end": 51.159
+    },
+    {
+     "text": "take",
+     "start": 51.206,
+     "end": 51.38
+    },
+    {
+     "text": "years.",
+     "start": 51.415,
+     "end": 51.879
+    }
+   ]
+  },
+  {
+   "text": "Next time you log in, the same salt and the same function run again.",
+   "start": 52.831,
+   "end": 56.303,
+   "words": [
+    {
+     "text": "Next",
+     "start": 52.831,
+     "end": 53.063
+    },
+    {
+     "text": "time",
+     "start": 53.087,
+     "end": 53.238
+    },
+    {
+     "text": "you",
+     "start": 53.261,
+     "end": 53.342
+    },
+    {
+     "text": "log",
+     "start": 53.412,
+     "end": 53.598
+    },
+    {
+     "text": "in,",
+     "start": 53.667,
+     "end": 53.946
+    },
+    {
+     "text": "the",
+     "start": 54.097,
+     "end": 54.201
+    },
+    {
+     "text": "same",
+     "start": 54.259,
+     "end": 54.491
+    },
+    {
+     "text": "salt",
+     "start": 54.55,
+     "end": 54.84
+    },
+    {
+     "text": "and",
+     "start": 54.886,
+     "end": 54.956
+    },
+    {
+     "text": "the",
+     "start": 54.991,
+     "end": 55.06
+    },
+    {
+     "text": "same",
+     "start": 55.095,
+     "end": 55.304
+    },
+    {
+     "text": "function",
+     "start": 55.362,
+     "end": 55.664
+    },
+    {
+     "text": "run",
+     "start": 55.711,
+     "end": 55.827
+    },
+    {
+     "text": "again.",
+     "start": 55.861,
+     "end": 56.303
+    }
+   ]
+  },
+  {
+   "text": "If the fingerprints match, you're in.",
+   "start": 57.115,
+   "end": 58.903,
+   "words": [
+    {
+     "text": "If",
+     "start": 57.115,
+     "end": 57.255
+    },
+    {
+     "text": "the",
+     "start": 57.301,
+     "end": 57.371
+    },
+    {
+     "text": "fingerprints",
+     "start": 57.417,
+     "end": 57.893
+    },
+    {
+     "text": "match,",
+     "start": 57.951,
+     "end": 58.288
+    },
+    {
+     "text": "you're",
+     "start": 58.369,
+     "end": 58.59
+    },
+    {
+     "text": "in.",
+     "start": 58.636,
+     "end": 58.903
+    }
+   ]
+  },
+  {
+   "text": "Ever wondered why \"forgot password\" never just emails you your old one?",
+   "start": 59.6,
+   "end": 63.675,
+   "words": [
+    {
+     "text": "Ever",
+     "start": 59.6,
+     "end": 59.809
+    },
+    {
+     "text": "wondered",
+     "start": 59.855,
+     "end": 60.111
+    },
+    {
+     "text": "why",
+     "start": 60.146,
+     "end": 60.32
+    },
+    {
+     "text": "\"forgot",
+     "start": 60.436,
+     "end": 60.97
+    },
+    {
+     "text": "password\"",
+     "start": 61.039,
+     "end": 61.748
+    },
+    {
+     "text": "never",
+     "start": 61.957,
+     "end": 62.154
+    },
+    {
+     "text": "just",
+     "start": 62.2,
+     "end": 62.34
+    },
+    {
+     "text": "emails",
+     "start": 62.421,
+     "end": 62.816
+    },
+    {
+     "text": "you",
+     "start": 62.874,
+     "end": 62.944
+    },
+    {
+     "text": "your",
+     "start": 63.013,
+     "end": 63.141
+    },
+    {
+     "text": "old",
+     "start": 63.187,
+     "end": 63.327
+    },
+    {
+     "text": "one?",
+     "start": 63.396,
+     "end": 63.675
+    }
+   ]
+  },
+  {
+   "text": "Now you know.",
+   "start": 64.279,
+   "end": 65.184,
+   "words": [
+    {
+     "text": "Now",
+     "start": 64.279,
+     "end": 64.43
+    },
+    {
+     "text": "you",
+     "start": 64.488,
+     "end": 64.557
+    },
+    {
+     "text": "know.",
+     "start": 64.604,
+     "end": 65.184
+    }
+   ]
+  }
+ ]
+}
