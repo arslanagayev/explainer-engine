@@ -2,6 +2,7 @@
 // Each draw({ t, d, w }) gets the scene's local time t, its duration d and the local start time
 // of every spoken word w[k], and returns SVG markup for a 1000x800 stage.
 import { arrow, backOut, check, clamp, cross, easeInOut, easeOut, fade, lerp, line, move, path, pop, rect, rng, seg, text, typed } from '../../engine/lib.js'
+import { db, garble, gear, hex, laptop, lock, pill, server, user } from '../../engine/props.js'
 
 const PW = 'sunflower42'
 const SALT = 'x7#Qp9'
@@ -9,53 +10,18 @@ const SALT2 = 'Lm2!vR'
 const HASH = ['a3f1c09e7b2d44e8', '9c61d0f2b85e7a13', '4d0e8b27f6a91c35', 'e72b5f08c4d93a61']
 const HASH2 = '5be08d7a19c3f6b0'
 
-// ---------- Props ----------
-const pill = (x, y, s, { size = 32, cls = '', box = 'ln', p = 1 } = {}) => {
-  const w = s.length * size * 0.62 + 56
-  return `<rect class="fp" x="${x - w / 2}" y="${y - 36}" width="${w}" height="72" rx="36" opacity="${clamp(p * 3).toFixed(2)}"/>` +
-    rect(x - w / 2, y - 36, w, 72, { r: 36, cls: box, p }) + text(x, y + size * 0.35, s, { size, cls: `t m ${cls}`, weight: 600, opacity: clamp(p * 2 - 0.6) })
-}
-const laptop = (x, y, p = 1) =>
-  rect(x - 110, y - 90, 220, 140, { r: 14, p }) + path(`M${x - 140} ${y + 62} H${x + 140} L${x + 118} ${y + 82} H${x - 118} Z`, p)
-const server = (x, y, p = 1, t = 0) => [0, 1, 2].map((k) => {
-  const yy = y - 95 + k * 68
-  const led = p > 0.95 ? 0.35 + 0.65 * ((Math.sin(t * 7 + k * 2.1) + 1) / 2) : 0
-  return rect(x - 100, yy, 200, 56, { r: 10, p }) + line(x - 72, yy + 28, x - 8, yy + 28, p, 'ln dim thin') +
-    `<circle class="fa" cx="${x + 70}" cy="${yy + 28}" r="7" opacity="${led.toFixed(2)}"/>`
-}).join('')
-const db = (x, y, p = 1, { w = 100, h = 190, cls = 'ln' } = {}) =>
-  path(`M${x - w} ${y - h / 2} A${w} 28 0 0 1 ${x + w} ${y - h / 2} A${w} 28 0 0 1 ${x - w} ${y - h / 2}`, p, cls) +
-  path(`M${x - w} ${y - h / 2} V${y + h / 2} A${w} 28 0 0 0 ${x + w} ${y + h / 2} V${y - h / 2}`, p, cls) +
-  path(`M${x - w} ${y} A${w} 28 0 0 0 ${x + w} ${y}`, p, cls.includes('dash') ? cls : 'ln dim')
-const user = (x, y, p = 1, name = '') =>
-  path(`M${x - 36} ${y - 120} a36 36 0 1 0 72 0 a36 36 0 1 0 -72 0`, p) +
-  path(`M${x - 72} ${y} Q${x - 72} ${y - 66} ${x} ${y - 66} Q${x + 72} ${y - 66} ${x + 72} ${y}`, p) +
-  text(x, y + 52, name, { size: 30, cls: 't mu m', opacity: clamp(p * 2 - 1) })
-const lock = (x, y, { open = 0, p = 1, cls = 'ln ac' } = {}) =>
-  rect(x - 46, y - 8, 92, 74, { r: 14, p, cls }) +
-  `<g transform="translate(${(open * 30).toFixed(1)} ${(-open * 22).toFixed(1)})">${path(`M${x - 28} ${y - 8} V${y - 36} A28 28 0 0 1 ${x + 28} ${y - 36} V${y - 8}`, p, cls)}</g>` +
-  `<circle class="fa" cx="${x}" cy="${y + 26}" r="${(7 * clamp(p * 2 - 1)).toFixed(1)}"/>`
+// ---------- Episode props ----------
 const fingerprint = (x, y, p = 1, s = 1) => [0, 1, 2, 3, 4].map((k) => {
   const r = (20 + k * 19) * s
   const a0 = Math.PI * (1.05 - k * 0.04), a1 = Math.PI * (2.0 + k * 0.05)
   const d = `M${x + r * Math.cos(a0)} ${y + r * 1.25 * Math.sin(a0)} A${r} ${r * 1.25} 0 1 1 ${x + r * Math.cos(a1)} ${y + r * 1.25 * Math.sin(a1)}`
   return path(d, seg(p, k * 0.1, 0.55 + k * 0.1), 'ln ac')
 }).join('')
-const gear = (x, y, r, angle, cls = 'ln ac thin') =>
-  `<g transform="rotate(${angle.toFixed(1)} ${x} ${y})"><circle class="${cls}" cx="${x}" cy="${y}" r="${r}" style="stroke-dasharray:${(r * 0.45).toFixed(1)} ${(r * 0.33).toFixed(1)};stroke-width:${r * 0.32}"/></g>` +
-  `<circle class="ln ac thin" cx="${x}" cy="${y}" r="${r * 0.35}"/>`
 const hashBox = (x, y, t, { w = 340, h = 190, p = 1, speed = 90, glow = 0, size = 56 } = {}) =>
   `<rect class="fp" x="${x - w / 2}" y="${y - h / 2}" width="${w}" height="${h}" rx="22" opacity="${clamp(p * 3).toFixed(2)}"/>` +
   rect(x - w / 2, y - h / 2, w, h, { r: 22, p, cls: glow > 0.5 ? 'ln ac glow' : 'ln ac' }) +
   text(x - w * 0.08, y + size * 0.36, 'HASH', { size, weight: 800, opacity: clamp(p * 2 - 0.8) }) +
   (p > 0.6 ? gear(x + w * 0.33, y, h * 0.16, t * speed) : '')
-/** Monospace string with its first `n` characters coloured. */
-const hex = (x, y, s, { size = 40, anchor = 'middle', lit = 0, cls = 't m', opacity = 1 } = {}) => {
-  const a = s.slice(0, lit), b = s.slice(lit)
-  return `<text class="${cls}" x="${x}" y="${y}" font-size="${size}" font-weight="600" text-anchor="${anchor}" opacity="${opacity.toFixed(3)}"><tspan class="fa">${a}</tspan><tspan>${b}</tspan></text>`
-}
-const garble = (n, t) => { const r = rng(1 + Math.floor(t * 14)); const cs = '#%&@*!?$0x9Z'; return Array.from({ length: n }, () => cs[Math.floor(r() * cs.length)]).join('') }
-
 // ---------- Scenes ----------
 const scenes = [
   { // 0 What happens when you type your password into a website?
