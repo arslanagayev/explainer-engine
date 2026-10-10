@@ -17,3 +17,4 @@ Oynadığın büyük oyunların çoğu C++ ile yazıldı. C'nin hızı + nesnele
 
 Reel: `out/reel.mp4` (build with `node engine/make.mjs lang02-cpp`), cover frame at 4.6 s.
 Voice: ElevenLabs "Liam" (eleven_multilingual_v2). Music bed + whooshes: synthesised (engine/soundbed.py).
+Posted 2026-10-10: https://www.instagram.com/reel/DeTC8M8Dog2/
