@@ -20,7 +20,9 @@ Every frame is drawn by code. Each sentence of the voice-over gets its own scene
 
 ## Episodes
 
-Season 1 is complete: four episodes, about a minute each.
+### Series 1: How it actually works
+
+Complete: four episodes, about a minute each.
 
 | # | Topic | Video |
 | - | ----- | ----- |
@@ -28,6 +30,28 @@ Season 1 is complete: four episodes, about a minute each.
 | 02 | What happens when you open a website? DNS, the handshake, a secret key that never travels, and how the page gets built | [Reel](https://www.instagram.com/reel/DeR7AltkwWq/) |
 | 03 | What happens when you tap your card? A battery-free chip powered by the reader, and a one-time code your bank checks | [Reel](https://www.instagram.com/reel/DeSA308Dyw7/) |
 | 04 | How can nobody read your messages? Public and private keys as a padlock, per-message keys, security codes, and the metadata catch | [Reel](https://www.instagram.com/reel/DeSIxW5CsqK/) |
+
+### Series 2: How languages actually work
+
+Under a minute each, one look for the whole series (black + luminous green, Space Grotesk + Fira Code). Every language gets the same beats: where it came from, how it runs, its signature idea, hello world, where it is used.
+
+| # | Topic | Video |
+| - | ----- | ----- |
+| 00 | How does code actually run? Ones and zeros, compilers, interpreters and virtual machines | [Reel](https://www.instagram.com/reel/DeS-6BIj3cC/) |
+| 01 | C | coming soon |
+| 02 | C++ | coming soon |
+| 03 | Java | coming soon |
+| 04 | C# | coming soon |
+| 05 | Python | coming soon |
+| 06 | JavaScript | coming soon |
+| 07 | TypeScript | coming soon |
+| 08 | SQL | coming soon |
+| 09 | HTML and CSS | coming soon |
+| 10 | Go | coming soon |
+| 11 | Rust | coming soon |
+| 12 | Kotlin and Swift | coming soon |
+| 13 | PHP | coming soon |
+| 14 | Assembly | coming soon |
 
 ![Twelve scenes from episode 1: a login form, a database that refuses plain-text passwords, a one-way function, an encrypted tunnel, a salt, a fingerprint, a database table, two users with different salts, failed guesses, a slow hash, the login check and the end card](docs/scenes.jpg)
 
@@ -109,6 +133,7 @@ episodes/
   ep02-website/     same layout; every episode has its own colours and fonts
   ep03-card/
   ep04-messages/
+  lang00-how-code-runs/   series 2, one episode per language
 tests/              Node tests for the helpers and every episode, Python tests for timing
 docs/               Preview GIF and scene sheet
 ```

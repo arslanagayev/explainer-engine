@@ -19,3 +19,4 @@ Bilgisayarın Python'u da C'yi de anlamıyor, sadece 0 ve 1. Her dil bir çevirm
 Reel: `out/reel.mp4` (build with `node engine/make.mjs lang00-how-code-runs`), cover frame at 2.6 s.
 Voice: ElevenLabs "Liam" (eleven_multilingual_v2). Music bed + whooshes: synthesised (engine/soundbed.py).
 Note: CPython compiles to bytecode before interpreting it; the episode simplifies Python to "interpreted" and the Python episode explains the detail.
+Posted 2026-10-10: https://www.instagram.com/reel/DeS-6BIj3cC/
