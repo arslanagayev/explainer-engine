@@ -40,7 +40,7 @@ Under a minute each, one look for the whole series (black + luminous green, Spac
 | 00 | How does code actually run? Ones and zeros, compilers, interpreters and virtual machines | [Reel](https://www.instagram.com/reel/DeS-6BIj3cC/) |
 | 01 | C: straight to machine code, pointers, and the memory bugs behind 70 % of serious security holes | [Reel](https://www.instagram.com/reel/DeS_7ZrAiNV/) |
 | 02 | C++: classes on top of C, zero-cost abstractions and destructors | [Reel](https://www.instagram.com/reel/DeTC8M8Dog2/) |
-| 03 | Java | coming soon |
+| 03 | Java: bytecode for a computer that doesn't exist, the JVM, JIT and garbage collection | [Reel](https://www.instagram.com/reel/DeTEP4HlPbx/) |
 | 04 | C# | coming soon |
 | 05 | Python | coming soon |
 | 06 | JavaScript | coming soon |
@@ -137,6 +137,7 @@ episodes/
   lang00-how-code-runs/   series 2, one episode per language
   lang01-c/
   lang02-cpp/
+  lang03-java/
 tests/              Node tests for the helpers and every episode, Python tests for timing
 docs/               Preview GIF and scene sheet
 ```

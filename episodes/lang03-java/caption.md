@@ -17,3 +17,4 @@ Minecraft bu dille yazıldı. Java bir kere derleniyor, her cihazda kendi sanal 
 
 Reel: `out/reel.mp4` (build with `node engine/make.mjs lang03-java`), cover frame at 3.6 s.
 Voice: ElevenLabs "Liam" (eleven_multilingual_v2). Music bed + whooshes: synthesised (engine/soundbed.py).
+Posted 2026-10-10: https://www.instagram.com/reel/DeTEP4HlPbx/
