@@ -46,7 +46,7 @@ const url = `http://127.0.0.1:${server.address().port}/engine/player.html?ep=${e
 // Headless Chrome, driven over the DevTools protocol.
 const PORT = 9300 + Math.floor(Math.random() * 500)
 const profile = join(OUT, '.chrome-profile')
-rmSync(profile, { recursive: true, force: true })
+rmSync(profile, { recursive: true, force: true, maxRetries: 10, retryDelay: 200 })
 if (!CHROME) throw new Error('Chrome not found: set CHROME=/path/to/chrome')
 const chrome = spawn(CHROME, ['--headless=new', `--remote-debugging-port=${PORT}`, `--user-data-dir=${profile}`,
   '--hide-scrollbars', '--window-size=1080,1920', '--force-device-scale-factor=1', 'about:blank'], { stdio: 'ignore' })
@@ -128,6 +128,8 @@ try {
   }
 } finally {
   shutdown()
-  rmSync(profile, { recursive: true, force: true })
+  // Chrome may still be flushing its profile for a moment after it is killed.
+  await new Promise((r) => (chrome.exitCode !== null ? r() : chrome.once('exit', r)))
+  rmSync(profile, { recursive: true, force: true, maxRetries: 10, retryDelay: 200 })
 }
 process.exit(0)

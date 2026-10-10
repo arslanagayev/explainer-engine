@@ -1,0 +1,696 @@
+{
+ "offset": 0.4,
+ "total": 52.94,
+ "lines": [
+  {
+   "text": "This language is fifty years old, and you used it today.",
+   "start": 0.4,
+   "end": 3.488,
+   "words": [
+    {
+     "text": "This",
+     "start": 0.4,
+     "end": 0.621
+    },
+    {
+     "text": "language",
+     "start": 0.702,
+     "end": 1.073
+    },
+    {
+     "text": "is",
+     "start": 1.097,
+     "end": 1.178
+    },
+    {
+     "text": "fifty",
+     "start": 1.248,
+     "end": 1.538
+    },
+    {
+     "text": "years",
+     "start": 1.573,
+     "end": 1.782
+    },
+    {
+     "text": "old,",
+     "start": 1.84,
+     "end": 2.13
+    },
+    {
+     "text": "and",
+     "start": 2.246,
+     "end": 2.374
+    },
+    {
+     "text": "you",
+     "start": 2.432,
+     "end": 2.513
+    },
+    {
+     "text": "used",
+     "start": 2.594,
+     "end": 2.792
+    },
+    {
+     "text": "it",
+     "start": 2.826,
+     "end": 2.896
+    },
+    {
+     "text": "today.",
+     "start": 2.919,
+     "end": 3.488
+    }
+   ]
+  },
+  {
+   "text": "It's C. Born in 1972 at Bell Labs, to rewrite an operating system: Unix.",
+   "start": 3.813,
+   "end": 9.421,
+   "words": [
+    {
+     "text": "It's",
+     "start": 3.813,
+     "end": 4.022
+    },
+    {
+     "text": "C.",
+     "start": 4.069,
+     "end": 4.359
+    },
+    {
+     "text": "Born",
+     "start": 4.452,
+     "end": 4.754
+    },
+    {
+     "text": "in",
+     "start": 4.8,
+     "end": 4.858
+    },
+    {
+     "text": "1972",
+     "start": 4.928,
+     "end": 5.311
+    },
+    {
+     "text": "at",
+     "start": 5.369,
+     "end": 6.019
+    },
+    {
+     "text": "Bell",
+     "start": 6.077,
+     "end": 6.263
+    },
+    {
+     "text": "Labs,",
+     "start": 6.333,
+     "end": 6.867
+    },
+    {
+     "text": "to",
+     "start": 7.041,
+     "end": 7.145
+    },
+    {
+     "text": "rewrite",
+     "start": 7.227,
+     "end": 7.575
+    },
+    {
+     "text": "an",
+     "start": 7.598,
+     "end": 7.656
+    },
+    {
+     "text": "operating",
+     "start": 7.749,
+     "end": 8.202
+    },
+    {
+     "text": "system:",
+     "start": 8.26,
+     "end": 8.736
+    },
+    {
+     "text": "Unix.",
+     "start": 8.887,
+     "end": 9.421
+    }
+   ]
+  },
+  {
+   "text": "C compiles straight to machine code. Nothing in between.",
+   "start": 9.804,
+   "end": 13.032,
+   "words": [
+    {
+     "text": "C",
+     "start": 9.804,
+     "end": 9.955
+    },
+    {
+     "text": "compiles",
+     "start": 10.083,
+     "end": 10.512
+    },
+    {
+     "text": "straight",
+     "start": 10.57,
+     "end": 10.953
+    },
+    {
+     "text": "to",
+     "start": 10.988,
+     "end": 11.046
+    },
+    {
+     "text": "machine",
+     "start": 11.104,
+     "end": 11.429
+    },
+    {
+     "text": "code.",
+     "start": 11.476,
+     "end": 11.882
+    },
+    {
+     "text": "Nothing",
+     "start": 12.091,
+     "end": 12.381
+    },
+    {
+     "text": "in",
+     "start": 12.416,
+     "end": 12.463
+    },
+    {
+     "text": "between.",
+     "start": 12.509,
+     "end": 13.032
+    }
+   ]
+  },
+  {
+   "text": "So it's fast, and it runs almost everywhere.",
+   "start": 13.206,
+   "end": 15.667,
+   "words": [
+    {
+     "text": "So",
+     "start": 13.206,
+     "end": 13.334
+    },
+    {
+     "text": "it's",
+     "start": 13.403,
+     "end": 13.508
+    },
+    {
+     "text": "fast,",
+     "start": 13.554,
+     "end": 14.1
+    },
+    {
+     "text": "and",
+     "start": 14.227,
+     "end": 14.355
+    },
+    {
+     "text": "it",
+     "start": 14.402,
+     "end": 14.46
+    },
+    {
+     "text": "runs",
+     "start": 14.506,
+     "end": 14.726
+    },
+    {
+     "text": "almost",
+     "start": 14.773,
+     "end": 15.04
+    },
+    {
+     "text": "everywhere.",
+     "start": 15.098,
+     "end": 15.667
+    }
+   ]
+  },
+  {
+   "text": "Android's Linux kernel? Mostly C. Your car, your router, your microwave? Probably C.",
+   "start": 15.876,
+   "end": 23.155,
+   "words": [
+    {
+     "text": "Android's",
+     "start": 15.876,
+     "end": 16.41
+    },
+    {
+     "text": "Linux",
+     "start": 16.468,
+     "end": 16.735
+    },
+    {
+     "text": "kernel?",
+     "start": 16.805,
+     "end": 17.339
+    },
+    {
+     "text": "Mostly",
+     "start": 17.942,
+     "end": 18.326
+    },
+    {
+     "text": "C.",
+     "start": 18.384,
+     "end": 18.918
+    },
+    {
+     "text": "Your",
+     "start": 19.359,
+     "end": 19.533
+    },
+    {
+     "text": "car,",
+     "start": 19.591,
+     "end": 19.963
+    },
+    {
+     "text": "your",
+     "start": 20.009,
+     "end": 20.172
+    },
+    {
+     "text": "router,",
+     "start": 20.288,
+     "end": 20.682
+    },
+    {
+     "text": "your",
+     "start": 20.729,
+     "end": 20.845
+    },
+    {
+     "text": "microwave?",
+     "start": 20.891,
+     "end": 21.565
+    },
+    {
+     "text": "Probably",
+     "start": 22.261,
+     "end": 22.691
+    },
+    {
+     "text": "C.",
+     "start": 22.749,
+     "end": 23.155
+    }
+   ]
+  },
+  {
+   "text": "Its superpower is pointers: you work with memory addresses directly.",
+   "start": 23.538,
+   "end": 27.405,
+   "words": [
+    {
+     "text": "Its",
+     "start": 23.538,
+     "end": 23.713
+    },
+    {
+     "text": "superpower",
+     "start": 23.736,
+     "end": 24.305
+    },
+    {
+     "text": "is",
+     "start": 24.351,
+     "end": 24.432
+    },
+    {
+     "text": "pointers:",
+     "start": 24.514,
+     "end": 25.175
+    },
+    {
+     "text": "you",
+     "start": 25.559,
+     "end": 25.64
+    },
+    {
+     "text": "work",
+     "start": 25.698,
+     "end": 25.849
+    },
+    {
+     "text": "with",
+     "start": 25.884,
+     "end": 26.0
+    },
+    {
+     "text": "memory",
+     "start": 26.058,
+     "end": 26.325
+    },
+    {
+     "text": "addresses",
+     "start": 26.36,
+     "end": 26.743
+    },
+    {
+     "text": "directly.",
+     "start": 26.789,
+     "end": 27.405
+    }
+   ]
+  },
+  {
+   "text": "But C trusts you completely. Write past the end of an array, and nothing stops you.",
+   "start": 27.648,
+   "end": 32.385,
+   "words": [
+    {
+     "text": "But",
+     "start": 27.648,
+     "end": 27.811
+    },
+    {
+     "text": "C",
+     "start": 27.869,
+     "end": 27.985
+    },
+    {
+     "text": "trusts",
+     "start": 28.159,
+     "end": 28.461
+    },
+    {
+     "text": "you",
+     "start": 28.496,
+     "end": 28.577
+    },
+    {
+     "text": "completely.",
+     "start": 28.647,
+     "end": 29.343
+    },
+    {
+     "text": "Write",
+     "start": 29.727,
+     "end": 29.994
+    },
+    {
+     "text": "past",
+     "start": 30.028,
+     "end": 30.284
+    },
+    {
+     "text": "the",
+     "start": 30.319,
+     "end": 30.388
+    },
+    {
+     "text": "end",
+     "start": 30.435,
+     "end": 30.539
+    },
+    {
+     "text": "of",
+     "start": 30.586,
+     "end": 30.632
+    },
+    {
+     "text": "an",
+     "start": 30.679,
+     "end": 30.725
+    },
+    {
+     "text": "array,",
+     "start": 30.76,
+     "end": 31.131
+    },
+    {
+     "text": "and",
+     "start": 31.155,
+     "end": 31.236
+    },
+    {
+     "text": "nothing",
+     "start": 31.352,
+     "end": 31.654
+    },
+    {
+     "text": "stops",
+     "start": 31.723,
+     "end": 32.025
+    },
+    {
+     "text": "you.",
+     "start": 32.072,
+     "end": 32.385
+    }
+   ]
+  },
+  {
+   "text": "Memory bugs like that cause around seventy percent of serious security bugs in Chrome and Windows.",
+   "start": 33.082,
+   "end": 37.993,
+   "words": [
+    {
+     "text": "Memory",
+     "start": 33.082,
+     "end": 33.36
+    },
+    {
+     "text": "bugs",
+     "start": 33.419,
+     "end": 33.651
+    },
+    {
+     "text": "like",
+     "start": 33.686,
+     "end": 33.848
+    },
+    {
+     "text": "that",
+     "start": 33.871,
+     "end": 34.069
+    },
+    {
+     "text": "cause",
+     "start": 34.15,
+     "end": 34.44
+    },
+    {
+     "text": "around",
+     "start": 34.463,
+     "end": 34.672
+    },
+    {
+     "text": "seventy",
+     "start": 34.754,
+     "end": 35.09
+    },
+    {
+     "text": "percent",
+     "start": 35.148,
+     "end": 35.45
+    },
+    {
+     "text": "of",
+     "start": 35.485,
+     "end": 35.532
+    },
+    {
+     "text": "serious",
+     "start": 35.613,
+     "end": 35.996
+    },
+    {
+     "text": "security",
+     "start": 36.031,
+     "end": 36.437
+    },
+    {
+     "text": "bugs",
+     "start": 36.484,
+     "end": 36.727
+    },
+    {
+     "text": "in",
+     "start": 36.762,
+     "end": 36.82
+    },
+    {
+     "text": "Chrome",
+     "start": 36.89,
+     "end": 37.18
+    },
+    {
+     "text": "and",
+     "start": 37.203,
+     "end": 37.273
+    },
+    {
+     "text": "Windows.",
+     "start": 37.343,
+     "end": 37.993
+    }
+   ]
+  },
+  {
+   "text": "Hello, world: the most famous first program ever. A C book made it famous in 1978.",
+   "start": 38.689,
+   "end": 45.075,
+   "words": [
+    {
+     "text": "Hello,",
+     "start": 38.689,
+     "end": 38.991
+    },
+    {
+     "text": "world:",
+     "start": 39.015,
+     "end": 39.467
+    },
+    {
+     "text": "the",
+     "start": 39.792,
+     "end": 39.885
+    },
+    {
+     "text": "most",
+     "start": 39.932,
+     "end": 40.094
+    },
+    {
+     "text": "famous",
+     "start": 40.164,
+     "end": 40.489
+    },
+    {
+     "text": "first",
+     "start": 40.547,
+     "end": 40.779
+    },
+    {
+     "text": "program",
+     "start": 40.837,
+     "end": 41.209
+    },
+    {
+     "text": "ever.",
+     "start": 41.267,
+     "end": 41.662
+    },
+    {
+     "text": "A",
+     "start": 42.474,
+     "end": 42.567
+    },
+    {
+     "text": "C",
+     "start": 42.648,
+     "end": 42.765
+    },
+    {
+     "text": "book",
+     "start": 42.892,
+     "end": 43.055
+    },
+    {
+     "text": "made",
+     "start": 43.101,
+     "end": 43.252
+    },
+    {
+     "text": "it",
+     "start": 43.275,
+     "end": 43.345
+    },
+    {
+     "text": "famous",
+     "start": 43.391,
+     "end": 43.705
+    },
+    {
+     "text": "in",
+     "start": 43.751,
+     "end": 43.821
+    },
+    {
+     "text": "1978.",
+     "start": 43.902,
+     "end": 45.075
+    }
+   ]
+  },
+  {
+   "text": "Next: C plus plus. What happens when you give C objects?",
+   "start": 45.772,
+   "end": 50.741,
+   "words": [
+    {
+     "text": "Next:",
+     "start": 45.772,
+     "end": 46.306
+    },
+    {
+     "text": "C",
+     "start": 46.689,
+     "end": 46.816
+    },
+    {
+     "text": "plus",
+     "start": 46.991,
+     "end": 47.234
+    },
+    {
+     "text": "plus.",
+     "start": 47.281,
+     "end": 47.815
+    },
+    {
+     "text": "What",
+     "start": 48.511,
+     "end": 48.697
+    },
+    {
+     "text": "happens",
+     "start": 48.755,
+     "end": 49.092
+    },
+    {
+     "text": "when",
+     "start": 49.115,
+     "end": 49.231
+    },
+    {
+     "text": "you",
+     "start": 49.266,
+     "end": 49.347
+    },
+    {
+     "text": "give",
+     "start": 49.417,
+     "end": 49.58
+    },
+    {
+     "text": "C",
+     "start": 49.614,
+     "end": 49.731
+    },
+    {
+     "text": "objects?",
+     "start": 49.905,
+     "end": 50.741
+    }
+   ]
+  }
+ ]
+}
