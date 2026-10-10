@@ -1,0 +1,731 @@
+{
+ "offset": 0.4,
+ "total": 56.15,
+ "lines": [
+  {
+   "text": "Every big game you've played was probably built on this language.",
+   "start": 0.4,
+   "end": 3.558,
+   "words": [
+    {
+     "text": "Every",
+     "start": 0.4,
+     "end": 0.702
+    },
+    {
+     "text": "big",
+     "start": 0.795,
+     "end": 0.992
+    },
+    {
+     "text": "game",
+     "start": 1.062,
+     "end": 1.271
+    },
+    {
+     "text": "you've",
+     "start": 1.306,
+     "end": 1.48
+    },
+    {
+     "text": "played",
+     "start": 1.515,
+     "end": 1.724
+    },
+    {
+     "text": "was",
+     "start": 1.758,
+     "end": 1.851
+    },
+    {
+     "text": "probably",
+     "start": 1.921,
+     "end": 2.362
+    },
+    {
+     "text": "built",
+     "start": 2.432,
+     "end": 2.676
+    },
+    {
+     "text": "on",
+     "start": 2.734,
+     "end": 2.815
+    },
+    {
+     "text": "this",
+     "start": 2.85,
+     "end": 2.989
+    },
+    {
+     "text": "language.",
+     "start": 3.059,
+     "end": 3.558
+    }
+   ]
+  },
+  {
+   "text": "It's C plus plus. In C, plus plus means \"add one\". So the name is a joke: C, one better.",
+   "start": 3.883,
+   "end": 11.255,
+   "words": [
+    {
+     "text": "It's",
+     "start": 3.883,
+     "end": 4.092
+    },
+    {
+     "text": "C",
+     "start": 4.173,
+     "end": 4.347
+    },
+    {
+     "text": "plus",
+     "start": 4.498,
+     "end": 4.777
+    },
+    {
+     "text": "plus.",
+     "start": 4.823,
+     "end": 5.381
+    },
+    {
+     "text": "In",
+     "start": 5.822,
+     "end": 5.984
+    },
+    {
+     "text": "C,",
+     "start": 6.066,
+     "end": 6.391
+    },
+    {
+     "text": "plus",
+     "start": 6.449,
+     "end": 6.716
+    },
+    {
+     "text": "plus",
+     "start": 6.774,
+     "end": 7.087
+    },
+    {
+     "text": "means",
+     "start": 7.157,
+     "end": 7.424
+    },
+    {
+     "text": "\"add",
+     "start": 7.54,
+     "end": 7.9
+    },
+    {
+     "text": "one\".",
+     "start": 7.981,
+     "end": 8.411
+    },
+    {
+     "text": "So",
+     "start": 8.62,
+     "end": 8.771
+    },
+    {
+     "text": "the",
+     "start": 8.829,
+     "end": 8.899
+    },
+    {
+     "text": "name",
+     "start": 8.933,
+     "end": 9.084
+    },
+    {
+     "text": "is",
+     "start": 9.107,
+     "end": 9.177
+    },
+    {
+     "text": "a",
+     "start": 9.224,
+     "end": 9.258
+    },
+    {
+     "text": "joke:",
+     "start": 9.316,
+     "end": 9.781
+    },
+    {
+     "text": "C,",
+     "start": 10.106,
+     "end": 10.489
+    },
+    {
+     "text": "one",
+     "start": 10.57,
+     "end": 10.803
+    },
+    {
+     "text": "better.",
+     "start": 10.837,
+     "end": 11.255
+    }
+   ]
+  },
+  {
+   "text": "Bjarne Stroustrup built it at Bell Labs, starting in 1979.",
+   "start": 11.697,
+   "end": 16.143,
+   "words": [
+    {
+     "text": "Bjarne",
+     "start": 11.697,
+     "end": 12.045
+    },
+    {
+     "text": "Stroustrup",
+     "start": 12.08,
+     "end": 12.66
+    },
+    {
+     "text": "built",
+     "start": 12.741,
+     "end": 12.985
+    },
+    {
+     "text": "it",
+     "start": 13.02,
+     "end": 13.078
+    },
+    {
+     "text": "at",
+     "start": 13.113,
+     "end": 13.194
+    },
+    {
+     "text": "Bell",
+     "start": 13.264,
+     "end": 13.496
+    },
+    {
+     "text": "Labs,",
+     "start": 13.577,
+     "end": 14.135
+    },
+    {
+     "text": "starting",
+     "start": 14.309,
+     "end": 14.657
+    },
+    {
+     "text": "in",
+     "start": 14.703,
+     "end": 14.762
+    },
+    {
+     "text": "1979.",
+     "start": 14.854,
+     "end": 16.143
+    }
+   ]
+  },
+  {
+   "text": "His idea: keep C's speed, but add classes.",
+   "start": 16.584,
+   "end": 20.137,
+   "words": [
+    {
+     "text": "His",
+     "start": 16.584,
+     "end": 16.793
+    },
+    {
+     "text": "idea:",
+     "start": 16.863,
+     "end": 17.385
+    },
+    {
+     "text": "keep",
+     "start": 17.594,
+     "end": 17.815
+    },
+    {
+     "text": "C's",
+     "start": 17.884,
+     "end": 18.14
+    },
+    {
+     "text": "speed,",
+     "start": 18.186,
+     "end": 18.755
+    },
+    {
+     "text": "but",
+     "start": 18.929,
+     "end": 19.127
+    },
+    {
+     "text": "add",
+     "start": 19.173,
+     "end": 19.394
+    },
+    {
+     "text": "classes.",
+     "start": 19.452,
+     "end": 20.137
+    }
+   ]
+  },
+  {
+   "text": "A class bundles data and code into one object: a Player with health and a takeDamage function.",
+   "start": 20.833,
+   "end": 26.987,
+   "words": [
+    {
+     "text": "A",
+     "start": 20.833,
+     "end": 20.914
+    },
+    {
+     "text": "class",
+     "start": 20.996,
+     "end": 21.298
+    },
+    {
+     "text": "bundles",
+     "start": 21.356,
+     "end": 21.692
+    },
+    {
+     "text": "data",
+     "start": 21.75,
+     "end": 22.087
+    },
+    {
+     "text": "and",
+     "start": 22.157,
+     "end": 22.296
+    },
+    {
+     "text": "code",
+     "start": 22.377,
+     "end": 22.702
+    },
+    {
+     "text": "into",
+     "start": 22.749,
+     "end": 22.969
+    },
+    {
+     "text": "one",
+     "start": 23.086,
+     "end": 23.329
+    },
+    {
+     "text": "object:",
+     "start": 23.387,
+     "end": 24.003
+    },
+    {
+     "text": "a",
+     "start": 24.606,
+     "end": 24.665
+    },
+    {
+     "text": "Player",
+     "start": 24.746,
+     "end": 25.024
+    },
+    {
+     "text": "with",
+     "start": 25.071,
+     "end": 25.187
+    },
+    {
+     "text": "health",
+     "start": 25.245,
+     "end": 25.5
+    },
+    {
+     "text": "and",
+     "start": 25.57,
+     "end": 25.698
+    },
+    {
+     "text": "a",
+     "start": 25.756,
+     "end": 25.779
+    },
+    {
+     "text": "takeDamage",
+     "start": 25.837,
+     "end": 26.418
+    },
+    {
+     "text": "function.",
+     "start": 26.441,
+     "end": 26.987
+    }
+   ]
+  },
+  {
+   "text": "And it still compiles straight to machine code. Abstractions with no runtime cost.",
+   "start": 27.59,
+   "end": 32.733,
+   "words": [
+    {
+     "text": "And",
+     "start": 27.59,
+     "end": 27.741
+    },
+    {
+     "text": "it",
+     "start": 27.799,
+     "end": 27.857
+    },
+    {
+     "text": "still",
+     "start": 27.904,
+     "end": 28.101
+    },
+    {
+     "text": "compiles",
+     "start": 28.159,
+     "end": 28.589
+    },
+    {
+     "text": "straight",
+     "start": 28.635,
+     "end": 28.937
+    },
+    {
+     "text": "to",
+     "start": 28.972,
+     "end": 29.018
+    },
+    {
+     "text": "machine",
+     "start": 29.088,
+     "end": 29.425
+    },
+    {
+     "text": "code.",
+     "start": 29.471,
+     "end": 29.889
+    },
+    {
+     "text": "Abstractions",
+     "start": 30.586,
+     "end": 31.282
+    },
+    {
+     "text": "with",
+     "start": 31.317,
+     "end": 31.445
+    },
+    {
+     "text": "no",
+     "start": 31.526,
+     "end": 31.665
+    },
+    {
+     "text": "runtime",
+     "start": 31.747,
+     "end": 32.176
+    },
+    {
+     "text": "cost.",
+     "start": 32.222,
+     "end": 32.733
+    }
+   ]
+  },
+  {
+   "text": "And objects clean up after themselves: when one goes away, its destructor frees its memory.",
+   "start": 33.174,
+   "end": 38.445,
+   "words": [
+    {
+     "text": "And",
+     "start": 33.174,
+     "end": 33.325
+    },
+    {
+     "text": "objects",
+     "start": 33.418,
+     "end": 33.871
+    },
+    {
+     "text": "clean",
+     "start": 33.929,
+     "end": 34.15
+    },
+    {
+     "text": "up",
+     "start": 34.196,
+     "end": 34.289
+    },
+    {
+     "text": "after",
+     "start": 34.382,
+     "end": 34.66
+    },
+    {
+     "text": "themselves:",
+     "start": 34.707,
+     "end": 35.415
+    },
+    {
+     "text": "when",
+     "start": 35.798,
+     "end": 35.972
+    },
+    {
+     "text": "one",
+     "start": 36.03,
+     "end": 36.158
+    },
+    {
+     "text": "goes",
+     "start": 36.193,
+     "end": 36.379
+    },
+    {
+     "text": "away,",
+     "start": 36.425,
+     "end": 36.797
+    },
+    {
+     "text": "its",
+     "start": 36.82,
+     "end": 36.959
+    },
+    {
+     "text": "destructor",
+     "start": 37.006,
+     "end": 37.47
+    },
+    {
+     "text": "frees",
+     "start": 37.528,
+     "end": 37.749
+    },
+    {
+     "text": "its",
+     "start": 37.795,
+     "end": 37.9
+    },
+    {
+     "text": "memory.",
+     "start": 37.958,
+     "end": 38.445
+    }
+   ]
+  },
+  {
+   "text": "That's why Unreal Engine, Chrome and Photoshop run on C plus plus.",
+   "start": 38.77,
+   "end": 42.393,
+   "words": [
+    {
+     "text": "That's",
+     "start": 38.77,
+     "end": 39.002
+    },
+    {
+     "text": "why",
+     "start": 39.037,
+     "end": 39.165
+    },
+    {
+     "text": "Unreal",
+     "start": 39.246,
+     "end": 39.595
+    },
+    {
+     "text": "Engine,",
+     "start": 39.664,
+     "end": 39.943
+    },
+    {
+     "text": "Chrome",
+     "start": 39.978,
+     "end": 40.314
+    },
+    {
+     "text": "and",
+     "start": 40.338,
+     "end": 40.407
+    },
+    {
+     "text": "Photoshop",
+     "start": 40.477,
+     "end": 40.988
+    },
+    {
+     "text": "run",
+     "start": 41.057,
+     "end": 41.208
+    },
+    {
+     "text": "on",
+     "start": 41.243,
+     "end": 41.336
+    },
+    {
+     "text": "C",
+     "start": 41.406,
+     "end": 41.499
+    },
+    {
+     "text": "plus",
+     "start": 41.65,
+     "end": 41.882
+    },
+    {
+     "text": "plus.",
+     "start": 41.928,
+     "end": 42.393
+    }
+   ]
+  },
+  {
+   "text": "The catch? It's huge. Even experts say nobody knows all of C plus plus.",
+   "start": 42.834,
+   "end": 48.151,
+   "words": [
+    {
+     "text": "The",
+     "start": 42.834,
+     "end": 42.961
+    },
+    {
+     "text": "catch?",
+     "start": 43.02,
+     "end": 43.507
+    },
+    {
+     "text": "It's",
+     "start": 43.832,
+     "end": 44.041
+    },
+    {
+     "text": "huge.",
+     "start": 44.099,
+     "end": 44.657
+    },
+    {
+     "text": "Even",
+     "start": 45.098,
+     "end": 45.353
+    },
+    {
+     "text": "experts",
+     "start": 45.423,
+     "end": 45.852
+    },
+    {
+     "text": "say",
+     "start": 45.887,
+     "end": 46.038
+    },
+    {
+     "text": "nobody",
+     "start": 46.119,
+     "end": 46.468
+    },
+    {
+     "text": "knows",
+     "start": 46.503,
+     "end": 46.735
+    },
+    {
+     "text": "all",
+     "start": 46.804,
+     "end": 47.002
+    },
+    {
+     "text": "of",
+     "start": 47.048,
+     "end": 47.095
+    },
+    {
+     "text": "C",
+     "start": 47.153,
+     "end": 47.246
+    },
+    {
+     "text": "plus",
+     "start": 47.397,
+     "end": 47.629
+    },
+    {
+     "text": "plus.",
+     "start": 47.675,
+     "end": 48.151
+    }
+   ]
+  },
+  {
+   "text": "Next: Java. What if your code could run anywhere, without recompiling?",
+   "start": 48.848,
+   "end": 53.945,
+   "words": [
+    {
+     "text": "Next:",
+     "start": 48.848,
+     "end": 49.243
+    },
+    {
+     "text": "Java.",
+     "start": 49.312,
+     "end": 49.87
+    },
+    {
+     "text": "What",
+     "start": 50.566,
+     "end": 50.752
+    },
+    {
+     "text": "if",
+     "start": 50.787,
+     "end": 50.857
+    },
+    {
+     "text": "your",
+     "start": 50.915,
+     "end": 51.042
+    },
+    {
+     "text": "code",
+     "start": 51.1,
+     "end": 51.367
+    },
+    {
+     "text": "could",
+     "start": 51.402,
+     "end": 51.565
+    },
+    {
+     "text": "run",
+     "start": 51.611,
+     "end": 51.774
+    },
+    {
+     "text": "anywhere,",
+     "start": 51.82,
+     "end": 52.354
+    },
+    {
+     "text": "without",
+     "start": 52.528,
+     "end": 52.865
+    },
+    {
+     "text": "recompiling?",
+     "start": 52.912,
+     "end": 53.945
+    }
+   ]
+  }
+ ]
+}

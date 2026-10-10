@@ -83,7 +83,8 @@
     fonts.rel = 'stylesheet'
     fonts.href = episode.fontsUrl
     document.head.append(fonts)
-    await new Promise((r) => { fonts.onload = fonts.onerror = r })
+    // Never hang on a slow font CDN: carry on after 20 s, document.fonts.ready below still waits for faces in use.
+    await Promise.race([new Promise((r) => { fonts.onload = fonts.onerror = r }), new Promise((r) => setTimeout(r, 20000))])
 
     const LEAD = 0.22   // a scene starts this long before its first word
     const TRANS = 0.42  // cross-fade between scenes

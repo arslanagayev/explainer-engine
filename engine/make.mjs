@@ -82,7 +82,7 @@ try {
   await send('Page.enable')
   await send('Page.navigate', { url })
   let title = ''
-  for (let i = 0; i < 150 && title !== 'ready'; i++) { await sleep(200); title = await evaluate('document.title').catch(() => '') }
+  for (let i = 0; i < 400 && title !== 'ready'; i++) { await sleep(200); title = await evaluate('document.title').catch(() => '') }
   if (title !== 'ready') throw new Error('player did not load')
   const duration = await evaluate('window.duration')
   const shot = async (t, file) => {
