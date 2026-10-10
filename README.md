@@ -38,7 +38,7 @@ Under a minute each, one look for the whole series (black + luminous green, Spac
 | # | Topic | Video |
 | - | ----- | ----- |
 | 00 | How does code actually run? Ones and zeros, compilers, interpreters and virtual machines | [Reel](https://www.instagram.com/reel/DeS-6BIj3cC/) |
-| 01 | C | coming soon |
+| 01 | C: straight to machine code, pointers, and the memory bugs behind 70 % of serious security holes | [Reel](https://www.instagram.com/reel/DeS_7ZrAiNV/) |
 | 02 | C++ | coming soon |
 | 03 | Java | coming soon |
 | 04 | C# | coming soon |
@@ -124,7 +124,8 @@ To preview with sound in a browser, serve the folder (for example `python3 -m ht
 engine/
   player.html       Deterministic player: seek(t), headline, chapters, karaoke captions
   lib.js            Drawing helpers: animated paths, arrows, typing, pop/fade, seeded random
-  props.js          Shared props: laptop, server, database, lock, pills, gears
+  props.js          Shared props: laptop, server, database, lock, pills, gears, phones, keys
+  series-languages.js  One look and shared props for the languages series
   build_timing.py   Script + word timestamps -> timing.json (one line = one scene)
   soundbed.py       Synthesised music bed and scene whooshes (no dependencies)
   make.mjs          Static server + headless Chrome frame capture + ffmpeg mix and encode
@@ -134,6 +135,7 @@ episodes/
   ep03-card/
   ep04-messages/
   lang00-how-code-runs/   series 2, one episode per language
+  lang01-c/
 tests/              Node tests for the helpers and every episode, Python tests for timing
 docs/               Preview GIF and scene sheet
 ```

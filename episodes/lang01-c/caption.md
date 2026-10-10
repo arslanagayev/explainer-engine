@@ -16,3 +16,4 @@ C 50 yaşında ve bugün onu kullandın. Hızlı, her yerde, ama belleği sana e
 
 Reel: `out/reel.mp4` (build with `node engine/make.mjs lang01-c`), cover frame at 3.0 s.
 Voice: ElevenLabs "Liam" (eleven_multilingual_v2). Music bed + whooshes: synthesised (engine/soundbed.py).
+Posted 2026-10-10: https://www.instagram.com/reel/DeS_7ZrAiNV/
