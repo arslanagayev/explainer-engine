@@ -1,0 +1,664 @@
+{
+ "offset": 0.4,
+ "total": 54.94,
+ "lines": [
+  {
+   "text": "Minecraft was written in this language. So were early Android apps.",
+   "start": 0.4,
+   "end": 4.266,
+   "words": [
+    {
+     "text": "Minecraft",
+     "start": 0.4,
+     "end": 0.946
+    },
+    {
+     "text": "was",
+     "start": 0.992,
+     "end": 1.085
+    },
+    {
+     "text": "written",
+     "start": 1.143,
+     "end": 1.387
+    },
+    {
+     "text": "in",
+     "start": 1.41,
+     "end": 1.468
+    },
+    {
+     "text": "this",
+     "start": 1.503,
+     "end": 1.642
+    },
+    {
+     "text": "language.",
+     "start": 1.712,
+     "end": 2.269
+    },
+    {
+     "text": "So",
+     "start": 2.594,
+     "end": 2.768
+    },
+    {
+     "text": "were",
+     "start": 2.826,
+     "end": 2.977
+    },
+    {
+     "text": "early",
+     "start": 3.035,
+     "end": 3.302
+    },
+    {
+     "text": "Android",
+     "start": 3.372,
+     "end": 3.767
+    },
+    {
+     "text": "apps.",
+     "start": 3.813,
+     "end": 4.266
+    }
+   ]
+  },
+  {
+   "text": "It's Java. Born in 1995 at Sun Microsystems. It was first called Oak.",
+   "start": 4.649,
+   "end": 10.93,
+   "words": [
+    {
+     "text": "It's",
+     "start": 4.649,
+     "end": 4.893
+    },
+    {
+     "text": "Java.",
+     "start": 5.009,
+     "end": 5.671
+    },
+    {
+     "text": "Born",
+     "start": 6.368,
+     "end": 6.646
+    },
+    {
+     "text": "in",
+     "start": 6.693,
+     "end": 6.751
+    },
+    {
+     "text": "1995",
+     "start": 6.809,
+     "end": 7.18
+    },
+    {
+     "text": "at",
+     "start": 7.238,
+     "end": 7.981
+    },
+    {
+     "text": "Sun",
+     "start": 8.063,
+     "end": 8.272
+    },
+    {
+     "text": "Microsystems.",
+     "start": 8.341,
+     "end": 9.293
+    },
+    {
+     "text": "It",
+     "start": 9.734,
+     "end": 9.851
+    },
+    {
+     "text": "was",
+     "start": 9.885,
+     "end": 9.978
+    },
+    {
+     "text": "first",
+     "start": 10.025,
+     "end": 10.234
+    },
+    {
+     "text": "called",
+     "start": 10.268,
+     "end": 10.489
+    },
+    {
+     "text": "Oak.",
+     "start": 10.57,
+     "end": 10.93
+    }
+   ]
+  },
+  {
+   "text": "The promise: write once, run anywhere.",
+   "start": 11.313,
+   "end": 14.262,
+   "words": [
+    {
+     "text": "The",
+     "start": 11.313,
+     "end": 11.429
+    },
+    {
+     "text": "promise:",
+     "start": 11.476,
+     "end": 12.103
+    },
+    {
+     "text": "write",
+     "start": 12.381,
+     "end": 12.66
+    },
+    {
+     "text": "once,",
+     "start": 12.707,
+     "end": 13.183
+    },
+    {
+     "text": "run",
+     "start": 13.461,
+     "end": 13.647
+    },
+    {
+     "text": "anywhere.",
+     "start": 13.693,
+     "end": 14.262
+    }
+   ]
+  },
+  {
+   "text": "Java doesn't compile to machine code. It compiles to bytecode: instructions for a computer that doesn't exist.",
+   "start": 15.075,
+   "end": 21.96,
+   "words": [
+    {
+     "text": "Java",
+     "start": 15.075,
+     "end": 15.412
+    },
+    {
+     "text": "doesn't",
+     "start": 15.493,
+     "end": 15.806
+    },
+    {
+     "text": "compile",
+     "start": 15.853,
+     "end": 16.34
+    },
+    {
+     "text": "to",
+     "start": 16.375,
+     "end": 16.433
+    },
+    {
+     "text": "machine",
+     "start": 16.491,
+     "end": 16.851
+    },
+    {
+     "text": "code.",
+     "start": 16.909,
+     "end": 17.362
+    },
+    {
+     "text": "It",
+     "start": 17.687,
+     "end": 17.827
+    },
+    {
+     "text": "compiles",
+     "start": 17.873,
+     "end": 18.326
+    },
+    {
+     "text": "to",
+     "start": 18.361,
+     "end": 18.43
+    },
+    {
+     "text": "bytecode:",
+     "start": 18.546,
+     "end": 19.278
+    },
+    {
+     "text": "instructions",
+     "start": 19.522,
+     "end": 20.079
+    },
+    {
+     "text": "for",
+     "start": 20.125,
+     "end": 20.23
+    },
+    {
+     "text": "a",
+     "start": 20.276,
+     "end": 20.3
+    },
+    {
+     "text": "computer",
+     "start": 20.334,
+     "end": 20.706
+    },
+    {
+     "text": "that",
+     "start": 20.752,
+     "end": 20.88
+    },
+    {
+     "text": "doesn't",
+     "start": 20.95,
+     "end": 21.252
+    },
+    {
+     "text": "exist.",
+     "start": 21.298,
+     "end": 21.96
+    }
+   ]
+  },
+  {
+   "text": "That computer is the Java Virtual Machine. Every device gets its own, and the same bytecode runs on all of them.",
+   "start": 22.564,
+   "end": 29.367,
+   "words": [
+    {
+     "text": "That",
+     "start": 22.564,
+     "end": 22.749
+    },
+    {
+     "text": "computer",
+     "start": 22.796,
+     "end": 23.167
+    },
+    {
+     "text": "is",
+     "start": 23.237,
+     "end": 23.318
+    },
+    {
+     "text": "the",
+     "start": 23.365,
+     "end": 23.434
+    },
+    {
+     "text": "Java",
+     "start": 23.516,
+     "end": 23.864
+    },
+    {
+     "text": "Virtual",
+     "start": 23.945,
+     "end": 24.34
+    },
+    {
+     "text": "Machine.",
+     "start": 24.398,
+     "end": 24.909
+    },
+    {
+     "text": "Every",
+     "start": 25.512,
+     "end": 25.756
+    },
+    {
+     "text": "device",
+     "start": 25.803,
+     "end": 26.151
+    },
+    {
+     "text": "gets",
+     "start": 26.186,
+     "end": 26.36
+    },
+    {
+     "text": "its",
+     "start": 26.406,
+     "end": 26.523
+    },
+    {
+     "text": "own,",
+     "start": 26.569,
+     "end": 26.894
+    },
+    {
+     "text": "and",
+     "start": 27.068,
+     "end": 27.208
+    },
+    {
+     "text": "the",
+     "start": 27.254,
+     "end": 27.324
+    },
+    {
+     "text": "same",
+     "start": 27.382,
+     "end": 27.625
+    },
+    {
+     "text": "bytecode",
+     "start": 27.672,
+     "end": 28.171
+    },
+    {
+     "text": "runs",
+     "start": 28.218,
+     "end": 28.438
+    },
+    {
+     "text": "on",
+     "start": 28.485,
+     "end": 28.589
+    },
+    {
+     "text": "all",
+     "start": 28.682,
+     "end": 28.891
+    },
+    {
+     "text": "of",
+     "start": 28.937,
+     "end": 28.984
+    },
+    {
+     "text": "them.",
+     "start": 29.042,
+     "end": 29.367
+    }
+   ]
+  },
+  {
+   "text": "Slow? Not anymore. The JVM watches which code runs most, and compiles that part to machine code while it runs.",
+   "start": 30.18,
+   "end": 38.922,
+   "words": [
+    {
+     "text": "Slow?",
+     "start": 30.18,
+     "end": 30.783
+    },
+    {
+     "text": "Not",
+     "start": 31.596,
+     "end": 31.782
+    },
+    {
+     "text": "anymore.",
+     "start": 31.828,
+     "end": 32.362
+    },
+    {
+     "text": "The",
+     "start": 33.175,
+     "end": 33.303
+    },
+    {
+     "text": "JVM",
+     "start": 33.384,
+     "end": 33.93
+    },
+    {
+     "text": "watches",
+     "start": 33.999,
+     "end": 34.37
+    },
+    {
+     "text": "which",
+     "start": 34.463,
+     "end": 34.696
+    },
+    {
+     "text": "code",
+     "start": 34.754,
+     "end": 35.009
+    },
+    {
+     "text": "runs",
+     "start": 35.044,
+     "end": 35.253
+    },
+    {
+     "text": "most,",
+     "start": 35.334,
+     "end": 35.775
+    },
+    {
+     "text": "and",
+     "start": 35.926,
+     "end": 36.054
+    },
+    {
+     "text": "compiles",
+     "start": 36.124,
+     "end": 36.6
+    },
+    {
+     "text": "that",
+     "start": 36.658,
+     "end": 36.855
+    },
+    {
+     "text": "part",
+     "start": 36.925,
+     "end": 37.145
+    },
+    {
+     "text": "to",
+     "start": 37.18,
+     "end": 37.238
+    },
+    {
+     "text": "machine",
+     "start": 37.296,
+     "end": 37.644
+    },
+    {
+     "text": "code",
+     "start": 37.703,
+     "end": 37.946
+    },
+    {
+     "text": "while",
+     "start": 37.993,
+     "end": 38.248
+    },
+    {
+     "text": "it",
+     "start": 38.283,
+     "end": 38.353
+    },
+    {
+     "text": "runs.",
+     "start": 38.399,
+     "end": 38.922
+    }
+   ]
+  },
+  {
+   "text": "And you never free memory yourself. A garbage collector cleans up what you stopped using.",
+   "start": 39.734,
+   "end": 44.436,
+   "words": [
+    {
+     "text": "And",
+     "start": 39.734,
+     "end": 39.874
+    },
+    {
+     "text": "you",
+     "start": 39.932,
+     "end": 40.013
+    },
+    {
+     "text": "never",
+     "start": 40.094,
+     "end": 40.315
+    },
+    {
+     "text": "free",
+     "start": 40.396,
+     "end": 40.617
+    },
+    {
+     "text": "memory",
+     "start": 40.675,
+     "end": 40.965
+    },
+    {
+     "text": "yourself.",
+     "start": 41.023,
+     "end": 41.673
+    },
+    {
+     "text": "A",
+     "start": 41.998,
+     "end": 42.079
+    },
+    {
+     "text": "garbage",
+     "start": 42.149,
+     "end": 42.463
+    },
+    {
+     "text": "collector",
+     "start": 42.497,
+     "end": 42.834
+    },
+    {
+     "text": "cleans",
+     "start": 42.892,
+     "end": 43.159
+    },
+    {
+     "text": "up",
+     "start": 43.206,
+     "end": 43.299
+    },
+    {
+     "text": "what",
+     "start": 43.345,
+     "end": 43.461
+    },
+    {
+     "text": "you",
+     "start": 43.496,
+     "end": 43.577
+    },
+    {
+     "text": "stopped",
+     "start": 43.647,
+     "end": 43.937
+    },
+    {
+     "text": "using.",
+     "start": 43.983,
+     "end": 44.436
+    }
+   ]
+  },
+  {
+   "text": "That's why banks, Android and huge backends trust it.",
+   "start": 44.877,
+   "end": 48.186,
+   "words": [
+    {
+     "text": "That's",
+     "start": 44.877,
+     "end": 45.098
+    },
+    {
+     "text": "why",
+     "start": 45.133,
+     "end": 45.249
+    },
+    {
+     "text": "banks,",
+     "start": 45.33,
+     "end": 45.806
+    },
+    {
+     "text": "Android",
+     "start": 45.934,
+     "end": 46.433
+    },
+    {
+     "text": "and",
+     "start": 46.503,
+     "end": 46.689
+    },
+    {
+     "text": "huge",
+     "start": 46.758,
+     "end": 47.049
+    },
+    {
+     "text": "backends",
+     "start": 47.095,
+     "end": 47.525
+    },
+    {
+     "text": "trust",
+     "start": 47.583,
+     "end": 47.896
+    },
+    {
+     "text": "it.",
+     "start": 47.942,
+     "end": 48.186
+    }
+   ]
+  },
+  {
+   "text": "Next: C sharp. Microsoft's answer to Java.",
+   "start": 48.883,
+   "end": 52.737,
+   "words": [
+    {
+     "text": "Next:",
+     "start": 48.883,
+     "end": 49.394
+    },
+    {
+     "text": "C",
+     "start": 49.603,
+     "end": 49.754
+    },
+    {
+     "text": "sharp.",
+     "start": 49.928,
+     "end": 50.404
+    },
+    {
+     "text": "Microsoft's",
+     "start": 50.845,
+     "end": 51.46
+    },
+    {
+     "text": "answer",
+     "start": 51.518,
+     "end": 51.82
+    },
+    {
+     "text": "to",
+     "start": 51.878,
+     "end": 51.925
+    },
+    {
+     "text": "Java.",
+     "start": 52.006,
+     "end": 52.737
+    }
+   ]
+  }
+ ]
+}
