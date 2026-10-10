@@ -1,0 +1,654 @@
+{
+ "offset": 0.4,
+ "total": 57.17,
+ "lines": [
+  {
+   "text": "Your computer doesn't understand Python, or C, or any language you write.",
+   "start": 0.4,
+   "end": 4.452,
+   "words": [
+    {
+     "text": "Your",
+     "start": 0.4,
+     "end": 0.621
+    },
+    {
+     "text": "computer",
+     "start": 0.69,
+     "end": 1.073
+    },
+    {
+     "text": "doesn't",
+     "start": 1.12,
+     "end": 1.352
+    },
+    {
+     "text": "understand",
+     "start": 1.387,
+     "end": 1.758
+    },
+    {
+     "text": "Python,",
+     "start": 1.828,
+     "end": 2.409
+    },
+    {
+     "text": "or",
+     "start": 2.49,
+     "end": 2.664
+    },
+    {
+     "text": "C,",
+     "start": 2.745,
+     "end": 3.094
+    },
+    {
+     "text": "or",
+     "start": 3.152,
+     "end": 3.268
+    },
+    {
+     "text": "any",
+     "start": 3.361,
+     "end": 3.558
+    },
+    {
+     "text": "language",
+     "start": 3.616,
+     "end": 3.953
+    },
+    {
+     "text": "you",
+     "start": 3.976,
+     "end": 4.046
+    },
+    {
+     "text": "write.",
+     "start": 4.092,
+     "end": 4.452
+    }
+   ]
+  },
+  {
+   "text": "It only understands numbers. Ones and zeros.",
+   "start": 4.777,
+   "end": 8.353,
+   "words": [
+    {
+     "text": "It",
+     "start": 4.777,
+     "end": 4.905
+    },
+    {
+     "text": "only",
+     "start": 4.951,
+     "end": 5.114
+    },
+    {
+     "text": "understands",
+     "start": 5.16,
+     "end": 5.601
+    },
+    {
+     "text": "numbers.",
+     "start": 5.659,
+     "end": 6.205
+    },
+    {
+     "text": "Ones",
+     "start": 7.018,
+     "end": 7.378
+    },
+    {
+     "text": "and",
+     "start": 7.447,
+     "end": 7.656
+    },
+    {
+     "text": "zeros.",
+     "start": 7.738,
+     "end": 8.353
+    }
+   ]
+  },
+  {
+   "text": "Each pattern tells the processor one tiny thing: add, compare, jump.",
+   "start": 9.049,
+   "end": 14.239,
+   "words": [
+    {
+     "text": "Each",
+     "start": 9.049,
+     "end": 9.258
+    },
+    {
+     "text": "pattern",
+     "start": 9.316,
+     "end": 9.63
+    },
+    {
+     "text": "tells",
+     "start": 9.665,
+     "end": 9.909
+    },
+    {
+     "text": "the",
+     "start": 9.943,
+     "end": 10.013
+    },
+    {
+     "text": "processor",
+     "start": 10.048,
+     "end": 10.582
+    },
+    {
+     "text": "one",
+     "start": 10.675,
+     "end": 10.919
+    },
+    {
+     "text": "tiny",
+     "start": 10.953,
+     "end": 11.279
+    },
+    {
+     "text": "thing:",
+     "start": 11.337,
+     "end": 11.743
+    },
+    {
+     "text": "add,",
+     "start": 12.184,
+     "end": 12.625
+    },
+    {
+     "text": "compare,",
+     "start": 12.834,
+     "end": 13.473
+    },
+    {
+     "text": "jump.",
+     "start": 13.798,
+     "end": 14.239
+    }
+   ]
+  },
+  {
+   "text": "Nobody wants to write that. So we write code for humans, and translate it.",
+   "start": 14.936,
+   "end": 19.847,
+   "words": [
+    {
+     "text": "Nobody",
+     "start": 14.936,
+     "end": 15.214
+    },
+    {
+     "text": "wants",
+     "start": 15.249,
+     "end": 15.423
+    },
+    {
+     "text": "to",
+     "start": 15.47,
+     "end": 15.528
+    },
+    {
+     "text": "write",
+     "start": 15.574,
+     "end": 15.76
+    },
+    {
+     "text": "that.",
+     "start": 15.795,
+     "end": 16.178
+    },
+    {
+     "text": "So",
+     "start": 16.991,
+     "end": 17.153
+    },
+    {
+     "text": "we",
+     "start": 17.211,
+     "end": 17.362
+    },
+    {
+     "text": "write",
+     "start": 17.409,
+     "end": 17.652
+    },
+    {
+     "text": "code",
+     "start": 17.687,
+     "end": 17.919
+    },
+    {
+     "text": "for",
+     "start": 17.943,
+     "end": 18.047
+    },
+    {
+     "text": "humans,",
+     "start": 18.105,
+     "end": 18.732
+    },
+    {
+     "text": "and",
+     "start": 18.906,
+     "end": 19.057
+    },
+    {
+     "text": "translate",
+     "start": 19.115,
+     "end": 19.615
+    },
+    {
+     "text": "it.",
+     "start": 19.638,
+     "end": 19.847
+    }
+   ]
+  },
+  {
+   "text": "A compiler translates the whole program before it runs. Like translating a book once. That's C.",
+   "start": 20.543,
+   "end": 27.115,
+   "words": [
+    {
+     "text": "A",
+     "start": 20.543,
+     "end": 20.625
+    },
+    {
+     "text": "compiler",
+     "start": 20.694,
+     "end": 21.182
+    },
+    {
+     "text": "translates",
+     "start": 21.228,
+     "end": 21.658
+    },
+    {
+     "text": "the",
+     "start": 21.693,
+     "end": 21.762
+    },
+    {
+     "text": "whole",
+     "start": 21.82,
+     "end": 22.053
+    },
+    {
+     "text": "program",
+     "start": 22.087,
+     "end": 22.447
+    },
+    {
+     "text": "before",
+     "start": 22.494,
+     "end": 22.738
+    },
+    {
+     "text": "it",
+     "start": 22.772,
+     "end": 22.83
+    },
+    {
+     "text": "runs.",
+     "start": 22.865,
+     "end": 23.376
+    },
+    {
+     "text": "Like",
+     "start": 24.073,
+     "end": 24.259
+    },
+    {
+     "text": "translating",
+     "start": 24.293,
+     "end": 24.816
+    },
+    {
+     "text": "a",
+     "start": 24.851,
+     "end": 24.874
+    },
+    {
+     "text": "book",
+     "start": 24.92,
+     "end": 25.094
+    },
+    {
+     "text": "once.",
+     "start": 25.176,
+     "end": 25.64
+    },
+    {
+     "text": "That's",
+     "start": 26.337,
+     "end": 26.592
+    },
+    {
+     "text": "C.",
+     "start": 26.615,
+     "end": 27.115
+    }
+   ]
+  },
+  {
+   "text": "An interpreter translates as it runs, line by line, like a live interpreter. Flexible, but slower. That's Python.",
+   "start": 27.625,
+   "end": 35.833,
+   "words": [
+    {
+     "text": "An",
+     "start": 27.625,
+     "end": 27.765
+    },
+    {
+     "text": "interpreter",
+     "start": 27.811,
+     "end": 28.241
+    },
+    {
+     "text": "translates",
+     "start": 28.287,
+     "end": 28.763
+    },
+    {
+     "text": "as",
+     "start": 28.821,
+     "end": 28.949
+    },
+    {
+     "text": "it",
+     "start": 29.007,
+     "end": 29.077
+    },
+    {
+     "text": "runs,",
+     "start": 29.123,
+     "end": 29.576
+    },
+    {
+     "text": "line",
+     "start": 29.75,
+     "end": 30.017
+    },
+    {
+     "text": "by",
+     "start": 30.052,
+     "end": 30.156
+    },
+    {
+     "text": "line,",
+     "start": 30.238,
+     "end": 30.679
+    },
+    {
+     "text": "like",
+     "start": 30.888,
+     "end": 31.05
+    },
+    {
+     "text": "a",
+     "start": 31.085,
+     "end": 31.108
+    },
+    {
+     "text": "live",
+     "start": 31.178,
+     "end": 31.445
+    },
+    {
+     "text": "interpreter.",
+     "start": 31.468,
+     "end": 32.095
+    },
+    {
+     "text": "Flexible,",
+     "start": 32.792,
+     "end": 33.442
+    },
+    {
+     "text": "but",
+     "start": 33.558,
+     "end": 33.72
+    },
+    {
+     "text": "slower.",
+     "start": 33.778,
+     "end": 34.289
+    },
+    {
+     "text": "That's",
+     "start": 34.986,
+     "end": 35.23
+    },
+    {
+     "text": "Python.",
+     "start": 35.288,
+     "end": 35.833
+    }
+   ]
+  },
+  {
+   "text": "And some do both: compile to a middle language, then a virtual machine runs it. That's Java and C#.",
+   "start": 36.646,
+   "end": 44.82,
+   "words": [
+    {
+     "text": "And",
+     "start": 36.646,
+     "end": 36.809
+    },
+    {
+     "text": "some",
+     "start": 36.89,
+     "end": 37.122
+    },
+    {
+     "text": "do",
+     "start": 37.169,
+     "end": 37.285
+    },
+    {
+     "text": "both:",
+     "start": 37.366,
+     "end": 37.9
+    },
+    {
+     "text": "compile",
+     "start": 38.504,
+     "end": 38.968
+    },
+    {
+     "text": "to",
+     "start": 39.003,
+     "end": 39.073
+    },
+    {
+     "text": "a",
+     "start": 39.142,
+     "end": 39.166
+    },
+    {
+     "text": "middle",
+     "start": 39.235,
+     "end": 39.467
+    },
+    {
+     "text": "language,",
+     "start": 39.502,
+     "end": 40.025
+    },
+    {
+     "text": "then",
+     "start": 40.268,
+     "end": 40.501
+    },
+    {
+     "text": "a",
+     "start": 40.57,
+     "end": 40.617
+    },
+    {
+     "text": "virtual",
+     "start": 40.733,
+     "end": 41.104
+    },
+    {
+     "text": "machine",
+     "start": 41.151,
+     "end": 41.464
+    },
+    {
+     "text": "runs",
+     "start": 41.499,
+     "end": 41.708
+    },
+    {
+     "text": "it.",
+     "start": 41.755,
+     "end": 41.998
+    },
+    {
+     "text": "That's",
+     "start": 42.811,
+     "end": 43.078
+    },
+    {
+     "text": "Java",
+     "start": 43.159,
+     "end": 43.612
+    },
+    {
+     "text": "and",
+     "start": 43.786,
+     "end": 43.984
+    },
+    {
+     "text": "C#.",
+     "start": 44.065,
+     "end": 44.82
+    }
+   ]
+  },
+  {
+   "text": "Every language in this series is one of these three.",
+   "start": 46.12,
+   "end": 48.674,
+   "words": [
+    {
+     "text": "Every",
+     "start": 46.12,
+     "end": 46.41
+    },
+    {
+     "text": "language",
+     "start": 46.48,
+     "end": 46.828
+    },
+    {
+     "text": "in",
+     "start": 46.851,
+     "end": 46.909
+    },
+    {
+     "text": "this",
+     "start": 46.956,
+     "end": 47.072
+    },
+    {
+     "text": "series",
+     "start": 47.118,
+     "end": 47.455
+    },
+    {
+     "text": "is",
+     "start": 47.513,
+     "end": 47.606
+    },
+    {
+     "text": "one",
+     "start": 47.676,
+     "end": 47.815
+    },
+    {
+     "text": "of",
+     "start": 47.838,
+     "end": 47.896
+    },
+    {
+     "text": "these",
+     "start": 47.943,
+     "end": 48.14
+    },
+    {
+     "text": "three.",
+     "start": 48.186,
+     "end": 48.674
+    }
+   ]
+  },
+  {
+   "text": "Next: a fifty-year-old language that's still inside your phone. C.",
+   "start": 49.626,
+   "end": 54.967,
+   "words": [
+    {
+     "text": "Next:",
+     "start": 49.626,
+     "end": 50.183
+    },
+    {
+     "text": "a",
+     "start": 50.567,
+     "end": 50.636
+    },
+    {
+     "text": "fifty-year-old",
+     "start": 50.752,
+     "end": 51.402
+    },
+    {
+     "text": "language",
+     "start": 51.449,
+     "end": 51.797
+    },
+    {
+     "text": "that's",
+     "start": 51.82,
+     "end": 51.995
+    },
+    {
+     "text": "still",
+     "start": 52.018,
+     "end": 52.25
+    },
+    {
+     "text": "inside",
+     "start": 52.296,
+     "end": 52.61
+    },
+    {
+     "text": "your",
+     "start": 52.633,
+     "end": 52.738
+    },
+    {
+     "text": "phone.",
+     "start": 52.761,
+     "end": 53.202
+    },
+    {
+     "text": "C.",
+     "start": 54.317,
+     "end": 54.967
+    }
+   ]
+  }
+ ]
+}
