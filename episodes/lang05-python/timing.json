@@ -1,0 +1,642 @@
+{
+ "offset": 0.4,
+ "total": 53.13,
+ "lines": [
+  {
+   "text": "Instagram's servers, and almost every AI you've used, run on this language.",
+   "start": 0.4,
+   "end": 4.556,
+   "words": [
+    {
+     "text": "Instagram's",
+     "start": 0.4,
+     "end": 1.004
+    },
+    {
+     "text": "servers,",
+     "start": 1.027,
+     "end": 1.596
+    },
+    {
+     "text": "and",
+     "start": 1.654,
+     "end": 1.782
+    },
+    {
+     "text": "almost",
+     "start": 1.828,
+     "end": 2.037
+    },
+    {
+     "text": "every",
+     "start": 2.118,
+     "end": 2.397
+    },
+    {
+     "text": "AI",
+     "start": 2.455,
+     "end": 2.687
+    },
+    {
+     "text": "you've",
+     "start": 2.734,
+     "end": 2.919
+    },
+    {
+     "text": "used,",
+     "start": 2.966,
+     "end": 3.361
+    },
+    {
+     "text": "run",
+     "start": 3.57,
+     "end": 3.732
+    },
+    {
+     "text": "on",
+     "start": 3.779,
+     "end": 3.837
+    },
+    {
+     "text": "this",
+     "start": 3.871,
+     "end": 3.999
+    },
+    {
+     "text": "language.",
+     "start": 4.057,
+     "end": 4.556
+    }
+   ]
+  },
+  {
+   "text": "It's Python. Guido van Rossum started it over Christmas, 1989.",
+   "start": 4.731,
+   "end": 10.454,
+   "words": [
+    {
+     "text": "It's",
+     "start": 4.731,
+     "end": 4.928
+    },
+    {
+     "text": "Python.",
+     "start": 4.986,
+     "end": 5.578
+    },
+    {
+     "text": "Guido",
+     "start": 6.53,
+     "end": 6.844
+    },
+    {
+     "text": "van",
+     "start": 6.925,
+     "end": 7.122
+    },
+    {
+     "text": "Rossum",
+     "start": 7.192,
+     "end": 7.575
+    },
+    {
+     "text": "started",
+     "start": 7.645,
+     "end": 7.958
+    },
+    {
+     "text": "it",
+     "start": 7.993,
+     "end": 8.051
+    },
+    {
+     "text": "over",
+     "start": 8.121,
+     "end": 8.33
+    },
+    {
+     "text": "Christmas,",
+     "start": 8.399,
+     "end": 9.073
+    },
+    {
+     "text": "1989.",
+     "start": 9.316,
+     "end": 10.454
+    }
+   ]
+  },
+  {
+   "text": "And no, it's not named after the snake. It's named after Monty Python, the comedy show.",
+   "start": 11.151,
+   "end": 15.865,
+   "words": [
+    {
+     "text": "And",
+     "start": 11.151,
+     "end": 11.325
+    },
+    {
+     "text": "no,",
+     "start": 11.406,
+     "end": 11.755
+    },
+    {
+     "text": "it's",
+     "start": 11.813,
+     "end": 11.987
+    },
+    {
+     "text": "not",
+     "start": 12.045,
+     "end": 12.184
+    },
+    {
+     "text": "named",
+     "start": 12.242,
+     "end": 12.451
+    },
+    {
+     "text": "after",
+     "start": 12.498,
+     "end": 12.683
+    },
+    {
+     "text": "the",
+     "start": 12.73,
+     "end": 12.799
+    },
+    {
+     "text": "snake.",
+     "start": 12.846,
+     "end": 13.31
+    },
+    {
+     "text": "It's",
+     "start": 13.484,
+     "end": 13.67
+    },
+    {
+     "text": "named",
+     "start": 13.728,
+     "end": 13.937
+    },
+    {
+     "text": "after",
+     "start": 13.96,
+     "end": 14.146
+    },
+    {
+     "text": "Monty",
+     "start": 14.227,
+     "end": 14.494
+    },
+    {
+     "text": "Python,",
+     "start": 14.564,
+     "end": 14.971
+    },
+    {
+     "text": "the",
+     "start": 14.994,
+     "end": 15.064
+    },
+    {
+     "text": "comedy",
+     "start": 15.098,
+     "end": 15.423
+    },
+    {
+     "text": "show.",
+     "start": 15.481,
+     "end": 15.865
+    }
+   ]
+  },
+  {
+   "text": "Python reads almost like English. No semicolons, no curly braces. The indentation is the code.",
+   "start": 16.561,
+   "end": 23.458,
+   "words": [
+    {
+     "text": "Python",
+     "start": 16.561,
+     "end": 16.956
+    },
+    {
+     "text": "reads",
+     "start": 17.014,
+     "end": 17.235
+    },
+    {
+     "text": "almost",
+     "start": 17.293,
+     "end": 17.571
+    },
+    {
+     "text": "like",
+     "start": 17.606,
+     "end": 17.734
+    },
+    {
+     "text": "English.",
+     "start": 17.792,
+     "end": 18.326
+    },
+    {
+     "text": "No",
+     "start": 18.837,
+     "end": 18.988
+    },
+    {
+     "text": "semicolons,",
+     "start": 19.069,
+     "end": 19.835
+    },
+    {
+     "text": "no",
+     "start": 19.87,
+     "end": 19.998
+    },
+    {
+     "text": "curly",
+     "start": 20.067,
+     "end": 20.323
+    },
+    {
+     "text": "braces.",
+     "start": 20.369,
+     "end": 20.961
+    },
+    {
+     "text": "The",
+     "start": 21.658,
+     "end": 21.797
+    },
+    {
+     "text": "indentation",
+     "start": 21.879,
+     "end": 22.633
+    },
+    {
+     "text": "is",
+     "start": 22.703,
+     "end": 22.807
+    },
+    {
+     "text": "the",
+     "start": 22.854,
+     "end": 22.923
+    },
+    {
+     "text": "code.",
+     "start": 22.982,
+     "end": 23.458
+    }
+   ]
+  },
+  {
+   "text": "You never compile it yourself. Python turns your file into bytecode, and an interpreter runs it, step by step.",
+   "start": 23.783,
+   "end": 30.702,
+   "words": [
+    {
+     "text": "You",
+     "start": 23.783,
+     "end": 23.91
+    },
+    {
+     "text": "never",
+     "start": 23.98,
+     "end": 24.177
+    },
+    {
+     "text": "compile",
+     "start": 24.235,
+     "end": 24.619
+    },
+    {
+     "text": "it",
+     "start": 24.642,
+     "end": 24.7
+    },
+    {
+     "text": "yourself.",
+     "start": 24.735,
+     "end": 25.373
+    },
+    {
+     "text": "Python",
+     "start": 26.07,
+     "end": 26.465
+    },
+    {
+     "text": "turns",
+     "start": 26.511,
+     "end": 26.743
+    },
+    {
+     "text": "your",
+     "start": 26.778,
+     "end": 26.882
+    },
+    {
+     "text": "file",
+     "start": 26.941,
+     "end": 27.219
+    },
+    {
+     "text": "into",
+     "start": 27.254,
+     "end": 27.417
+    },
+    {
+     "text": "bytecode,",
+     "start": 27.486,
+     "end": 28.171
+    },
+    {
+     "text": "and",
+     "start": 28.45,
+     "end": 28.589
+    },
+    {
+     "text": "an",
+     "start": 28.636,
+     "end": 28.694
+    },
+    {
+     "text": "interpreter",
+     "start": 28.74,
+     "end": 29.193
+    },
+    {
+     "text": "runs",
+     "start": 29.251,
+     "end": 29.495
+    },
+    {
+     "text": "it,",
+     "start": 29.553,
+     "end": 29.727
+    },
+    {
+     "text": "step",
+     "start": 29.843,
+     "end": 30.087
+    },
+    {
+     "text": "by",
+     "start": 30.133,
+     "end": 30.226
+    },
+    {
+     "text": "step.",
+     "start": 30.284,
+     "end": 30.702
+    }
+   ]
+  },
+  {
+   "text": "The catch: it's slow. Often ten to a hundred times slower than C.",
+   "start": 31.399,
+   "end": 36.855,
+   "words": [
+    {
+     "text": "The",
+     "start": 31.399,
+     "end": 31.526
+    },
+    {
+     "text": "catch:",
+     "start": 31.584,
+     "end": 32.06
+    },
+    {
+     "text": "it's",
+     "start": 32.757,
+     "end": 32.966
+    },
+    {
+     "text": "slow.",
+     "start": 33.001,
+     "end": 33.523
+    },
+    {
+     "text": "Often",
+     "start": 34.22,
+     "end": 34.638
+    },
+    {
+     "text": "ten",
+     "start": 34.707,
+     "end": 34.916
+    },
+    {
+     "text": "to",
+     "start": 34.986,
+     "end": 35.044
+    },
+    {
+     "text": "a",
+     "start": 35.125,
+     "end": 35.149
+    },
+    {
+     "text": "hundred",
+     "start": 35.218,
+     "end": 35.474
+    },
+    {
+     "text": "times",
+     "start": 35.508,
+     "end": 35.752
+    },
+    {
+     "text": "slower",
+     "start": 35.787,
+     "end": 36.112
+    },
+    {
+     "text": "than",
+     "start": 36.147,
+     "end": 36.263
+    },
+    {
+     "text": "C.",
+     "start": 36.321,
+     "end": 36.855
+    }
+   ]
+  },
+  {
+   "text": "The trick: the heavy lifting in AI happens in libraries written in C and C plus plus. Python just tells them what to do.",
+   "start": 37.459,
+   "end": 45.795,
+   "words": [
+    {
+     "text": "The",
+     "start": 37.459,
+     "end": 37.587
+    },
+    {
+     "text": "trick:",
+     "start": 37.633,
+     "end": 38.109
+    },
+    {
+     "text": "the",
+     "start": 38.806,
+     "end": 38.91
+    },
+    {
+     "text": "heavy",
+     "start": 38.991,
+     "end": 39.212
+    },
+    {
+     "text": "lifting",
+     "start": 39.282,
+     "end": 39.607
+    },
+    {
+     "text": "in",
+     "start": 39.665,
+     "end": 39.734
+    },
+    {
+     "text": "AI",
+     "start": 39.827,
+     "end": 40.152
+    },
+    {
+     "text": "happens",
+     "start": 40.234,
+     "end": 40.57
+    },
+    {
+     "text": "in",
+     "start": 40.617,
+     "end": 40.675
+    },
+    {
+     "text": "libraries",
+     "start": 40.756,
+     "end": 41.255
+    },
+    {
+     "text": "written",
+     "start": 41.313,
+     "end": 41.546
+    },
+    {
+     "text": "in",
+     "start": 41.592,
+     "end": 41.65
+    },
+    {
+     "text": "C",
+     "start": 41.72,
+     "end": 41.836
+    },
+    {
+     "text": "and",
+     "start": 42.01,
+     "end": 42.126
+    },
+    {
+     "text": "C",
+     "start": 42.207,
+     "end": 42.323
+    },
+    {
+     "text": "plus",
+     "start": 42.498,
+     "end": 42.765
+    },
+    {
+     "text": "plus.",
+     "start": 42.811,
+     "end": 43.322
+    },
+    {
+     "text": "Python",
+     "start": 43.926,
+     "end": 44.344
+    },
+    {
+     "text": "just",
+     "start": 44.402,
+     "end": 44.599
+    },
+    {
+     "text": "tells",
+     "start": 44.634,
+     "end": 44.878
+    },
+    {
+     "text": "them",
+     "start": 44.924,
+     "end": 45.052
+    },
+    {
+     "text": "what",
+     "start": 45.087,
+     "end": 45.226
+    },
+    {
+     "text": "to",
+     "start": 45.261,
+     "end": 45.319
+    },
+    {
+     "text": "do.",
+     "start": 45.389,
+     "end": 45.795
+    }
+   ]
+  },
+  {
+   "text": "Next: JavaScript. The language every browser speaks.",
+   "start": 46.491,
+   "end": 50.926,
+   "words": [
+    {
+     "text": "Next:",
+     "start": 46.491,
+     "end": 47.014
+    },
+    {
+     "text": "JavaScript.",
+     "start": 47.223,
+     "end": 48.024
+    },
+    {
+     "text": "The",
+     "start": 48.721,
+     "end": 48.848
+    },
+    {
+     "text": "language",
+     "start": 48.93,
+     "end": 49.382
+    },
+    {
+     "text": "every",
+     "start": 49.44,
+     "end": 49.719
+    },
+    {
+     "text": "browser",
+     "start": 49.777,
+     "end": 50.137
+    },
+    {
+     "text": "speaks.",
+     "start": 50.195,
+     "end": 50.926
+    }
+   ]
+  }
+ ]
+}

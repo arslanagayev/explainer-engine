@@ -42,7 +42,7 @@ Under a minute each, one look for the whole series (black + luminous green, Spac
 | 02 | C++: classes on top of C, zero-cost abstractions and destructors | [Reel](https://www.instagram.com/reel/DeTC8M8Dog2/) |
 | 03 | Java: bytecode for a computer that doesn't exist, the JVM, JIT and garbage collection | [Reel](https://www.instagram.com/reel/DeTEP4HlPbx/) |
 | 04 | C#: the name joke, IL and the .NET runtime, and the async/await idea everyone copied | [Reel](https://www.instagram.com/reel/DeV538-gaWS/) |
-| 05 | Python | coming soon |
+| 05 | Python: named after Monty Python, indentation as syntax, bytecode + interpreter, and the C under AI | coming soon |
 | 06 | JavaScript | coming soon |
 | 07 | TypeScript | coming soon |
 | 08 | SQL | coming soon |
@@ -139,6 +139,7 @@ episodes/
   lang02-cpp/
   lang03-java/
   lang04-csharp/
+  lang05-python/
 tests/              Node tests for the helpers and every episode, Python tests for timing
 docs/               Preview GIF and scene sheet
 ```
