@@ -19,3 +19,4 @@ TikTok (max 5 hashtags): same text, last line `#python #programming #ai #coding 
 
 Reel: `out/reel.mp4` (build with `node engine/make.mjs lang05-python`), cover frame at 5.2 s.
 Voice: ElevenLabs "Liam" (eleven_multilingual_v2). Music bed + whooshes: synthesised (engine/soundbed.py).
+Posted 2026-10-11: https://www.instagram.com/reel/DeV76iKiher/
