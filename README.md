@@ -41,7 +41,7 @@ Under a minute each, one look for the whole series (black + luminous green, Spac
 | 01 | C: straight to machine code, pointers, and the memory bugs behind 70 % of serious security holes | [Reel](https://www.instagram.com/reel/DeS_7ZrAiNV/) |
 | 02 | C++: classes on top of C, zero-cost abstractions and destructors | [Reel](https://www.instagram.com/reel/DeTC8M8Dog2/) |
 | 03 | Java: bytecode for a computer that doesn't exist, the JVM, JIT and garbage collection | [Reel](https://www.instagram.com/reel/DeTEP4HlPbx/) |
-| 04 | C#: the name joke, IL and the .NET runtime, and the async/await idea everyone copied | coming soon |
+| 04 | C#: the name joke, IL and the .NET runtime, and the async/await idea everyone copied | [Reel](https://www.instagram.com/reel/DeV538-gaWS/) |
 | 05 | Python | coming soon |
 | 06 | JavaScript | coming soon |
 | 07 | TypeScript | coming soon |
