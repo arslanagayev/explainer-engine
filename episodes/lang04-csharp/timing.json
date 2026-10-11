@@ -1,0 +1,617 @@
+{
+ "offset": 0.4,
+ "total": 51.18,
+ "lines": [
+  {
+   "text": "Among Us, Hollow Knight and Pok\u00e9mon GO have one thing in common: this language.",
+   "start": 0.4,
+   "end": 5.148,
+   "words": [
+    {
+     "text": "Among",
+     "start": 0.4,
+     "end": 0.725
+    },
+    {
+     "text": "Us,",
+     "start": 0.795,
+     "end": 1.073
+    },
+    {
+     "text": "Hollow",
+     "start": 1.224,
+     "end": 1.526
+    },
+    {
+     "text": "Knight",
+     "start": 1.561,
+     "end": 1.77
+    },
+    {
+     "text": "and",
+     "start": 1.828,
+     "end": 1.921
+    },
+    {
+     "text": "Pok\u00e9mon",
+     "start": 1.979,
+     "end": 2.42
+    },
+    {
+     "text": "GO",
+     "start": 2.478,
+     "end": 2.699
+    },
+    {
+     "text": "have",
+     "start": 2.768,
+     "end": 2.919
+    },
+    {
+     "text": "one",
+     "start": 2.977,
+     "end": 3.14
+    },
+    {
+     "text": "thing",
+     "start": 3.175,
+     "end": 3.314
+    },
+    {
+     "text": "in",
+     "start": 3.361,
+     "end": 3.407
+    },
+    {
+     "text": "common:",
+     "start": 3.477,
+     "end": 3.976
+    },
+    {
+     "text": "this",
+     "start": 4.359,
+     "end": 4.545
+    },
+    {
+     "text": "language.",
+     "start": 4.614,
+     "end": 5.148
+    }
+   ]
+  },
+  {
+   "text": "It's C sharp. Microsoft, 2000. Designed by Anders Hejlsberg, who later created TypeScript too.",
+   "start": 5.427,
+   "end": 12.463,
+   "words": [
+    {
+     "text": "It's",
+     "start": 5.427,
+     "end": 5.624
+    },
+    {
+     "text": "C",
+     "start": 5.706,
+     "end": 5.857
+    },
+    {
+     "text": "sharp.",
+     "start": 5.973,
+     "end": 6.402
+    },
+    {
+     "text": "Microsoft,",
+     "start": 6.844,
+     "end": 7.517
+    },
+    {
+     "text": "2000.",
+     "start": 7.552,
+     "end": 8.318
+    },
+    {
+     "text": "Designed",
+     "start": 8.643,
+     "end": 9.084
+    },
+    {
+     "text": "by",
+     "start": 9.142,
+     "end": 9.27
+    },
+    {
+     "text": "Anders",
+     "start": 9.386,
+     "end": 9.746
+    },
+    {
+     "text": "Hejlsberg,",
+     "start": 9.816,
+     "end": 10.512
+    },
+    {
+     "text": "who",
+     "start": 10.628,
+     "end": 10.768
+    },
+    {
+     "text": "later",
+     "start": 10.837,
+     "end": 11.046
+    },
+    {
+     "text": "created",
+     "start": 11.104,
+     "end": 11.453
+    },
+    {
+     "text": "TypeScript",
+     "start": 11.488,
+     "end": 11.964
+    },
+    {
+     "text": "too.",
+     "start": 11.998,
+     "end": 12.463
+    }
+   ]
+  },
+  {
+   "text": "The name is a joke: the sharp sign is four plus signs. C plus plus, plus plus.",
+   "start": 13.066,
+   "end": 18.999,
+   "words": [
+    {
+     "text": "The",
+     "start": 13.066,
+     "end": 13.183
+    },
+    {
+     "text": "name",
+     "start": 13.252,
+     "end": 13.461
+    },
+    {
+     "text": "is",
+     "start": 13.496,
+     "end": 13.577
+    },
+    {
+     "text": "a",
+     "start": 13.635,
+     "end": 13.67
+    },
+    {
+     "text": "joke:",
+     "start": 13.74,
+     "end": 14.227
+    },
+    {
+     "text": "the",
+     "start": 14.553,
+     "end": 14.645
+    },
+    {
+     "text": "sharp",
+     "start": 14.692,
+     "end": 14.947
+    },
+    {
+     "text": "sign",
+     "start": 15.017,
+     "end": 15.284
+    },
+    {
+     "text": "is",
+     "start": 15.342,
+     "end": 15.435
+    },
+    {
+     "text": "four",
+     "start": 15.516,
+     "end": 15.748
+    },
+    {
+     "text": "plus",
+     "start": 15.829,
+     "end": 16.073
+    },
+    {
+     "text": "signs.",
+     "start": 16.12,
+     "end": 16.642
+    },
+    {
+     "text": "C",
+     "start": 17.153,
+     "end": 17.281
+    },
+    {
+     "text": "plus",
+     "start": 17.397,
+     "end": 17.606
+    },
+    {
+     "text": "plus,",
+     "start": 17.652,
+     "end": 18.082
+    },
+    {
+     "text": "plus",
+     "start": 18.198,
+     "end": 18.43
+    },
+    {
+     "text": "plus.",
+     "start": 18.476,
+     "end": 18.999
+    }
+   ]
+  },
+  {
+   "text": "Like Java, it compiles to an in-between language called IL. On your device, the dot NET runtime turns it into machine code.",
+   "start": 19.603,
+   "end": 28.089,
+   "words": [
+    {
+     "text": "Like",
+     "start": 19.603,
+     "end": 19.812
+    },
+    {
+     "text": "Java,",
+     "start": 19.858,
+     "end": 20.45
+    },
+    {
+     "text": "it",
+     "start": 20.659,
+     "end": 20.787
+    },
+    {
+     "text": "compiles",
+     "start": 20.833,
+     "end": 21.274
+    },
+    {
+     "text": "to",
+     "start": 21.309,
+     "end": 21.367
+    },
+    {
+     "text": "an",
+     "start": 21.437,
+     "end": 21.495
+    },
+    {
+     "text": "in-between",
+     "start": 21.565,
+     "end": 22.041
+    },
+    {
+     "text": "language",
+     "start": 22.099,
+     "end": 22.424
+    },
+    {
+     "text": "called",
+     "start": 22.459,
+     "end": 22.702
+    },
+    {
+     "text": "IL.",
+     "start": 22.819,
+     "end": 23.504
+    },
+    {
+     "text": "On",
+     "start": 24.316,
+     "end": 24.49
+    },
+    {
+     "text": "your",
+     "start": 24.525,
+     "end": 24.63
+    },
+    {
+     "text": "device,",
+     "start": 24.665,
+     "end": 25.071
+    },
+    {
+     "text": "the",
+     "start": 25.106,
+     "end": 25.199
+    },
+    {
+     "text": "dot",
+     "start": 25.268,
+     "end": 25.489
+    },
+    {
+     "text": "NET",
+     "start": 25.547,
+     "end": 25.675
+    },
+    {
+     "text": "runtime",
+     "start": 25.733,
+     "end": 26.174
+    },
+    {
+     "text": "turns",
+     "start": 26.209,
+     "end": 26.476
+    },
+    {
+     "text": "it",
+     "start": 26.51,
+     "end": 26.569
+    },
+    {
+     "text": "into",
+     "start": 26.615,
+     "end": 26.905
+    },
+    {
+     "text": "machine",
+     "start": 27.114,
+     "end": 27.567
+    },
+    {
+     "text": "code.",
+     "start": 27.613,
+     "end": 28.089
+    }
+   ]
+  },
+  {
+   "text": "Its superpower: async and await. Your app waits for the internet without freezing.",
+   "start": 28.786,
+   "end": 34.15,
+   "words": [
+    {
+     "text": "Its",
+     "start": 28.786,
+     "end": 28.983
+    },
+    {
+     "text": "superpower:",
+     "start": 29.018,
+     "end": 29.773
+    },
+    {
+     "text": "async",
+     "start": 29.901,
+     "end": 30.342
+    },
+    {
+     "text": "and",
+     "start": 30.435,
+     "end": 30.62
+    },
+    {
+     "text": "await.",
+     "start": 30.678,
+     "end": 31.166
+    },
+    {
+     "text": "Your",
+     "start": 31.863,
+     "end": 32.06
+    },
+    {
+     "text": "app",
+     "start": 32.118,
+     "end": 32.257
+    },
+    {
+     "text": "waits",
+     "start": 32.315,
+     "end": 32.524
+    },
+    {
+     "text": "for",
+     "start": 32.559,
+     "end": 32.652
+    },
+    {
+     "text": "the",
+     "start": 32.699,
+     "end": 32.768
+    },
+    {
+     "text": "internet",
+     "start": 32.826,
+     "end": 33.152
+    },
+    {
+     "text": "without",
+     "start": 33.21,
+     "end": 33.535
+    },
+    {
+     "text": "freezing.",
+     "start": 33.581,
+     "end": 34.15
+    }
+   ]
+  },
+  {
+   "text": "JavaScript, Python and Rust liked it so much, they copied it.",
+   "start": 34.847,
+   "end": 38.609,
+   "words": [
+    {
+     "text": "JavaScript,",
+     "start": 34.847,
+     "end": 35.683
+    },
+    {
+     "text": "Python",
+     "start": 35.811,
+     "end": 36.252
+    },
+    {
+     "text": "and",
+     "start": 36.298,
+     "end": 36.368
+    },
+    {
+     "text": "Rust",
+     "start": 36.437,
+     "end": 36.681
+    },
+    {
+     "text": "liked",
+     "start": 36.751,
+     "end": 36.972
+    },
+    {
+     "text": "it",
+     "start": 37.006,
+     "end": 37.076
+    },
+    {
+     "text": "so",
+     "start": 37.169,
+     "end": 37.389
+    },
+    {
+     "text": "much,",
+     "start": 37.482,
+     "end": 37.726
+    },
+    {
+     "text": "they",
+     "start": 37.749,
+     "end": 37.865
+    },
+    {
+     "text": "copied",
+     "start": 37.924,
+     "end": 38.307
+    },
+    {
+     "text": "it.",
+     "start": 38.341,
+     "end": 38.609
+    }
+   ]
+  },
+  {
+   "text": "Today it runs Unity games, Windows apps, and huge web backends.",
+   "start": 39.212,
+   "end": 43.717,
+   "words": [
+    {
+     "text": "Today",
+     "start": 39.212,
+     "end": 39.619
+    },
+    {
+     "text": "it",
+     "start": 39.7,
+     "end": 39.781
+    },
+    {
+     "text": "runs",
+     "start": 39.839,
+     "end": 40.095
+    },
+    {
+     "text": "Unity",
+     "start": 40.211,
+     "end": 40.489
+    },
+    {
+     "text": "games,",
+     "start": 40.547,
+     "end": 41.012
+    },
+    {
+     "text": "Windows",
+     "start": 41.186,
+     "end": 41.604
+    },
+    {
+     "text": "apps,",
+     "start": 41.662,
+     "end": 42.08
+    },
+    {
+     "text": "and",
+     "start": 42.196,
+     "end": 42.347
+    },
+    {
+     "text": "huge",
+     "start": 42.44,
+     "end": 42.8
+    },
+    {
+     "text": "web",
+     "start": 42.846,
+     "end": 43.02
+    },
+    {
+     "text": "backends.",
+     "start": 43.067,
+     "end": 43.717
+    }
+   ]
+  },
+  {
+   "text": "Next: Python. The language that reads almost like English.",
+   "start": 44.414,
+   "end": 48.976,
+   "words": [
+    {
+     "text": "Next:",
+     "start": 44.414,
+     "end": 44.948
+    },
+    {
+     "text": "Python.",
+     "start": 45.064,
+     "end": 45.691
+    },
+    {
+     "text": "The",
+     "start": 46.294,
+     "end": 46.422
+    },
+    {
+     "text": "language",
+     "start": 46.503,
+     "end": 46.886
+    },
+    {
+     "text": "that",
+     "start": 46.91,
+     "end": 47.026
+    },
+    {
+     "text": "reads",
+     "start": 47.084,
+     "end": 47.351
+    },
+    {
+     "text": "almost",
+     "start": 47.525,
+     "end": 47.955
+    },
+    {
+     "text": "like",
+     "start": 48.001,
+     "end": 48.164
+    },
+    {
+     "text": "English.",
+     "start": 48.21,
+     "end": 48.976
+    }
+   ]
+  }
+ ]
+}
