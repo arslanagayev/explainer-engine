@@ -19,20 +19,21 @@
     .bg { position: absolute; inset: 0; background: var(--backdrop); }
     .grid { position: absolute; inset: 0; background-image: radial-gradient(var(--grid) 1.6px, transparent 1.8px); background-size: 40px 40px; mask-image: radial-gradient(75% 55% at 50% 48%, #000 30%, transparent 100%); }
 
-    .top { position: absolute; left: 70px; right: 70px; top: 140px; display: flex; justify-content: space-between; align-items: center; font: 700 24px/1 var(--mono); letter-spacing: 3px; text-transform: uppercase; }
+    /* Safe zone for Reels and TikTok: the top 250px (camera, Reels header), the bottom 450px
+       (username, caption, audio) and the right 140px (like, comment, share) stay free of content. */
+    .top { position: absolute; left: 70px; right: 150px; top: 262px; display: flex; justify-content: space-between; align-items: center; font: 700 24px/1 var(--mono); letter-spacing: 3px; text-transform: uppercase; }
     .series { display: flex; align-items: center; gap: 14px; }
     .series b { width: 14px; height: 14px; background: var(--accent); border-radius: 3px; box-shadow: 0 0 18px var(--accent); }
-    .handle { color: var(--muted); letter-spacing: 1px; text-transform: none; }
-    .chapters { position: absolute; left: 70px; right: 70px; top: 196px; display: flex; gap: 10px; }
+    .chapters { position: absolute; left: 70px; right: 150px; top: 306px; display: flex; gap: 10px; }
     .chapters i { flex: 1; height: 6px; border-radius: 3px; background: var(--faint); overflow: hidden; }
     .chapters i span { display: block; height: 100%; background: var(--accent); }
-    .chapter { position: absolute; left: 70px; top: 228px; font: 700 24px/1 var(--mono); letter-spacing: 3px; color: var(--accent); text-transform: uppercase; }
+    .chapter { position: absolute; left: 70px; top: 336px; font: 700 24px/1 var(--mono); letter-spacing: 3px; color: var(--accent); text-transform: uppercase; }
 
-    .headlines { position: absolute; left: 60px; right: 60px; top: 280px; height: 240px; }
+    .headlines { position: absolute; left: 64px; right: 140px; top: 378px; height: 220px; }
     .headline { position: absolute; inset: 0; display: grid; align-content: center; text-align: center; font: 800 var(--headline-size, 88px)/1.04 var(--display); letter-spacing: var(--headline-tracking, -2px); text-transform: uppercase; text-wrap: balance; }
     .headline em { font-style: normal; color: var(--accent); }
 
-    #stage { position: absolute; left: 40px; top: 540px; width: 1000px; height: 800px; overflow: visible; }
+    #stage { position: absolute; left: 64px; top: 606px; width: 876px; height: 701px; overflow: visible; }
     #stage .ln { fill: none; stroke: var(--ink); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
     #stage .ln.ac { stroke: var(--accent); }
     #stage .ln.dim { stroke: var(--line); }
@@ -52,7 +53,7 @@
     #stage .fs { fill: var(--soft, var(--panel)); }
     #stage .glow { filter: drop-shadow(0 0 14px var(--accent)); }
 
-    .captions { position: absolute; left: 110px; right: 150px; top: 1380px; height: 170px; display: grid; align-content: center; justify-items: center; text-align: center; font: 700 52px/1.22 var(--display); letter-spacing: -0.5px; }
+    .captions { position: absolute; left: 90px; right: 160px; top: 1318px; height: 150px; display: grid; align-content: center; justify-items: center; text-align: center; font: 700 48px/1.2 var(--display); letter-spacing: -0.5px; }
     .captions .w { color: var(--muted); opacity: 0.5; }
     .captions .w.said { color: var(--ink); opacity: 1; }
     .captions .w.now { color: var(--accent); opacity: 1; }
@@ -62,7 +63,7 @@
   <div id="frame">
     <div class="bg"></div>
     <div class="grid"></div>
-    <div class="top"><div class="series"><b></b><span id="series"></span></div><div class="handle">@arslanagayev.dev</div></div>
+    <div class="top"><div class="series"><b></b><span id="series"></span></div></div>
     <div class="chapters" id="chapters"></div>
     <div class="chapter" id="chapter"></div>
     <div class="headlines"><div class="headline" id="h0"></div><div class="headline" id="h1"></div></div>
