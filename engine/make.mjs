@@ -7,6 +7,10 @@
 //   node engine/make.mjs ep01-password                     full build
 //   node engine/make.mjs ep01-password --stills 3,7.5,12   only stills -> out/stills/
 //
+// Optional hook: episodes/<ep>/hook.json {"clip": "hook.mp4", "until": 3, "fade": 0.35} plays a video clip
+// (e.g. an AI-generated shot) full screen for the first `until` seconds, with the player's header,
+// headline and captions drawn over it, then crossfades into the animation. The audio is unchanged.
+//
 // Env: CHROME (path to Chrome/Chromium), FFMPEG (default "ffmpeg"), FPS (default 30).
 import { execFileSync, spawn } from 'node:child_process'
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
@@ -26,6 +30,7 @@ const CHROME = process.env.CHROME ?? [
 ].find(existsSync)
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 mkdirSync(OUT, { recursive: true })
+const hook = existsSync(join(EP, 'hook.json')) ? JSON.parse(readFileSync(join(EP, 'hook.json'), 'utf8')) : null
 
 const step = (name, fn) => { const t0 = Date.now(); const r = fn(); console.log(`✓ ${name} (${((Date.now() - t0) / 1000).toFixed(1)} s)`); return r }
 const run = (cmd, args) => execFileSync(cmd, args, { cwd: ROOT, stdio: ['ignore', 'pipe', 'inherit'] }).toString().trim()
@@ -108,6 +113,22 @@ try {
       if (i % 300 === 0) console.log(`  frame ${i}/${n} (${((Date.now() - t0) / 1000).toFixed(0)} s)`)
     }
     console.log(`✓ ${n} frames`)
+
+    if (hook) {
+      // Same player, transparent: no backdrop or scene, a dark scrim at the top and bottom for legibility.
+      const hookDir = join(OUT, 'hook-frames')
+      rmSync(hookDir, { recursive: true, force: true })
+      mkdirSync(hookDir)
+      await send('Emulation.setDefaultBackgroundColorOverride', { color: { r: 0, g: 0, b: 0, a: 0 } })
+      await evaluate(`document.head.insertAdjacentHTML('beforeend', '<style>html, body, #frame { background: transparent !important } .bg, #stage { display: none !important } #frame::before { content: ""; position: absolute; inset: 0; background: linear-gradient(rgb(0 0 0 / 0.78), rgb(0 0 0 / 0) 38%, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.86) 66%, rgb(0 0 0 / 0.86)); }</style>'); true`)
+      const hn = Math.ceil((hook.until + hook.fade) * FPS)
+      for (let i = 0; i < hn; i++) {
+        await evaluate(`window.seek(${i / FPS}); new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)))`)
+        const { data } = await send('Page.captureScreenshot', { format: 'png', clip: { x: 0, y: 0, width: 1080, height: 1920, scale: 1 } })
+        writeFileSync(join(hookDir, `h${String(i).padStart(5, '0')}.png`), Buffer.from(data, 'base64'))
+      }
+      console.log(`✓ ${hn} hook overlay frames`)
+    }
     shutdown()
 
     const timing = JSON.parse(readFileSync(join(EP, 'timing.json'), 'utf8'))
@@ -119,9 +140,19 @@ try {
       '[vm][bd]amix=inputs=2:duration=longest:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11',
       '-ar', '48000', '-c:a', 'pcm_s16le', join(OUT, 'mix.wav')]))
     // Screenshots are full-range RGB; Instagram expects limited-range BT.709.
-    step('encode', () => run(FFMPEG, ['-v', 'error', '-y', '-framerate', String(FPS), '-i', join(dir, 'f%05d.jpg'), '-i', join(OUT, 'mix.wav'),
-      '-map', '0:v', '-map', '1:a', '-vf',
-      'scale=in_range=full:out_range=tv:in_color_matrix=bt601:out_color_matrix=bt709,format=yuv420p,setparams=range=tv:colorspace=bt709:color_primaries=bt709:color_trc=bt709',
+    const toTv = 'scale=out_range=tv:out_color_matrix=bt709,format=yuv420p,setparams=range=tv:colorspace=bt709:color_primaries=bt709:color_trc=bt709'
+    const video = hook
+      ? ['-framerate', String(FPS), '-i', join(dir, 'f%05d.jpg'), '-i', join(OUT, 'mix.wav'), '-i', join(EP, hook.clip),
+          '-framerate', String(FPS), '-i', join(OUT, 'hook-frames', 'h%05d.png'), '-filter_complex',
+          // Everything meets in RGB: the clip (limited-range BT.709 video), the overlay (RGBA) and the frames (full-range JPEG).
+          `[2:v]scale=1080:1920:force_original_aspect_ratio=increase:in_range=tv:in_color_matrix=bt709,crop=1080:1920,fps=${FPS},` +
+          `trim=duration=${hook.until + hook.fade},setpts=PTS-STARTPTS,format=rgb24[clip];` +
+          '[clip][3:v]overlay=0:0:format=rgb[top];' +
+          `[0:v]scale=in_range=full:in_color_matrix=bt601,format=rgb24,trim=start=${hook.until},setpts=PTS-STARTPTS[rest];` +
+          `[top][rest]xfade=transition=fade:duration=${hook.fade}:offset=${hook.until},${toTv}[v]`, '-map', '[v]', '-map', '1:a']
+      : ['-framerate', String(FPS), '-i', join(dir, 'f%05d.jpg'), '-i', join(OUT, 'mix.wav'), '-map', '0:v', '-map', '1:a', '-vf',
+          'scale=in_range=full:out_range=tv:in_color_matrix=bt601:out_color_matrix=bt709,format=yuv420p,setparams=range=tv:colorspace=bt709:color_primaries=bt709:color_trc=bt709']
+    step('encode', () => run(FFMPEG, ['-v', 'error', '-y', ...video,
       '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-profile:v', 'high', '-pix_fmt', 'yuv420p', '-g', '60', '-flags', '+cgop',
       '-c:a', 'aac', '-b:a', '160k', '-shortest', '-movflags', '+faststart', join(OUT, 'reel.mp4')]))
     console.log(`✓ ${join(OUT, 'reel.mp4')}`)
