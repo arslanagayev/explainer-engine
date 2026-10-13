@@ -1,0 +1,731 @@
+{
+ "offset": 0.4,
+ "total": 56.33,
+ "lines": [
+  {
+   "text": "Friday night, you ship. One typo, and every user sees the word undefined.",
+   "start": 0.4,
+   "end": 6.193,
+   "words": [
+    {
+     "text": "Friday",
+     "start": 0.4,
+     "end": 0.783
+    },
+    {
+     "text": "night,",
+     "start": 0.841,
+     "end": 1.236
+    },
+    {
+     "text": "you",
+     "start": 1.48,
+     "end": 1.596
+    },
+    {
+     "text": "ship.",
+     "start": 1.654,
+     "end": 2.037
+    },
+    {
+     "text": "One",
+     "start": 2.734,
+     "end": 2.966
+    },
+    {
+     "text": "typo,",
+     "start": 3.001,
+     "end": 3.593
+    },
+    {
+     "text": "and",
+     "start": 3.767,
+     "end": 3.918
+    },
+    {
+     "text": "every",
+     "start": 4.034,
+     "end": 4.336
+    },
+    {
+     "text": "user",
+     "start": 4.405,
+     "end": 4.661
+    },
+    {
+     "text": "sees",
+     "start": 4.731,
+     "end": 4.94
+    },
+    {
+     "text": "the",
+     "start": 4.998,
+     "end": 5.067
+    },
+    {
+     "text": "word",
+     "start": 5.102,
+     "end": 5.323
+    },
+    {
+     "text": "undefined.",
+     "start": 5.439,
+     "end": 6.193
+    }
+   ]
+  },
+  {
+   "text": "JavaScript didn't warn you. It never does.",
+   "start": 6.89,
+   "end": 9.479,
+   "words": [
+    {
+     "text": "JavaScript",
+     "start": 6.89,
+     "end": 7.529
+    },
+    {
+     "text": "didn't",
+     "start": 7.587,
+     "end": 7.842
+    },
+    {
+     "text": "warn",
+     "start": 7.877,
+     "end": 8.086
+    },
+    {
+     "text": "you.",
+     "start": 8.132,
+     "end": 8.434
+    },
+    {
+     "text": "It",
+     "start": 8.608,
+     "end": 8.748
+    },
+    {
+     "text": "never",
+     "start": 8.794,
+     "end": 8.968
+    },
+    {
+     "text": "does.",
+     "start": 9.026,
+     "end": 9.479
+    }
+   ]
+  },
+  {
+   "text": "So how do you catch it before anyone sees it?",
+   "start": 10.292,
+   "end": 12.44,
+   "words": [
+    {
+     "text": "So",
+     "start": 10.292,
+     "end": 10.454
+    },
+    {
+     "text": "how",
+     "start": 10.524,
+     "end": 10.617
+    },
+    {
+     "text": "do",
+     "start": 10.652,
+     "end": 10.698
+    },
+    {
+     "text": "you",
+     "start": 10.733,
+     "end": 10.803
+    },
+    {
+     "text": "catch",
+     "start": 10.861,
+     "end": 11.081
+    },
+    {
+     "text": "it",
+     "start": 11.116,
+     "end": 11.174
+    },
+    {
+     "text": "before",
+     "start": 11.22,
+     "end": 11.499
+    },
+    {
+     "text": "anyone",
+     "start": 11.546,
+     "end": 11.882
+    },
+    {
+     "text": "sees",
+     "start": 11.917,
+     "end": 12.149
+    },
+    {
+     "text": "it?",
+     "start": 12.207,
+     "end": 12.44
+    }
+   ]
+  },
+  {
+   "text": "TypeScript. Microsoft released it in 2012, designed by the same person who created C sharp.",
+   "start": 13.136,
+   "end": 19.382,
+   "words": [
+    {
+     "text": "TypeScript.",
+     "start": 13.136,
+     "end": 13.844
+    },
+    {
+     "text": "Microsoft",
+     "start": 14.541,
+     "end": 15.121
+    },
+    {
+     "text": "released",
+     "start": 15.168,
+     "end": 15.47
+    },
+    {
+     "text": "it",
+     "start": 15.505,
+     "end": 15.574
+    },
+    {
+     "text": "in",
+     "start": 15.632,
+     "end": 15.725
+    },
+    {
+     "text": "2012,",
+     "start": 15.783,
+     "end": 16.584
+    },
+    {
+     "text": "designed",
+     "start": 16.735,
+     "end": 17.142
+    },
+    {
+     "text": "by",
+     "start": 17.188,
+     "end": 17.269
+    },
+    {
+     "text": "the",
+     "start": 17.327,
+     "end": 17.397
+    },
+    {
+     "text": "same",
+     "start": 17.467,
+     "end": 17.699
+    },
+    {
+     "text": "person",
+     "start": 17.745,
+     "end": 18.059
+    },
+    {
+     "text": "who",
+     "start": 18.094,
+     "end": 18.198
+    },
+    {
+     "text": "created",
+     "start": 18.256,
+     "end": 18.581
+    },
+    {
+     "text": "C",
+     "start": 18.628,
+     "end": 18.744
+    },
+    {
+     "text": "sharp.",
+     "start": 18.895,
+     "end": 19.382
+    }
+   ]
+  },
+  {
+   "text": "You write the type next to the value, and your editor turns the typo red while you type.",
+   "start": 20.079,
+   "end": 25.071,
+   "words": [
+    {
+     "text": "You",
+     "start": 20.079,
+     "end": 20.242
+    },
+    {
+     "text": "write",
+     "start": 20.311,
+     "end": 20.52
+    },
+    {
+     "text": "the",
+     "start": 20.543,
+     "end": 20.613
+    },
+    {
+     "text": "type",
+     "start": 20.66,
+     "end": 20.88
+    },
+    {
+     "text": "next",
+     "start": 20.927,
+     "end": 21.136
+    },
+    {
+     "text": "to",
+     "start": 21.159,
+     "end": 21.205
+    },
+    {
+     "text": "the",
+     "start": 21.252,
+     "end": 21.321
+    },
+    {
+     "text": "value,",
+     "start": 21.379,
+     "end": 21.89
+    },
+    {
+     "text": "and",
+     "start": 22.215,
+     "end": 22.355
+    },
+    {
+     "text": "your",
+     "start": 22.413,
+     "end": 22.529
+    },
+    {
+     "text": "editor",
+     "start": 22.598,
+     "end": 22.9
+    },
+    {
+     "text": "turns",
+     "start": 22.947,
+     "end": 23.191
+    },
+    {
+     "text": "the",
+     "start": 23.225,
+     "end": 23.295
+    },
+    {
+     "text": "typo",
+     "start": 23.341,
+     "end": 23.678
+    },
+    {
+     "text": "red",
+     "start": 23.759,
+     "end": 23.945
+    },
+    {
+     "text": "while",
+     "start": 24.061,
+     "end": 24.398
+    },
+    {
+     "text": "you",
+     "start": 24.444,
+     "end": 24.549
+    },
+    {
+     "text": "type.",
+     "start": 24.619,
+     "end": 25.071
+    }
+   ]
+  },
+  {
+   "text": "But here's the twist: browsers can't run TypeScript.",
+   "start": 25.768,
+   "end": 29.216,
+   "words": [
+    {
+     "text": "But",
+     "start": 25.768,
+     "end": 25.93
+    },
+    {
+     "text": "here's",
+     "start": 25.989,
+     "end": 26.232
+    },
+    {
+     "text": "the",
+     "start": 26.279,
+     "end": 26.348
+    },
+    {
+     "text": "twist:",
+     "start": 26.383,
+     "end": 26.906
+    },
+    {
+     "text": "browsers",
+     "start": 27.417,
+     "end": 27.881
+    },
+    {
+     "text": "can't",
+     "start": 27.939,
+     "end": 28.241
+    },
+    {
+     "text": "run",
+     "start": 28.299,
+     "end": 28.45
+    },
+    {
+     "text": "TypeScript.",
+     "start": 28.52,
+     "end": 29.216
+    }
+   ]
+  },
+  {
+   "text": "The compiler checks everything, then deletes every type and hands the browser plain JavaScript.",
+   "start": 29.913,
+   "end": 35.416,
+   "words": [
+    {
+     "text": "The",
+     "start": 29.913,
+     "end": 30.029
+    },
+    {
+     "text": "compiler",
+     "start": 30.075,
+     "end": 30.551
+    },
+    {
+     "text": "checks",
+     "start": 30.609,
+     "end": 30.9
+    },
+    {
+     "text": "everything,",
+     "start": 30.981,
+     "end": 31.631
+    },
+    {
+     "text": "then",
+     "start": 31.84,
+     "end": 32.014
+    },
+    {
+     "text": "deletes",
+     "start": 32.072,
+     "end": 32.397
+    },
+    {
+     "text": "every",
+     "start": 32.49,
+     "end": 32.734
+    },
+    {
+     "text": "type",
+     "start": 32.792,
+     "end": 33.152
+    },
+    {
+     "text": "and",
+     "start": 33.233,
+     "end": 33.407
+    },
+    {
+     "text": "hands",
+     "start": 33.477,
+     "end": 33.721
+    },
+    {
+     "text": "the",
+     "start": 33.767,
+     "end": 33.837
+    },
+    {
+     "text": "browser",
+     "start": 33.883,
+     "end": 34.208
+    },
+    {
+     "text": "plain",
+     "start": 34.278,
+     "end": 34.545
+    },
+    {
+     "text": "JavaScript.",
+     "start": 34.615,
+     "end": 35.416
+    }
+   ]
+  },
+  {
+   "text": "So types only protect you while you write. Bad data from the internet can still slip through.",
+   "start": 36.019,
+   "end": 41.232,
+   "words": [
+    {
+     "text": "So",
+     "start": 36.019,
+     "end": 36.182
+    },
+    {
+     "text": "types",
+     "start": 36.263,
+     "end": 36.53
+    },
+    {
+     "text": "only",
+     "start": 36.611,
+     "end": 36.855
+    },
+    {
+     "text": "protect",
+     "start": 36.913,
+     "end": 37.25
+    },
+    {
+     "text": "you",
+     "start": 37.285,
+     "end": 37.354
+    },
+    {
+     "text": "while",
+     "start": 37.413,
+     "end": 37.598
+    },
+    {
+     "text": "you",
+     "start": 37.645,
+     "end": 37.726
+    },
+    {
+     "text": "write.",
+     "start": 37.784,
+     "end": 38.19
+    },
+    {
+     "text": "Bad",
+     "start": 38.794,
+     "end": 39.05
+    },
+    {
+     "text": "data",
+     "start": 39.108,
+     "end": 39.328
+    },
+    {
+     "text": "from",
+     "start": 39.375,
+     "end": 39.491
+    },
+    {
+     "text": "the",
+     "start": 39.526,
+     "end": 39.595
+    },
+    {
+     "text": "internet",
+     "start": 39.653,
+     "end": 40.002
+    },
+    {
+     "text": "can",
+     "start": 40.06,
+     "end": 40.164
+    },
+    {
+     "text": "still",
+     "start": 40.211,
+     "end": 40.431
+    },
+    {
+     "text": "slip",
+     "start": 40.489,
+     "end": 40.71
+    },
+    {
+     "text": "through.",
+     "start": 40.756,
+     "end": 41.232
+    }
+   ]
+  },
+  {
+   "text": "And in 2025, it passed Python and JavaScript to become the most used language on GitHub.",
+   "start": 41.836,
+   "end": 47.351,
+   "words": [
+    {
+     "text": "And",
+     "start": 41.836,
+     "end": 41.987
+    },
+    {
+     "text": "in",
+     "start": 42.045,
+     "end": 42.103
+    },
+    {
+     "text": "2025,",
+     "start": 42.138,
+     "end": 43.148
+    },
+    {
+     "text": "it",
+     "start": 43.357,
+     "end": 43.485
+    },
+    {
+     "text": "passed",
+     "start": 43.543,
+     "end": 43.81
+    },
+    {
+     "text": "Python",
+     "start": 43.868,
+     "end": 44.239
+    },
+    {
+     "text": "and",
+     "start": 44.274,
+     "end": 44.344
+    },
+    {
+     "text": "JavaScript",
+     "start": 44.402,
+     "end": 45.017
+    },
+    {
+     "text": "to",
+     "start": 45.191,
+     "end": 45.296
+    },
+    {
+     "text": "become",
+     "start": 45.354,
+     "end": 45.598
+    },
+    {
+     "text": "the",
+     "start": 45.621,
+     "end": 45.69
+    },
+    {
+     "text": "most",
+     "start": 45.748,
+     "end": 45.992
+    },
+    {
+     "text": "used",
+     "start": 46.074,
+     "end": 46.294
+    },
+    {
+     "text": "language",
+     "start": 46.352,
+     "end": 46.654
+    },
+    {
+     "text": "on",
+     "start": 46.689,
+     "end": 46.759
+    },
+    {
+     "text": "GitHub.",
+     "start": 46.817,
+     "end": 47.351
+    }
+   ]
+  },
+  {
+   "text": "Next: SQL. Typos or type errors: which bites you more? Tell me below.",
+   "start": 47.954,
+   "end": 54.131,
+   "words": [
+    {
+     "text": "Next:",
+     "start": 47.954,
+     "end": 48.442
+    },
+    {
+     "text": "SQL.",
+     "start": 48.686,
+     "end": 49.58
+    },
+    {
+     "text": "Typos",
+     "start": 49.905,
+     "end": 50.485
+    },
+    {
+     "text": "or",
+     "start": 50.567,
+     "end": 50.741
+    },
+    {
+     "text": "type",
+     "start": 50.799,
+     "end": 51.066
+    },
+    {
+     "text": "errors:",
+     "start": 51.101,
+     "end": 51.646
+    },
+    {
+     "text": "which",
+     "start": 51.971,
+     "end": 52.18
+    },
+    {
+     "text": "bites",
+     "start": 52.227,
+     "end": 52.448
+    },
+    {
+     "text": "you",
+     "start": 52.482,
+     "end": 52.564
+    },
+    {
+     "text": "more?",
+     "start": 52.598,
+     "end": 52.9
+    },
+    {
+     "text": "Tell",
+     "start": 53.109,
+     "end": 53.307
+    },
+    {
+     "text": "me",
+     "start": 53.341,
+     "end": 53.423
+    },
+    {
+     "text": "below.",
+     "start": 53.481,
+     "end": 54.131
+    }
+   ]
+  }
+ ]
+}

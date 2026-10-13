@@ -44,7 +44,7 @@ Under a minute each, one look for the whole series (black + luminous green, Spac
 | 04 | C#: the name joke, IL and the .NET runtime, and the async/await idea everyone copied | [Reel](https://www.instagram.com/reel/DeV538-gaWS/) |
 | 05 | Python: named after Monty Python, indentation as syntax, bytecode + interpreter, and the C under AI | [Reel](https://www.instagram.com/reel/DeV76iKiher/) |
 | 06 | JavaScript: ten days in 1995, not Java, JIT in V8, the `typeof null` scar, and Node (opens on an AI-generated hook clip) | [Reel](https://www.instagram.com/reel/DebAtmRlYIG/) |
-| 07 | TypeScript | coming soon |
+| 07 | TypeScript: the typo that ships, types next to values, erased by the compiler, and #1 on GitHub in 2025 | [Reel](https://www.instagram.com/reel/DebD5_2gJw9/) |
 | 08 | SQL | coming soon |
 | 09 | HTML and CSS | coming soon |
 | 10 | Go | coming soon |
@@ -160,7 +160,7 @@ Each episode uses one two-colour combination from [@design.deb](https://www.inst
 
 - Voice-over: [ElevenLabs](https://elevenlabs.io) text to speech ("Liam"), word timestamps from ElevenLabs Scribe.
 - Music bed and sound effects are synthesised in code.
-- Opening shot of languages episode 06: an AI-generated clip made with [Higgsfield](https://higgsfield.ai) (fictional programmer, no real person).
+- Opening shots of languages episodes 06 and 07: AI-generated clips made with [Higgsfield](https://higgsfield.ai) (fictional people, no real person).
 
 ## License
 
