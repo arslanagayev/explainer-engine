@@ -22,7 +22,10 @@ for (const name of readdirSync(root)) {
       for (let t = 0; t <= end - start; t += 0.1) {
         const svg = scene.draw({ t, d: end - start, w, end: line.end - start })
         assert.equal(typeof svg, 'string')
-        assert.doesNotMatch(svg, /NaN|undefined|Infinity/, `scene ${i} at ${t.toFixed(1)} s`)
+        // An episode may show these words on purpose (e.g. the TypeScript episode's "undefined"):
+        // it lists those exact text nodes in `literals`, and only they are exempt.
+        const checked = (ep.literals ?? []).reduce((acc, lit) => acc.split(`>${lit}<`).join('><'), svg)
+        assert.doesNotMatch(checked, /NaN|undefined|Infinity/, `scene ${i} at ${t.toFixed(1)} s`)
       }
       assert.ok(scene.headline, `scene ${i} has a headline`)
     })

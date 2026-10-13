@@ -127,7 +127,7 @@ const scenes = [
         pop(160, 420, seg(t, w[8], w[11]), server(160, 440, 1, t) + text(160, 580, 'internet', { size: 28, weight: 700 })) +
         browser(700, 330, 240, 220, { label: 'app' }) +
         (flow > 0 ? pill(x, 360 + Math.sin(flow * Math.PI) * -40, '{ "name": 42 }', { size: 24, box: 'ln ac', cls: 'ac' }) : '') +
-        text(500, 690, 'slips through', { size: 38, cls: 't ac', weight: 700, opacity: seg(t, w[16], w[17] + 0.3) })
+        text(500, 690, 'slips through', { size: 38, cls: 't ac', weight: 700, opacity: seg(t, w[15], w[16] + 0.3) })
     },
   },
   { // 8 And in 2025, it passed Python and JavaScript to become the most used language on GitHub.
@@ -145,7 +145,7 @@ const scenes = [
             rect(430, y - 20, 460, 54, { r: 27, cls: 'ln dim thin' }) +
             `<rect class="${ts ? 'fa' : 'fl'}" x="430" y="${y - 20}" width="${(460 * v).toFixed(1)}" height="54" rx="27"/>`
         }).join('') +
-        text(500, 700, 'most used language on GitHub', { size: 34, cls: 't ac', weight: 700, opacity: seg(t, w[12], w[16] + 0.2) })
+        text(500, 700, 'most used language on GitHub', { size: 34, cls: 't ac', weight: 700, opacity: seg(t, w[11], w[15] + 0.2) })
     },
   },
   { // 9 Next: SQL. Typos or type errors: which bites you more? Tell me below.
@@ -162,6 +162,8 @@ const scenes = [
 
 export default {
   series: 'How languages actually work · 07',
+  // Text this episode shows on purpose; the episode test still flags any other "undefined".
+  literals: ['undefined', '// just undefined'],
   ...LANGUAGES,
   chapters: [
     { title: 'The bug', from: 0, to: 2 },
