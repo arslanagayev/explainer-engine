@@ -43,7 +43,7 @@ Under a minute each, one look for the whole series (black + luminous green, Spac
 | 03 | Java: bytecode for a computer that doesn't exist, the JVM, JIT and garbage collection | [Reel](https://www.instagram.com/reel/DeTEP4HlPbx/) |
 | 04 | C#: the name joke, IL and the .NET runtime, and the async/await idea everyone copied | [Reel](https://www.instagram.com/reel/DeV538-gaWS/) |
 | 05 | Python: named after Monty Python, indentation as syntax, bytecode + interpreter, and the C under AI | [Reel](https://www.instagram.com/reel/DeV76iKiher/) |
-| 06 | JavaScript | coming soon |
+| 06 | JavaScript: ten days in 1995, not Java, JIT in V8, the `typeof null` scar, and Node (opens on an AI-generated hook clip) | [Reel](https://www.instagram.com/reel/DebAtmRlYIG/) |
 | 07 | TypeScript | coming soon |
 | 08 | SQL | coming soon |
 | 09 | HTML and CSS | coming soon |
@@ -78,6 +78,7 @@ flowchart LR
 4. **Deterministic player.** `player.html` loads an episode and exposes `seek(t)`, which draws the frame at exactly `t` seconds: the SVG scene, the headline with its accent word, the chapter progress bar and karaoke captions. Nothing depends on wall-clock time, so a frame always looks the same however long it takes to draw.
 5. **Frame capture.** `make.mjs` serves the repository, opens the player in headless Chrome, and steps through time at 30 fps over the DevTools protocol, saving a screenshot per frame. Rendering speed doesn't matter, so audio and video can't drift.
 6. **Sound.** `soundbed.py` synthesises a quiet four-chord pad and a whoosh before each scene in pure Python. ffmpeg mixes the voice on top with sidechain ducking, normalises loudness for Instagram (-14 LUFS) and encodes H.264 in limited-range BT.709.
+7. **Optional hook clip.** With a `hook.json` (`{"clip": "hook.mp4", "until": 3, "fade": 0.35}`) in the episode, a video clip plays full screen for the first seconds. The player is captured a second time with a transparent background and no scene, so the header, headline and karaoke captions sit on top of the clip, then the clip crossfades into the animation. Clip, overlay and frames are combined in RGB so the colours match.
 
 ### Scenes are small pure functions
 
@@ -116,7 +117,8 @@ To preview with sound in a browser, serve the folder (for example `python3 -m ht
 1. Create `episodes/<name>/script.md` with a `## Voice-over` section, one sentence per line.
 2. Generate `voice.mp3` with any text-to-speech service, and `words.json` (`{"words": [{"text", "start", "end"}]}`) with any speech-to-text service that returns word timestamps.
 3. Write `episode.js`: a theme (colours and fonts), chapters and one scene per line.
-4. Run `node engine/make.mjs <name>`.
+4. Optionally add `hook.mp4` and `hook.json` for a live-action opening.
+5. Run `node engine/make.mjs <name>`.
 
 ## Project structure
 
@@ -158,6 +160,7 @@ Each episode uses one two-colour combination from [@design.deb](https://www.inst
 
 - Voice-over: [ElevenLabs](https://elevenlabs.io) text to speech ("Liam"), word timestamps from ElevenLabs Scribe.
 - Music bed and sound effects are synthesised in code.
+- Opening shot of languages episode 06: an AI-generated clip made with [Higgsfield](https://higgsfield.ai) (fictional programmer, no real person).
 
 ## License
 

@@ -1,0 +1,724 @@
+{
+ "offset": 0.4,
+ "total": 55.68,
+ "lines": [
+  {
+   "text": "Ten days. That's all one programmer got to build the first version of the language behind almost every website.",
+   "start": 0.4,
+   "end": 6.484,
+   "words": [
+    {
+     "text": "Ten",
+     "start": 0.4,
+     "end": 0.679
+    },
+    {
+     "text": "days.",
+     "start": 0.737,
+     "end": 1.248
+    },
+    {
+     "text": "That's",
+     "start": 1.573,
+     "end": 1.816
+    },
+    {
+     "text": "all",
+     "start": 1.874,
+     "end": 2.083
+    },
+    {
+     "text": "one",
+     "start": 2.176,
+     "end": 2.35
+    },
+    {
+     "text": "programmer",
+     "start": 2.385,
+     "end": 2.803
+    },
+    {
+     "text": "got",
+     "start": 2.85,
+     "end": 2.977
+    },
+    {
+     "text": "to",
+     "start": 3.012,
+     "end": 3.059
+    },
+    {
+     "text": "build",
+     "start": 3.117,
+     "end": 3.302
+    },
+    {
+     "text": "the",
+     "start": 3.349,
+     "end": 3.419
+    },
+    {
+     "text": "first",
+     "start": 3.5,
+     "end": 3.767
+    },
+    {
+     "text": "version",
+     "start": 3.837,
+     "end": 4.115
+    },
+    {
+     "text": "of",
+     "start": 4.15,
+     "end": 4.196
+    },
+    {
+     "text": "the",
+     "start": 4.231,
+     "end": 4.301
+    },
+    {
+     "text": "language",
+     "start": 4.359,
+     "end": 4.696
+    },
+    {
+     "text": "behind",
+     "start": 4.731,
+     "end": 4.986
+    },
+    {
+     "text": "almost",
+     "start": 5.067,
+     "end": 5.381
+    },
+    {
+     "text": "every",
+     "start": 5.508,
+     "end": 5.81
+    },
+    {
+     "text": "website.",
+     "start": 5.857,
+     "end": 6.484
+    }
+   ]
+  },
+  {
+   "text": "1995. Netscape needed it inside their browser, fast.",
+   "start": 7.087,
+   "end": 12.022,
+   "words": [
+    {
+     "text": "1995.",
+     "start": 7.087,
+     "end": 8.33
+    },
+    {
+     "text": "Netscape",
+     "start": 9.142,
+     "end": 9.642
+    },
+    {
+     "text": "needed",
+     "start": 9.676,
+     "end": 9.909
+    },
+    {
+     "text": "it",
+     "start": 9.943,
+     "end": 10.013
+    },
+    {
+     "text": "inside",
+     "start": 10.071,
+     "end": 10.501
+    },
+    {
+     "text": "their",
+     "start": 10.536,
+     "end": 10.675
+    },
+    {
+     "text": "browser,",
+     "start": 10.721,
+     "end": 11.29
+    },
+    {
+     "text": "fast.",
+     "start": 11.441,
+     "end": 12.022
+    }
+   ]
+  },
+  {
+   "text": "So how did a ten-day language take over the whole web?",
+   "start": 12.834,
+   "end": 15.597,
+   "words": [
+    {
+     "text": "So",
+     "start": 12.834,
+     "end": 13.032
+    },
+    {
+     "text": "how",
+     "start": 13.101,
+     "end": 13.229
+    },
+    {
+     "text": "did",
+     "start": 13.287,
+     "end": 13.403
+    },
+    {
+     "text": "a",
+     "start": 13.438,
+     "end": 13.473
+    },
+    {
+     "text": "ten-day",
+     "start": 13.531,
+     "end": 13.914
+    },
+    {
+     "text": "language",
+     "start": 13.984,
+     "end": 14.355
+    },
+    {
+     "text": "take",
+     "start": 14.39,
+     "end": 14.576
+    },
+    {
+     "text": "over",
+     "start": 14.622,
+     "end": 14.773
+    },
+    {
+     "text": "the",
+     "start": 14.82,
+     "end": 14.889
+    },
+    {
+     "text": "whole",
+     "start": 14.935,
+     "end": 15.133
+    },
+    {
+     "text": "web?",
+     "start": 15.168,
+     "end": 15.597
+    }
+   ]
+  },
+  {
+   "text": "First twist: it has nothing to do with Java. The name was a marketing trick.",
+   "start": 16.294,
+   "end": 21.402,
+   "words": [
+    {
+     "text": "First",
+     "start": 16.294,
+     "end": 16.607
+    },
+    {
+     "text": "twist:",
+     "start": 16.642,
+     "end": 17.199
+    },
+    {
+     "text": "it",
+     "start": 17.583,
+     "end": 17.699
+    },
+    {
+     "text": "has",
+     "start": 17.733,
+     "end": 17.861
+    },
+    {
+     "text": "nothing",
+     "start": 17.977,
+     "end": 18.279
+    },
+    {
+     "text": "to",
+     "start": 18.326,
+     "end": 18.384
+    },
+    {
+     "text": "do",
+     "start": 18.442,
+     "end": 18.511
+    },
+    {
+     "text": "with",
+     "start": 18.558,
+     "end": 18.685
+    },
+    {
+     "text": "Java.",
+     "start": 18.744,
+     "end": 19.312
+    },
+    {
+     "text": "The",
+     "start": 20.009,
+     "end": 20.125
+    },
+    {
+     "text": "name",
+     "start": 20.172,
+     "end": 20.334
+    },
+    {
+     "text": "was",
+     "start": 20.357,
+     "end": 20.462
+    },
+    {
+     "text": "a",
+     "start": 20.508,
+     "end": 20.531
+    },
+    {
+     "text": "marketing",
+     "start": 20.578,
+     "end": 20.949
+    },
+    {
+     "text": "trick.",
+     "start": 20.996,
+     "end": 21.402
+    }
+   ]
+  },
+  {
+   "text": "And it isn't slow. Engines like V8 find your busiest code and compile it to machine code while the page runs.",
+   "start": 21.785,
+   "end": 28.867,
+   "words": [
+    {
+     "text": "And",
+     "start": 21.785,
+     "end": 21.925
+    },
+    {
+     "text": "it",
+     "start": 21.983,
+     "end": 22.041
+    },
+    {
+     "text": "isn't",
+     "start": 22.087,
+     "end": 22.319
+    },
+    {
+     "text": "slow.",
+     "start": 22.389,
+     "end": 23.004
+    },
+    {
+     "text": "Engines",
+     "start": 23.608,
+     "end": 23.945
+    },
+    {
+     "text": "like",
+     "start": 23.991,
+     "end": 24.165
+    },
+    {
+     "text": "V8",
+     "start": 24.2,
+     "end": 24.688
+    },
+    {
+     "text": "find",
+     "start": 24.897,
+     "end": 25.141
+    },
+    {
+     "text": "your",
+     "start": 25.187,
+     "end": 25.303
+    },
+    {
+     "text": "busiest",
+     "start": 25.361,
+     "end": 25.721
+    },
+    {
+     "text": "code",
+     "start": 25.779,
+     "end": 26.023
+    },
+    {
+     "text": "and",
+     "start": 26.046,
+     "end": 26.116
+    },
+    {
+     "text": "compile",
+     "start": 26.174,
+     "end": 26.603
+    },
+    {
+     "text": "it",
+     "start": 26.627,
+     "end": 26.696
+    },
+    {
+     "text": "to",
+     "start": 26.731,
+     "end": 26.778
+    },
+    {
+     "text": "machine",
+     "start": 26.836,
+     "end": 27.196
+    },
+    {
+     "text": "code",
+     "start": 27.242,
+     "end": 27.602
+    },
+    {
+     "text": "while",
+     "start": 27.718,
+     "end": 27.95
+    },
+    {
+     "text": "the",
+     "start": 27.973,
+     "end": 28.043
+    },
+    {
+     "text": "page",
+     "start": 28.078,
+     "end": 28.345
+    },
+    {
+     "text": "runs.",
+     "start": 28.391,
+     "end": 28.867
+    }
+   ]
+  },
+  {
+   "text": "But the rush left scars.",
+   "start": 29.564,
+   "end": 30.992,
+   "words": [
+    {
+     "text": "But",
+     "start": 29.564,
+     "end": 29.727
+    },
+    {
+     "text": "the",
+     "start": 29.761,
+     "end": 29.831
+    },
+    {
+     "text": "rush",
+     "start": 29.889,
+     "end": 30.11
+    },
+    {
+     "text": "left",
+     "start": 30.179,
+     "end": 30.342
+    },
+    {
+     "text": "scars.",
+     "start": 30.365,
+     "end": 30.992
+    }
+   ]
+  },
+  {
+   "text": "Type of null says object. That bug is from the first ten days, and it can't be fixed now. Fixing it would break existing websites.",
+   "start": 31.689,
+   "end": 40.245,
+   "words": [
+    {
+     "text": "Type",
+     "start": 31.689,
+     "end": 31.944
+    },
+    {
+     "text": "of",
+     "start": 31.979,
+     "end": 32.037
+    },
+    {
+     "text": "null",
+     "start": 32.106,
+     "end": 32.35
+    },
+    {
+     "text": "says",
+     "start": 32.432,
+     "end": 32.675
+    },
+    {
+     "text": "object.",
+     "start": 32.791,
+     "end": 33.453
+    },
+    {
+     "text": "That",
+     "start": 34.15,
+     "end": 34.37
+    },
+    {
+     "text": "bug",
+     "start": 34.44,
+     "end": 34.626
+    },
+    {
+     "text": "is",
+     "start": 34.672,
+     "end": 34.742
+    },
+    {
+     "text": "from",
+     "start": 34.777,
+     "end": 34.904
+    },
+    {
+     "text": "the",
+     "start": 34.951,
+     "end": 35.021
+    },
+    {
+     "text": "first",
+     "start": 35.079,
+     "end": 35.334
+    },
+    {
+     "text": "ten",
+     "start": 35.381,
+     "end": 35.566
+    },
+    {
+     "text": "days,",
+     "start": 35.636,
+     "end": 35.961
+    },
+    {
+     "text": "and",
+     "start": 35.996,
+     "end": 36.077
+    },
+    {
+     "text": "it",
+     "start": 36.124,
+     "end": 36.182
+    },
+    {
+     "text": "can't",
+     "start": 36.228,
+     "end": 36.449
+    },
+    {
+     "text": "be",
+     "start": 36.483,
+     "end": 36.565
+    },
+    {
+     "text": "fixed",
+     "start": 36.623,
+     "end": 36.89
+    },
+    {
+     "text": "now.",
+     "start": 36.925,
+     "end": 37.296
+    },
+    {
+     "text": "Fixing",
+     "start": 37.993,
+     "end": 38.364
+    },
+    {
+     "text": "it",
+     "start": 38.422,
+     "end": 38.492
+    },
+    {
+     "text": "would",
+     "start": 38.538,
+     "end": 38.713
+    },
+    {
+     "text": "break",
+     "start": 38.747,
+     "end": 38.968
+    },
+    {
+     "text": "existing",
+     "start": 39.026,
+     "end": 39.467
+    },
+    {
+     "text": "websites.",
+     "start": 39.514,
+     "end": 40.245
+    }
+   ]
+  },
+  {
+   "text": "Then in 2009, Node took it out of the browser. Now it runs servers too.",
+   "start": 41.058,
+   "end": 46.387,
+   "words": [
+    {
+     "text": "Then",
+     "start": 41.058,
+     "end": 41.29
+    },
+    {
+     "text": "in",
+     "start": 41.36,
+     "end": 41.429
+    },
+    {
+     "text": "2009,",
+     "start": 41.487,
+     "end": 42.579
+    },
+    {
+     "text": "Node",
+     "start": 42.822,
+     "end": 43.148
+    },
+    {
+     "text": "took",
+     "start": 43.182,
+     "end": 43.357
+    },
+    {
+     "text": "it",
+     "start": 43.391,
+     "end": 43.449
+    },
+    {
+     "text": "out",
+     "start": 43.473,
+     "end": 43.566
+    },
+    {
+     "text": "of",
+     "start": 43.589,
+     "end": 43.635
+    },
+    {
+     "text": "the",
+     "start": 43.67,
+     "end": 43.74
+    },
+    {
+     "text": "browser.",
+     "start": 43.763,
+     "end": 44.367
+    },
+    {
+     "text": "Now",
+     "start": 44.97,
+     "end": 45.133
+    },
+    {
+     "text": "it",
+     "start": 45.191,
+     "end": 45.261
+    },
+    {
+     "text": "runs",
+     "start": 45.295,
+     "end": 45.493
+    },
+    {
+     "text": "servers",
+     "start": 45.539,
+     "end": 45.934
+    },
+    {
+     "text": "too.",
+     "start": 45.98,
+     "end": 46.387
+    }
+   ]
+  },
+  {
+   "text": "Next: TypeScript. Has a JavaScript quirk ever bitten you? Tell me below.",
+   "start": 47.199,
+   "end": 53.48,
+   "words": [
+    {
+     "text": "Next:",
+     "start": 47.199,
+     "end": 47.71
+    },
+    {
+     "text": "TypeScript.",
+     "start": 47.861,
+     "end": 48.639
+    },
+    {
+     "text": "Has",
+     "start": 49.336,
+     "end": 49.533
+    },
+    {
+     "text": "a",
+     "start": 49.579,
+     "end": 49.614
+    },
+    {
+     "text": "JavaScript",
+     "start": 49.73,
+     "end": 50.357
+    },
+    {
+     "text": "quirk",
+     "start": 50.415,
+     "end": 50.694
+    },
+    {
+     "text": "ever",
+     "start": 50.775,
+     "end": 51.008
+    },
+    {
+     "text": "bitten",
+     "start": 51.077,
+     "end": 51.321
+    },
+    {
+     "text": "you?",
+     "start": 51.367,
+     "end": 51.716
+    },
+    {
+     "text": "Tell",
+     "start": 52.412,
+     "end": 52.61
+    },
+    {
+     "text": "me",
+     "start": 52.656,
+     "end": 52.737
+    },
+    {
+     "text": "below.",
+     "start": 52.784,
+     "end": 53.48
+    }
+   ]
+  }
+ ]
+}
